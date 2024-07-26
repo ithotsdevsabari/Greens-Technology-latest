@@ -31,12 +31,10 @@ const Cta = ()=>{
 <Overlay onClose={handleCloseOverlay}><ContactUs/></Overlay>
 )}
                <div className="cta_bg py-4 position-relative"
-                // style={{ backgroundImage: `url(cta_img)` }}
+                style={{ backgroundImage: `url("/img/greenbg.jpg")` }}
                 >
-                    <div className="ctaimg position-absolute">
-                        <Image src={greenBg} alt="people" className="img-fluid mx-auto"/>
-                    </div>
-                    <div className="container z-1">
+
+                    <div className="container-cta z-1">
                         <div className="row align-items-center">
                             <div className="col-lg-4">
                                 <div className="text-center ps-4">

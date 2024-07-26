@@ -30,13 +30,11 @@ const BookFreeDemo = ()=>{
 <Overlay onClose={handleCloseOverlay}><ContactUs/></Overlay>
 )}
       
-               <div className="cta_bg py-4 position-relative"
-                // style={{ backgroundImage: `url(cta_img)` }}
+                <div className="cta_bg py-4 position-relative"
+                style={{ backgroundImage: `url("/img/greenbg.jpg")` }}
                 >
-                    <div className="ctaimg position-absolute">
-                        <Image src={greenBg} alt="people" className="img-fluid mx-auto"/>
-                    </div>
-                    <div className="container z-1">
+
+                    <div className="container-cta z-1">
                         <div className="row align-items-center">
                             <div className="col-lg-4">
                                 <div className="text-center ps-4">
@@ -44,13 +42,13 @@ const BookFreeDemo = ()=>{
                                 </div>
                             </div>
                             <div className="col-lg-8">
-                                <div className="cta_content text-center text-lg-start">
-                                    <h2 className="fs-5-0 fw-semibold text-white mt-5 mt-lg-0" >Book your free demo class now and experience our transformative software training courses firsthand in Australia!</h2>
-                                    <div className="mt-4">
-                                    <Link href="#" className="bg_yellow px-4 py-2 fs-4 fw-semibold" onClick={handleOpenOverlay }>Book Free Demo</Link>
-                                    </div>
-                                </div> 
+                            <div className="cta_content text-center text-lg-start py-5">
+                                <h2 className="fs-5-0 fw-semibold yellow-grad-text mt-lg-2">Book your free demo class now and experience our transformative software training courses firsthand in Australia!</h2>
+                                <div className="mt-4">
+                                <Link href="#" className="bg_yellow px-4 py-2 fs-4 fw-semibold" onClick={handleOpenOverlay }>Connect With Us</Link>
+                                </div>
                             </div>
+                        </div>
                         </div>
                     </div>
                 </div> 

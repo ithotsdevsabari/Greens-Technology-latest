@@ -3058,7 +3058,7 @@ CTA CSS
   background-attachment: fixed;
 }
 .cta-area-two::before {
-  background: linear-gradient(to left top, #063732, #ff287b, #ff395a, #ff5137, #ff6a00);
+  background: linear-gradient(to left top, #272727, #464545);
   position: absolute;
   height: 100%;
   width: 100%;

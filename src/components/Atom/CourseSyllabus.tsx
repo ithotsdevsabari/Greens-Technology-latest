@@ -180,6 +180,116 @@ const courseDetailsList = [
                   // ... other service categories
                 ],
               },
+              {
+                title: 'Home',
+                submenu: [
+                  {
+                    title: 'Digital Marketing',
+                    submenu: [
+                      { title: 'Search Engine Optimization' },
+                      { title: 'Social Media Marketing' },
+                      // ... other digital marketing items
+                    ],
+                  },
+                  {
+                    title: 'Web Services',
+                    submenu: [
+                      { title: 'Web Designing' },
+                      { title: 'Web Designing Portfolio' },
+                      // ... other web services items
+                    ],
+                  },
+                  // ... other service categories
+                ],
+              },
+              {
+                title: 'Home',
+                submenu: [
+                  {
+                    title: 'Digital Marketing',
+                    submenu: [
+                      { title: 'Search Engine Optimization' },
+                      { title: 'Social Media Marketing' },
+                      // ... other digital marketing items
+                    ],
+                  },
+                  {
+                    title: 'Web Services',
+                    submenu: [
+                      { title: 'Web Designing' },
+                      { title: 'Web Designing Portfolio' },
+                      // ... other web services items
+                    ],
+                  },
+                  // ... other service categories
+                ],
+              },
+              {
+                title: 'Home',
+                submenu: [
+                  {
+                    title: 'Digital Marketing',
+                    submenu: [
+                      { title: 'Search Engine Optimization' },
+                      { title: 'Social Media Marketing' },
+                      // ... other digital marketing items
+                    ],
+                  },
+                  {
+                    title: 'Web Services',
+                    submenu: [
+                      { title: 'Web Designing' },
+                      { title: 'Web Designing Portfolio' },
+                      // ... other web services items
+                    ],
+                  },
+                  // ... other service categories
+                ],
+              },
+              {
+                title: 'Home',
+                submenu: [
+                  {
+                    title: 'Digital Marketing',
+                    submenu: [
+                      { title: 'Search Engine Optimization' },
+                      { title: 'Social Media Marketing' },
+                      // ... other digital marketing items
+                    ],
+                  },
+                  {
+                    title: 'Web Services',
+                    submenu: [
+                      { title: 'Web Designing' },
+                      { title: 'Web Designing Portfolio' },
+                      // ... other web services items
+                    ],
+                  },
+                  // ... other service categories
+                ],
+              },
+              {
+                title: 'Home',
+                submenu: [
+                  {
+                    title: 'Digital Marketing',
+                    submenu: [
+                      { title: 'Search Engine Optimization' },
+                      { title: 'Social Media Marketing' },
+                      // ... other digital marketing items
+                    ],
+                  },
+                  {
+                    title: 'Web Services',
+                    submenu: [
+                      { title: 'Web Designing' },
+                      { title: 'Web Designing Portfolio' },
+                      // ... other web services items
+                    ],
+                  },
+                  // ... other service categories
+                ],
+              },
      ]
     },
     {
@@ -235,7 +345,7 @@ console.log("hhhhhhhhhhh",courseDetailsList)
                         </h2>                    
                     </div>
                     <div className="row">
-                        <div className="col-lg-4">
+                        <div className="col-lg-12">
                             <div className="">                    
                                 <div className="mt-1 fs-medium">
                                     <div className="top_banner_list">

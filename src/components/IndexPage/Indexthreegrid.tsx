@@ -5,37 +5,8 @@ import Link from "next/link";
 import "./indexThreeGrid.css";
 const Indexthreegrid = () => {
   return (
-    //     <div className="card-section">
-    //     <div className="card">
-    //       <div className="card-content">
-    //         <div className="card-item">
-    //           <div className="card-icon">
-    //             <i className="fas fa-award"></i>
-    //           </div>
-    //           <h2 className="card-title text-grad">15 Years of Excellence</h2>
-    //           <p className="card-text">Building futures with over a decade of experience</p>
-    //         </div>
-    //         <div className="vertical-line"></div>
-    //         <div className="card-item">
-    //           <div className="card-icon">
-    //             <i className="fas fa-users"></i>
-    //           </div>
-    //           <h2 className="card-title text-grad">10,000+ Learners Enrolled</h2>
-    //           <p className="card-text">Join a thriving community committed to excellence</p>
-    //         </div>
-    //         <div className="vertical-line"></div>
-    //         <div className="card-item">
-    //           <div className="card-icon">
-    //             <i className="fas fa-star"></i>
-    //           </div>
-    //           <h2 className="card-title text-grad">4.9★ from 4,900 Ratings</h2>
-    //           <p className="card-text">Trusted by learners worldwide for quality education</p>
-    //         </div>
-    //       </div>
-    //     </div>
-    //   </div>
 
-    <>
+   
       <div className="banner-gradient">
         <section className="py-6">
           <div className="container">
@@ -83,7 +54,7 @@ const Indexthreegrid = () => {
                               data-aos-duration="1000"
                               data-aos-delay="200"
                             >
-                              10,000+ Learners Enrolled
+                              10,000+ Learners<br /> Enrolled
                             </h2>
                           <p className="d-block mt-2 text-black fs-4">
                             Join a thriving community committed to excellence
@@ -124,7 +95,7 @@ const Indexthreegrid = () => {
           </div>
         </section>
       </div>
-    </>
+
   );
 };
 export default Indexthreegrid;

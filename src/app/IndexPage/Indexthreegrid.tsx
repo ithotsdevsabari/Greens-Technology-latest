@@ -35,7 +35,7 @@ const Indexthreegrid = () => {
     //     </div>
     //   </div>
 
-    <>
+ 
       <div className="banner-gradient">
         <section className="py-6">
           <div className="container">
@@ -83,7 +83,7 @@ const Indexthreegrid = () => {
                               data-aos-duration="1000"
                               data-aos-delay="200"
                             >
-                              10,000+ Learners Enrolled
+                              10,000+ Learners <br /> Enrolled
                             </h2>
                           <p className="d-block mt-2 text-black fs-4">
                             Join a thriving community committed to excellence
@@ -109,7 +109,7 @@ const Indexthreegrid = () => {
                               data-aos="fade-in"
                               data-aos-duration="1000"
                               data-aos-delay="200"
-                            >4.9 <span className=""><i className="fas fa-star str-icon"></i></span> from 4,900 Ratings</h2>
+                            >4.9 <span className=""><i className="fas fa-star str-icon"></i></span> from 4,900<br />  Ratings</h2>
                           <p className="d-block mt-2 text-black fs-4">
                             Trusted by learners worldwide for quality education
                           </p>
@@ -124,7 +124,6 @@ const Indexthreegrid = () => {
           </div>
         </section>
       </div>
-    </>
   );
 };
 export default Indexthreegrid;
