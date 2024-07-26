@@ -12,7 +12,7 @@ import FaqList from "@/components/Atom/FAQSection";
 import AluminiFeedBack from "@/components/Atom/AluminiFeedback";
 import Cta from "@/components/Atom/Cta";
 import CareerAssistant from "@/components/Atom/CareerAssistant";
-import cta_img from "../../../public/img/dataanalytics/dataanalytics_chart_green.webp"
+import cta_img from "/public/img/dataanalytics/dataanalytics_chart_green.webp"
 import cwoBgImg1 from "../../../public/img/learn1.png";
 import cwoBgImg2 from "../../../public/img/learn2.png";
 import cwoBgImg3 from "../../../public/img/learn3.png";
@@ -463,9 +463,9 @@ const DataAnlyticsPage = (()=>{
 
      <CourseWeOffer cwoList={data.cwoList} cwoCourseSyllabusLink={""}/>
 
-     <CourseSyllabus />
+     {/* <CourseSyllabus /> */}
      {/* courseSyllabusList={data.courseSyllabusList} */}
-     <CourseDetail courseDetails={[]}/>
+     {/* <CourseDetail courseDetails={[]}/> */}
 
      <UpcomingCourses courseSchedulelist={data.upComingCourse} courseName={data.mainBannercourseName}/>
 

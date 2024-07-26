@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import Link from "next/link";
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 import downLoad from "../../../public/img/icons/down.png";
 
 interface DescList {
@@ -11,7 +11,7 @@ interface DescList {
 
 interface CourseList {
   id: string;
-  cwoCourseBgImage: string;
+  cwoCourseBgImage: StaticImageData;
   cwoCourseName: string;
   descriptionList: DescList[],
 }

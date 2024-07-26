@@ -1,13 +1,13 @@
 "use client"
 import React from "react";
 import Link from "next/link";
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 import cta_img from "../../../public/img/dataanalytics/dataanalytics_chart_green.webp";
 
 interface InputProps{
     graphCourseName:string;
     jobCount:string;
-    imageUrl:string;
+    imageUrl:StaticImageData;
     imageAlt:string;
     graphCourseSkill:string;
     courseName:string;

@@ -3,7 +3,7 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import fsd from "/public/images/fsd.jpg";
-import BatchesCard from "../UpcommingBatchesCard/BatchesCard";
+import BatchesCard from "../Atom/BatchesCard";
 
 const OurUpcomingBatches = () => {
   return (

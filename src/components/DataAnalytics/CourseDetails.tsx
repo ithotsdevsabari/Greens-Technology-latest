@@ -20,7 +20,7 @@ const CourseDetails: React.FC = () => {
   return (
 		<>  
          {/* <MenuItems /> */}
-         <CourseDetail/>
+         {/* <CourseDetail/> */}
         <section className="mb-8 py-4">
           <div className="container"> 
 
