@@ -1,0 +1,529 @@
+/* index > cta sec */
+
+.cta_bg{
+  background-image: url(/img/green-bg.webp);
+  background-position: center;
+  background-size: cover;
+}
+.bg_yellow{
+background-image: linear-gradient(45deg, #c08a43 0%, #dec372 99%, #dec372 100%);
+  color: #fff;
+  border-radius: 10px;
+}
+.bg_yellow:hover{
+background-color: #fff;
+color:#093B36 ;
+transition: background-color 1s;
+}
+
+/* index > 3 box sec */
+.gold-grad{
+background-image: linear-gradient(45deg, #c08a43 0%, #dec372 99%, #dec372 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.brd_lines{
+border: 2px solid #21c2b2;
+border-radius: 20px;
+}
+
+.str-icon{
+font-size: 20px;
+}
+
+.card-icon {
+font-size: 60px;
+color: #c08a43;
+}
+.brd-l-r{
+border-right: 3px solid #ebebeb;
+}
+/* index > training */
+.green-tx{
+color: #0b786d; background-image: -webkit-linear-gradient(45deg, #0b786d 0%, #0fddc8 100%); 
+background-clip: text; -webkit-background-clip: text; 
+text-fill-color: transparent; -webkit-text-fill-color: transparent;
+}
+
+/* index > batch sec */
+
+.batches-bg{
+ background-color: #ddfff6;
+}
+.dark-green-txt{
+color: #063732;
+}
+.typo-text i{
+font-size: 20px;
+}
+.typo-text p{
+font-size: 22px;
+}
+/* index > contact sec */
+.contact-num-box{
+max-width: 750px;
+margin: auto;
+}
+
+/* index > our training sec */
+.GlobalCloud{
+max-width: 1000px;
+margin-left: auto;
+margin-right: auto;
+}
+
+
+.border-rds{
+border: 2px solid #0DB8A7;
+border-radius: 30px;
+}
+/* index > upcomming batches sec */
+.Upcoming_Batches{
+max-width: 1300px;
+margin: 0 auto;
+}
+.height-size{
+height: 100%;
+}
+
+/* index > project sec */
+
+.project_sty h5{
+  color: #093B36;
+  text-transform: uppercase;
+}
+.pro_content{
+  border: 1px solid #E1EBEA;
+  border-bottom:  10px solid #E1EBEA;
+  border-radius: 30px;
+}
+
+/* index > team sec  */
+
+.team_cont{
+  max-width: 1300px;
+}
+
+.border_roun{
+  border-radius: 20px;
+}
+.banner-gradient2{
+  background: rgb(255,255,255);
+  background: radial-gradient(circle, rgba(255,255,255,1) 22%, rgba(233,255,253,1) 45%, rgba(255,255,255,1) 82%);
+  padding: 60px 0;
+}
+.divagar_img{
+  width: 100%;
+  border-radius: 20px 0 0px 20px;
+}
+.tech_teaching{
+width: 100%;
+border-radius: 0px 20px 20px 0px;
+}
+.designation h6{
+  color: #C4C4C4;
+  font-size: 18px;
+}
+.border-line{
+  border-bottom: 2px solid #000;
+}
+
+/* index > features sec */
+
+.grid_container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 40px;
+}
+.grid_item {
+  /* padding: 20px; */
+  text-align: center;
+  padding: 30px 40px;
+}
+.grid_item p{
+  color: #848484;
+}
+.border_r{
+  border-right: 3px solid #E9E9E9;
+  height: 60%;
+
+}
+
+/* index > training program */
+
+.round_box{
+  /* border: 1px solid; */
+  border-radius: 20px;
+  padding: 50px 110px;
+}
+.training_con{
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.ds_cont p{
+  font-size: 20px;
+  color: #323232;
+
+}
+.ds_cont span{
+  background-color: #F6CA3A;
+  color: white;
+  padding: 4px 15px;
+  font-weight: 600;
+  border-radius: 50px;
+
+}
+.rating_des{
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+}
+.border_b_line{
+  border-bottom: 3px solid #E9E9E9;
+}
+
+
+/* Home Page */
+
+.content-max-w{
+  max-width: 900px;
+  text-align: left;
+}
+
+.box_col0{
+  background-color: #063732;
+  padding: 40px 40px;
+  text-align: center;
+}
+.box_col0:hover{
+  /* background-color: #ECC14A; */
+  background-image: linear-gradient(45deg, #c08a43 0%, #dec372 99%, #dec372 100%);
+  transition: background-color 1s;
+}
+
+/* .box_col1{
+  background-color: #ECC14A;
+   background-image: linear-gradient(45deg, #c08a43 0%, #dec372 99%, #dec372 100%);
+  display: flex;
+  gap: 20px;
+  padding: 40px 45px;
+  text-align: left;
+}
+
+.box_col1:hover{
+  background-color: #063732;
+  transition: background-color 1s;
+} */
+
+
+.box_col1{
+  /* background-color: #ECC14A; */
+  background-image: linear-gradient(45deg, #c08a43 0%, #dec372 99%, #dec372 100%);
+  /* display: flex; */
+  /* gap: 20px; */
+  padding: 40px 40px;
+  text-align: center;
+}
+
+.box_col1:hover{
+  background-color: #063732 !important; /* Ensure the hover background color takes precedence */
+  background-image: none; /* Remove the background image on hover */
+}
+
+
+.box_col2{
+  background-color: #063732;
+  /* display: flex; */
+  /* gap: 20px; */
+  padding: 40px 40px;
+  text-align: center;
+}
+.box_col2:hover{
+  /* background-color: #ECC14A; */
+  background-image: linear-gradient(45deg, #c08a43 0%, #dec372 99%, #dec372 100%);
+  transition: background-color 1s;
+}
+.box_col h3{
+  font-size: 25px;
+}
+.para_size{
+  font-size: 18px;
+}
+
+/* courses sec */
+
+/* .course_grid{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);  
+  gap: 40px;
+}
+
+.cour_content{
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 8px;
+  background-color: #F6F3F3;
+  padding: 10px;
+  border-radius:0 0 8px 8px;
+}
+.btn_des{
+  background-color:#e2ab15;
+  padding: 5px 10px;
+}
+.btn_des:hover{
+  background-color:#063732;
+   transition: background-color 1s;
+}
+.btn_des1{
+  background-color:#063732;
+  padding: 5px 10px;
+}
+.btn_des1:hover{
+  background-color:#e2ab15;
+  transition: background-color 1s;
+}
+.radius_roun{
+  border-radius: 8px 8px 0 0;
+} */
+
+
+
+.course_grid {
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+gap: 40px;
+}
+
+.cour_content {
+display: flex;
+flex-direction: column;
+gap: 7px;
+align-items: center;
+background-color: #F6F3F3;
+padding: 10px;
+border-radius: 0 0 8px 8px;
+text-align: center;
+}
+
+.btn_des, .btn_des1 {
+background-color: #e2ab15;
+padding: 5px 10px;
+color: white;
+text-decoration: none;
+margin-bottom: 3px;
+}
+
+.btn_des1 {
+background-color: #063732;
+}
+
+.btn_des:hover {
+background-color: #063732;
+transition: background-color 1s;
+}
+
+.btn_des1:hover {
+background-color: #e2ab15;
+transition: background-color 1s;
+}
+
+.radius_roun {
+border-radius: 8px 8px 0 0;
+}
+
+/* Media queries for responsive design */
+
+@media (max-width: 1200px) {
+.course_grid {
+  grid-template-columns: repeat(3, 1fr);
+}
+}
+
+@media (max-width: 992px) {
+.course_grid {
+  grid-template-columns: repeat(2, 1fr);
+}
+}
+
+@media (max-width: 768px) {
+.course_grid {
+  grid-template-columns: 1fr;
+}
+
+}
+
+@media (max-width: 576px) {
+.cour_content {
+  flex-direction: column;
+  align-items: center;
+}
+
+.btn_des, .btn_des1 {
+  margin-bottom: 5px;
+  padding: 10px;
+}
+}
+
+
+
+
+/* Home page > new batch*/
+.table thead.green_head th{
+  background-color: #063732;
+  color: #fff;
+}
+
+/* index > 3-grid */
+.banner_three{
+  position: relative;
+}
+
+
+.abt_space{
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+/* contact > map */
+.map-container{
+  background-color: #F6F3F3;
+}
+
+/* imdex > table */
+.table_responsive{
+  overflow-x: auto;
+}
+
+/* media query */
+
+/* index > our courses */
+
+@media (max-width: 991px) {
+  /* .course_grid {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+  }
+
+  .cour_content {
+    padding: 10px;
+  }
+
+  .btn_des,
+  .btn_des1 {
+    padding: 4px 8px;
+  } */
+  
+  /* learn course */
+
+   .learn_course{
+    padding: 50px 10px 0 10px;
+
+
+   }
+   .box_col0{
+    border-radius: 15px 15px 0 0;
+  }
+  .box_col0:hover{
+    border-bottom: 2px solid #063732;
+  }
+
+  .box_col1:hover{
+    border-top: 2px solid #ECC14A;
+    border-bottom: 2px solid #ECC14A;
+  }
+
+  .box_col2:hover{
+    border-top: 2px solid #063732;
+  }
+
+  .box_col2{
+    border-radius: 0 0 15px 15px;
+  }
+
+  /* CTA */
+  .cta_bg{
+    text-align: center;
+    padding: 50px 0;
+  }
+
+  /* contact sec */
+  .con_btn{
+  margin-bottom: 10px;
+  }
+
+}
+
+@media (min-width: 992px) {
+
+    /* learn course */
+
+.learn_course{
+  position: relative;
+  margin-top: -120px;
+  z-index: 2;
+}
+
+.box_col0{
+  border-radius: 15px 0 0 15px;
+
+}
+.box_col0:hover{
+  border-right: 2px solid #063732;
+}
+
+.box_col1:hover{
+  border-right: 2px solid #ECC14A;
+  border-left: 2px solid #ECC14A;
+}
+.box_col2:hover{
+  border-left: 2px solid #063732;
+}
+
+.box_col2{
+  border-radius: 0 15px 15px 0;
+}
+
+/* CTA */
+
+.cta_left_img{
+  padding-left: 40px;
+}
+
+/* Contact sec */
+.con_btn{
+  margin-right: 20px;
+}
+}
+
+
+/* index > story vision sec */
+
+.strvis {
+  position: relative; /* Ensure the element is positioned relatively to contain the absolute pseudo-element */
+  background-image: url(../images/storybg.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white; /* Ensure text color contrasts with the background */
+}
+
+.strvis::before {
+  content: "";
+  background-color: rgba(24, 24, 27, 0.80); /* Use rgba for adjustable opacity */
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 1; /* Ensure the overlay is above the background but below the content */
+}
+
+.content {
+  position: relative;
+  z-index: 2; /* Ensure the content is above the overlay */
+  color: white;
+  text-align: justify;
+}
