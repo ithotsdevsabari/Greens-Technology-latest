@@ -12,16 +12,13 @@ const StoryVision = () => {
   
       <section className="about-area strvis ptb-100">
         <div className="container">
-          <div className="row align-items-center">
-            <div className="col-lg-6 col-md-12 px-2">
+          <div className="row">
+            <div className="col-lg-6 col-md-12 px-2 mb-3">
               <div
-                className="about-content about-content-two"
-                data-aos="fade-in"
-                data-aos-duration="1000"
-                data-aos-delay="400"
+                className="about-content-two"
               >
-                <div className="section-title">
-                  <h2 className="fs-5 text-left green-tx fw-semibold mt-0">Our Story</h2>
+                <div className="section-title m-0">
+                  <h2 className="h_font_size green-tx fw-semibold mt-0 text-start">Our Story</h2>
                 </div>
 
                 <div className="about-text text-left border-end border-2">
@@ -58,9 +55,9 @@ const StoryVision = () => {
                
               </div>
             </div>
-            <div className="col-lg-6 col-md-12">
+            <div className="col-lg-6 col-md-12 px-2 mb-3">
             <div className="section-title m-0">
-                  <h2 className="fs-5 green-tx fw-semibold text-start">Our Vision</h2>
+                  <h2 className="h_font_size green-tx fw-semibold text-start mt-0">Our Vision</h2>
                 </div>
                 <div className="about-text text-left">
                   <p className="fs-regular">
@@ -73,7 +70,7 @@ const StoryVision = () => {
                     rapidly evolving technological landscape.
                   </p>
                 </div>
-                <div className="text-center">
+                <div className="text-center pt-3">
                 <Image src={vision} alt="name" className="vision_img" width={700} height={100} />
                 </div>
             </div>

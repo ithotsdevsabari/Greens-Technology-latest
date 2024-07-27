@@ -122,10 +122,10 @@ const CFeedback: React.FC = () => {
         <div className="container">
 
         <div className="section-title">
-          <h2 className="text-center fs-5">
-          Our Testimonials
+          <h2 className="text-center h_font_size fw-semibold ">
+          Insights from Our <br /> <span className="green-tx">Empowered Alumni</span>
         </h2>   
-            <p>
+            <p className="fs-4 font_col res_txt">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>

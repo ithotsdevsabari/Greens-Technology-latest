@@ -11,12 +11,11 @@ const ForCareerAssistance = () => {
   return (
 		<>  
 
-        <section className="mb-8 py-6">
+        <section className="pb-100">
           <div className="container">
-            <div className="mb-5">            
-                <h2 className="text-center fs-5">
-                    <span className="d-block green-tx mb-2">For Career Assistance </span> 
-                </h2>
+            <div className="section-title mb-0">            
+                <h2 className="text-center green-tx h_font_size fw-semibold  ">For Career Assistance</h2>
+                </div>
                 <h3 className="text-center fs-1 ">Talk to our Experts. We are available 24/7.</h3>
                 
                 {/* <div className="mt-5 mb-10 ">
@@ -79,7 +78,7 @@ const ForCareerAssistance = () => {
                 </div>
                 </div>
 
-            </div>
+           
           </div>
         </section>
 

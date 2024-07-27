@@ -296,11 +296,10 @@ const OurCourses: React.FC = () => {
     <>
       <section className="case-studies-area ptb-100">
         <div className="container-fluid">
-          <div className="section-title">
-            <h2 className="text-center fs-5">Our Courses</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          <div className="section-title pb-2">
+            <h2 className="text-center h_font_size fw-semibold">Discover <span className="green-tx">Our Courses</span></h2>
+            <p className="fs-4 font_col res_txt">
+            Explore 50+ Courses with new course additions every month
             </p>
           </div>
 

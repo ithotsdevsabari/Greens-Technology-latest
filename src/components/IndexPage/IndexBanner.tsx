@@ -27,7 +27,7 @@ const IndexBanner: React.FC = () => {
                 >
                    Achieve Your Dreams <br /> with Affordable Learning
                 </h1>
-                <p className="fs-4"
+                <p className="fs-4 res_txt"
                   data-aos="fade-up"
                   data-aos-duration="1000"
                   data-aos-delay="200"

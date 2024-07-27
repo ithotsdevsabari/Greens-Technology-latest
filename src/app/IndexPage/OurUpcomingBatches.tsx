@@ -9,21 +9,21 @@ const OurUpcomingBatches = () => {
   return (
     <div className="batches-bg pt-8 pb-4">
       <div className="container">
-        <div className="project_sty text-center">
+        <div className="project_sty section-title text-center">
           <h2
-            className=" fs-5 mb-2 dark-green-txt fw-semibold"
+            className="mb-2 dark-green-txt h_font_size fw-semibold "
             data-aos="fade-in"
             data-aos-duration="1000"
             data-aos-delay="200"
           >
             Our Upcoming Batches
           </h2>
-          <p className="fs-4">
+          <p className="fs-4 font_col res_txt">
             We conduct online classes, and updates for it are regularly posted.
             Keep an eye on this section.
           </p>
         </div>
-        <div className="row pt-6 Upcoming_Batches">
+        <div className="row Upcoming_Batches">
         {
             batches.map((result,index)=>{
                 return(

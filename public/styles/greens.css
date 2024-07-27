@@ -1,3 +1,9 @@
+.h_font_size{
+  font-size: 45px;
+}
+.font_col{
+  color: #063732;
+}
 /* index > cta sec */
 .container-cta{
   max-width: 1000px;
@@ -533,4 +539,12 @@ border-radius: 8px 8px 0 0;
 
 .vision_img{
   width: 60%;
+}
+
+/* index > slider trainers sec */
+.txt_justify{
+  text-align: justify;
+}
+.gray_txt{
+  color: #aaaaaa;
 }

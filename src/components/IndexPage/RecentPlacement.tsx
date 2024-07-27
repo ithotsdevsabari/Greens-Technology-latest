@@ -132,10 +132,10 @@ const RecentPlacement: React.FC = () => {
       <div className="team-area ptb-100">
         <div className="container">
           <div className="section-title">
-          <h2 className="text-center fs-5">
+          <h2 className="text-center green-tx h_font_size fw-semibold ">
           Recent Placements
         </h2>   
-            <p>
+            <p className="fs-4 font_col res_txt">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>

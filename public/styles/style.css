@@ -940,7 +940,7 @@ Main Banner CSS
   font-size: 62px;
   font-weight: 800;
   margin: 12px 0 30px;
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
 }
 .main-banner-content p {
   margin-bottom: 30px;
@@ -1708,7 +1708,8 @@ Case Studies CSS
   opacity: 1;
 }
 .work-slides .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
-  background: linear-gradient(to left top, #063732, #ff287b, #ff395a, #ff5137, #ff6a00);
+  /* background: linear-gradient(to left top, #063732, #ff287b, #ff395a, #ff5137, #ff6a00); */
+  background-color: #063732;
   border: 1px solid #063732;
 }
 
@@ -3571,7 +3572,7 @@ Blog CSS
   padding: 9px 28px;
 }
 .single-blog-item .blog-post-content {
-  padding: 30px;
+  padding: 20px 30px;
 }
 .single-blog-item .blog-post-content .date {
   color: #063732;

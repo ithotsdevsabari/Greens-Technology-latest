@@ -6,29 +6,17 @@ import div_img from "/public/images/Divagar.png";
 import sarika_img from "/public/images/Sarika Garg Pardasani.jpeg";
 import Bishal_img from "/public/images/Bishal Bashyal.jpg";
 import training from "/public/images/training.jpg";
+import TrainersSlider from "@/components/IndexPage/TrainersSlider";
 
 const OurTrainingExpertise = () => {
   return (
     <div className="banner-gradient2">
       <div className="container">
-        <div className="project_sty text-center">
-          <h2
-            className=" fs-5 mb-2 green-tx fw-semibold"
-            data-aos="fade-in"
-            data-aos-duration="1000"
-            data-aos-delay="200"
-          >
-            Our Training Expertise
-          </h2>
-          <p className="fs-4">
-            Our team comprises over 40 trainers, each with unique
-            specializations across various domains. <br />
-            Here s an overview of the expertise we offer:
-          </p>
-        </div>
-        <div className="team_cont mx-auto mt-5">
-          <div className="shadow_col GlobalCloud">
-            <div className="row border_roun bg-white shadow">
+      {/* Trainer slider */}
+      <TrainersSlider/>
+          <div className=" GlobalCloud">
+
+            {/* <div className="row border_roun bg-white shadow"> 
               <div className="col-lg-3 ps-0">
                 <div className="">
                   <Image src={div_img} alt="name" className="divagar_img" />
@@ -72,9 +60,9 @@ const OurTrainingExpertise = () => {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
 
-            <div className="row border_roun bg-white shadow mt-6">
+            {/* <div className="row border_roun bg-white shadow mt-6">
               <div className="col-lg-3 ps-0">
                 <div className="">
                   <Image src={sarika_img} alt="name" className="divagar_img" />
@@ -118,9 +106,9 @@ const OurTrainingExpertise = () => {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
 
-            <div className="row border_roun bg-white shadow mt-6">
+            {/* <div className="row border_roun bg-white shadow mt-6">
               <div className="col-lg-3 ps-0">
                 <div className="">
                   <Image src={Bishal_img} alt="name" className="divagar_img" />
@@ -163,18 +151,18 @@ const OurTrainingExpertise = () => {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
 
-            <p className="fs-4 text-center mb-0 py-5">
+            <p className="fs-4 res_txt text-center font_col mb-0 py-5">
               Our trainers hold certifications such as AWS Solutions Architect,
               Microsoft Certified Professional, and Scrum Master, ensuring
               top-notch training.
             </p>
             <div className="row border_roun bg-white shadow">
-              <div className="col-lg-6">
+              <div className="col-lg-6 mb-3">
                 <div className="designation px-4 pt-4">
                   <h3
-                    className=" fs-2 mb-0  green-tx fw-semibold"
+                    className="mb-0  green-tx"
                     data-aos="fade-in"
                     data-aos-duration="1000"
                     data-aos-delay="200"
@@ -186,7 +174,7 @@ const OurTrainingExpertise = () => {
                     data analytics, machine learning, and AI.
                   </p>
                   <h3
-                    className=" fs-2 mb-0 green-tx fw-semibold"
+                    className="mb-0 green-tx"
                     data-aos="fade-in"
                     data-aos-duration="1000"
                     data-aos-delay="200"
@@ -197,7 +185,7 @@ const OurTrainingExpertise = () => {
                   Certified professionals in AWS, Azure, and Google Cloud Platform.
                   </p>
                   <h3
-                    className=" fs-2 mb-0 green-tx fw-semibold"
+                    className=" mb-0 green-tx"
                     data-aos="fade-in"
                     data-aos-duration="1000"
                     data-aos-delay="200"
@@ -208,7 +196,7 @@ const OurTrainingExpertise = () => {
                   Experts in Java, Full Stack Development, and Salesforce.
                   </p>
                   <h3
-                    className=" fs-2 mb-0 green-tx fw-semibold"
+                    className="mb-0 green-tx"
                     data-aos="fade-in"
                     data-aos-duration="1000"
                     data-aos-delay="200"
@@ -219,7 +207,7 @@ const OurTrainingExpertise = () => {
                   Trainers certified in Scrum, Agile, and DevOps methodologies.
                   </p>
                   <h3
-                    className=" fs-2 mb-0 green-tx fw-semibold"
+                    className="mb-0 green-tx"
                     data-aos="fade-in"
                     data-aos-duration="1000"
                     data-aos-delay="200"
@@ -237,7 +225,7 @@ const OurTrainingExpertise = () => {
                 </div>
               </div>
             </div>
-            <p className="fs-4 text-center mb-0 py-5">
+            <p className="fs-4 text-center mb-0 font_col py-5 res_txt">
             Ready to advance your career with industry-leading training? Enroll Now and experience the quality education provided by? Greens Technologies.
             </p>
           </div>
@@ -250,7 +238,6 @@ const OurTrainingExpertise = () => {
         </div>
 
       </div>
-    </div>
   );
 };
 

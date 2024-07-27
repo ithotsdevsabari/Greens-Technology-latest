@@ -1048,7 +1048,35 @@
     font-size: 13px;
     padding: 7px 20px;
   }
+
+  /* greens home responsive */
+  .res_txt{
+    font-size: 16px !important;
+  }
+ .brd-l-r{
+  border-right: none !important;
+ }
+ .tech_teaching{
+  border-radius: 0 !important;
+ }
+ .border-end{
+  border-right: none !important;
+ }
+ .about-area{
+  padding-left: 10px;
+  padding-right: 10px;
+ }
+ .contact-num-box{
+  text-align: center;
+ }
+
+
+
 }
+
+
+
+
 /* Min width 576px to Max width 767px */
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .case-studies-tabs .react-tabs .react-tabs__tab-list li {
