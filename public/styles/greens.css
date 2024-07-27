@@ -504,28 +504,33 @@ border-radius: 8px 8px 0 0;
 /* index > story vision sec */
 
 .strvis {
-  position: relative; /* Ensure the element is positioned relatively to contain the absolute pseudo-element */
-  background-image: url(../images/storybg.jpeg);
+  /* position: relative; */
+  /* background-image: url(../images/storybg.jpeg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  color: white; /* Ensure text color contrasts with the background */
+  color: white; */
+  background-color: #ECFFFB;
 }
 
-.strvis::before {
+/* .strvis::before {
   content: "";
-  background-color: rgba(24, 24, 27, 0.80); /* Use rgba for adjustable opacity */
+  background-color: rgba(24, 24, 27, 0.80);
   position: absolute;
   left: 0;
   top: 0;
   height: 100%;
   width: 100%;
-  z-index: 1; /* Ensure the overlay is above the background but below the content */
-}
+  z-index: 1;
+} */
 
-.content {
+/* .content {
   position: relative;
-  z-index: 2; /* Ensure the content is above the overlay */
+  z-index: 2;
   color: white;
   text-align: justify;
+} */
+
+.vision_img{
+  width: 60%;
 }

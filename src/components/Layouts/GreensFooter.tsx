@@ -174,7 +174,7 @@ const GreensFooter: React.FC = () => {
 
                 <ul className="get-in-touch">
                   <li>
-                    <i className="fa-solid fa-location-dot"></i>Plot No.19, Balamurugan Garden, OMR Road,Kancheepuram District, Okkiam, Thoraipakkam, Jain college bus stop.
+                    <i className="fa-solid fa-location-dot"></i>4/10,Tyre Avenue Riverton 6148 Western Australia.
                   </li>
                   <li>
                     <i className="fa-solid fa-headset"></i>
