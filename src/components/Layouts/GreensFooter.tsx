@@ -37,22 +37,22 @@ const GreensFooter: React.FC = () => {
 
                 <ul className="social-links">
                   <li>
-                    <a href="https://www.facebook.com/" target="_blank">
+                    <a href="https://www.facebook.com/share/QUDyJ91U4Egy1vKZ/?mibextid=qi2Omg " target="_blank">
                       <i className="fa-brands fa-facebook-f"></i>
                     </a>
                   </li>
                   <li>
-                    <a href="https://twitter.com/" target="_blank">
-                      <i className="fa-brands fa-twitter"></i>
+                    <a href="https://youtube.com/@greenstechnologiesaustralia?si=nHMglnyoDlbZmEFw " target="_blank">
+                      <i className="fa-brands fa-youtube"></i>
                     </a>
                   </li>
                   <li>
-                    <a href="https://linkedin.com/" target="_blank">
+                    <a href="https://www.linkedin.com/company/greens-technologies-australia/" target="_blank">
                       <i className="fa-brands fa-linkedin-in"></i>
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.instagram.com/" target="_blank">
+                    <a href="https://www.instagram.com/greenstechnologiesaustralia?igsh=ZXo4aTNjdTVvaXN1" target="_blank">
                       <i className="fa-brands fa-instagram"></i>
                     </a>
                   </li>
@@ -124,36 +124,36 @@ const GreensFooter: React.FC = () => {
                       Home
                     </Link>
                   </li>
-                  <li>
+                  {/* <li>
                     <Link href="#">
                       About Us
                     </Link>
-                  </li>
+                  </li> */}
                   <li>
                     <Link href="#">
                       Courses
                     </Link>
                   </li>
-                  <li>
+                  {/* <li>
                     <Link href="#">
                       Gallery
                     </Link>
-                  </li>
+                  </li> */}
                   <li>
                     <Link href="#">
-                      Blog
+                      Careers
                     </Link>
                   </li>
-                  <li>
+                  {/* <li>
                     <Link href="#">
                       Reviews
                     </Link>
-                  </li>
-                  <li>
+                  </li> */}
+                  {/* <li>
                     <Link href="#">
                       FAQ
                     </Link>
-                  </li>
+                  </li> */}
                   <li>
                     <Link href="#">
                       Contact Us
