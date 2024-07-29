@@ -580,7 +580,7 @@ const DataAnlyticsPage = (()=>{
 
      <CourseWeOffer cwoList={data.cwoList} cwoCourseSyllabusLink={""}/>
 
-     <CourseDetail courseDetailsList={data.courseDetailsList}/>
+     {/* <CourseDetail courseDetailsList={data.courseDetailsList}/> */}
 
      <UpcomingCourses courseSchedulelist={data.upComingCourse} courseName={data.mainBannercourseName}/>
 
