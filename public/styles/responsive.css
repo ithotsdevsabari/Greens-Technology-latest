@@ -1050,6 +1050,7 @@
   }
 
   /* greens home responsive */
+  
   .res_txt{
     font-size: 16px !important;
   }
@@ -1069,9 +1070,9 @@
  .contact-num-box{
   text-align: center;
  }
-
-
-
+.trainers_imgs {
+  text-align: center;
+}
 }
 
 

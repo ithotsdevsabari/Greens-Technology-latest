@@ -13,9 +13,9 @@ const OurTrainingExpertise = () => {
     <div className="banner-gradient2">
       <div className="container">
       {/* Trainer slider */}
-      <TrainersSlider/>
+    
           <div className=" GlobalCloud">
-
+          <TrainersSlider/>
             {/* <div className="row border_roun bg-white shadow"> 
               <div className="col-lg-3 ps-0">
                 <div className="">

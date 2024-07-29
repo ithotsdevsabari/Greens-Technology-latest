@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 import Image from "next/image";
 import india from "../../../public/images/india.png";
-import foreign from "../../../public/images/forign.jpg";
+import foreign from "../../../public/images/Foreign Nationals.png";
 import phoneIcon from "../../../public/img/phone.png";
 
 const ForCareerAssistance = () => {

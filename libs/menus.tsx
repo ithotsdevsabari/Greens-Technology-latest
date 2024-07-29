@@ -26,7 +26,7 @@ export const menus = [
 	// 	],
 	// },
   	{
-		label: "About us",
+		label: "Home",
 		link: "/",
 	},
 	{
@@ -60,6 +60,10 @@ export const menus = [
 			{
 				label: "Data Analytics",
 				link: "/Data-Analytics",
+			},
+			{
+				label: "Web Developement",
+				link: "/web-developement",
 			}
 		],
 	},

@@ -10,10 +10,10 @@ const MegaMenu: React.FC = () => {
   return (
     <>
       <li className="nav-item">
-        <Link href="/" className="nav-link" onClick={(e) => e.preventDefault()}>
+        {/* <Link href="/" className="nav-link" onClick={(e) => e.preventDefault()}>
           Home 
-          {/* <i className="fa-solid fa-angle-down"></i> */}
-        </Link>
+          <i className="fa-solid fa-angle-down"></i>
+        </Link> */}
         
 
 
