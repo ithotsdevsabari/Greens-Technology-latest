@@ -61,10 +61,10 @@ const TrainersSlider: React.FC = () => {
                 slidesPerView: 1,
               },
               768: {
-                slidesPerView: 2,
+                slidesPerView: 1,
               },
               992: {
-                slidesPerView: 2,
+                slidesPerView: 1,
               },
             }}
             modules={[Autoplay, Pagination]}
@@ -107,18 +107,18 @@ const TrainersSlider: React.FC = () => {
                     </div>
                   </div> */}
                   <div className="single-blog-item row">
-                    <div className="col-lg-4 col-md-12 blog-image p-0">
+                    <div className="col-lg-3 col-md-12 blog-image trainers_imgs">
                       <Image
                         src={value.image}
                         alt="image"
-                        width={500}
-                        height={500}
+                        width={200}
+                        height={200}
                         className="img-fluid"
                       />
                     </div>
-                    <div className="col-lg-8 col-md-12 blog-post-content" >
-                      <h3 className="mb-1 green-tx">{value.title}</h3>
-                      <h6 className="gray_txt pb-3">{value.role}</h6>
+                    <div className="col-lg-9 col-md-12 blog-post-content">
+                      <h3 className="mb-1 green-tx trainers_imgs">{value.title}</h3>
+                      <h6 className="gray_txt pb-3 trainers_imgs">{value.role}</h6>
                       <p className="mb-0 txt_justify">{value.shortText}</p>
                     </div>
                   </div>

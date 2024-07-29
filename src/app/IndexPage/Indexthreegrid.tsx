@@ -51,7 +51,7 @@ const Indexthreegrid = () => {
                             </div>
                             <div className="brd-l-r px-4">
                             <h2
-                              className="mb-1 gold-grad fw-semibold "
+                              className="mb-1 gold-grad fw-semibold"
                               data-aos="fade-in"
                               data-aos-duration="1000"
                               data-aos-delay="200"
@@ -83,7 +83,7 @@ const Indexthreegrid = () => {
                               data-aos-duration="1000"
                               data-aos-delay="200"
                             >
-                              10,000+ Learners <br /> Enrolled
+                              60,000+ Learners <br /> Enrolled
                             </h2>
                           <p className="d-block mt-2 text-black fs-4">
                             Join a thriving community committed to excellence

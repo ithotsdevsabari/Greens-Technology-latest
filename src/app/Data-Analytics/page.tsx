@@ -335,8 +335,34 @@ cwoList:[
 
 
 ],
-courseSyllabusList:[
-    {
+courseDetailsList : [
+  {
+   courseName:"DATA ANALYTICS",
+   subCourseName:"Power Automate Syllabus",
+   menuItemsData : [
+          {
+            title: 'Home',
+            submenu: [
+              {
+                title: 'Digital Marketing',
+                submenu: [
+                  { title: 'Search Engine Optimization' },
+                  { title: 'Social Media Marketing' },
+                  // ... other digital marketing items
+                ],
+              },
+              {
+                title: 'Web Services',
+                submenu: [
+                  { title: 'Web Designing' },
+                  { title: 'Web Designing Portfolio' },
+                  // ... other web services items
+                ],
+              },
+              // ... other service categories
+            ],
+          },
+          {
               title: 'Home',
               submenu: [
                 {
@@ -359,7 +385,7 @@ courseSyllabusList:[
               ],
             },
             {
-              title: 'About Us',
+              title: 'Home',
               submenu: [
                 {
                   title: 'Digital Marketing',
@@ -381,7 +407,7 @@ courseSyllabusList:[
               ],
             },
             {
-              title: 'Services',
+              title: 'Home',
               submenu: [
                 {
                   title: 'Digital Marketing',
@@ -403,33 +429,124 @@ courseSyllabusList:[
               ],
             },
             {
-                title: 'Home',
-              },
-              {
-                title: 'About Us',
-              },
-              {
-                title: 'Services',
-                submenu: [
-                  {
-                    title: 'Digital Marketing',
-                    submenu: [
-                      { title: 'Search Engine Optimization' },
-                      { title: 'Social Media Marketing' },
-                      // ... other digital marketing items
-                    ],
-                  },
-                  {
-                    title: 'Web Services',
-                    submenu: [
-                      { title: 'Web Designing' },
-                      { title: 'Web Designing Portfolio' },
-                      // ... other web services items
-                    ],
-                  },
-                  // ... other service categories
-                ],
-              },
+              title: 'Home',
+              submenu: [
+                {
+                  title: 'Digital Marketing',
+                  submenu: [
+                    { title: 'Search Engine Optimization' },
+                    { title: 'Social Media Marketing' },
+                    // ... other digital marketing items
+                  ],
+                },
+                {
+                  title: 'Web Services',
+                  submenu: [
+                    { title: 'Web Designing' },
+                    { title: 'Web Designing Portfolio' },
+                    // ... other web services items
+                  ],
+                },
+                // ... other service categories
+              ],
+            },
+            {
+              title: 'Home',
+              submenu: [
+                {
+                  title: 'Digital Marketing',
+                  submenu: [
+                    { title: 'Search Engine Optimization' },
+                    { title: 'Social Media Marketing' },
+                    // ... other digital marketing items
+                  ],
+                },
+                {
+                  title: 'Web Services',
+                  submenu: [
+                    { title: 'Web Designing' },
+                    { title: 'Web Designing Portfolio' },
+                    // ... other web services items
+                  ],
+                },
+                // ... other service categories
+              ],
+            },
+            {
+              title: 'Home',
+              submenu: [
+                {
+                  title: 'Digital Marketing',
+                  submenu: [
+                    { title: 'Search Engine Optimization' },
+                    { title: 'Social Media Marketing' },
+                    // ... other digital marketing items
+                  ],
+                },
+                {
+                  title: 'Web Services',
+                  submenu: [
+                    { title: 'Web Designing' },
+                    { title: 'Web Designing Portfolio' },
+                    // ... other web services items
+                  ],
+                },
+                // ... other service categories
+              ],
+            },
+            {
+              title: 'Home',
+              submenu: [
+                {
+                  title: 'Digital Marketing',
+                  submenu: [
+                    { title: 'Search Engine Optimization' },
+                    { title: 'Social Media Marketing' },
+                    // ... other digital marketing items
+                  ],
+                },
+                {
+                  title: 'Web Services',
+                  submenu: [
+                    { title: 'Web Designing' },
+                    { title: 'Web Designing Portfolio' },
+                    // ... other web services items
+                  ],
+                },
+                // ... other service categories
+              ],
+            },
+   ]
+  },
+  {
+      courseName:"DATA ANALYTICS",
+      subCourseName:"Power Automate Syllabus",
+      menuItemsData : [
+             {
+               title: 'Home',
+               submenu: [
+                 {
+                   title: 'Digital Marketing',
+                   submenu: [
+                     { title: 'Search Engine Optimization' },
+                     { title: 'Social Media Marketing' },
+                     // ... other digital marketing items
+                   ],
+                 },
+                 {
+                   title: 'Web Services',
+                   submenu: [
+                     { title: 'Web Designing' },
+                     { title: 'Web Designing Portfolio' },
+                     // ... other web services items
+                   ],
+                 },
+                 // ... other service categories
+               ],
+             },
+      ]
+     }
+ 
 ]
 
    
@@ -463,7 +580,7 @@ const DataAnlyticsPage = (()=>{
 
      <CourseWeOffer cwoList={data.cwoList} cwoCourseSyllabusLink={""}/>
 
-     <CourseDetail courseDetails={[]}/>
+     <CourseDetail courseDetailsList={data.courseDetailsList}/>
 
      <UpcomingCourses courseSchedulelist={data.upComingCourse} courseName={data.mainBannercourseName}/>
 

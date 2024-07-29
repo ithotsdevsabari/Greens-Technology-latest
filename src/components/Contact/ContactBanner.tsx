@@ -70,11 +70,11 @@ const ContactBanner: React.FC = () => {
     our team is here to assist you. Feel free to reach out to us using the contact form 
     below or contact information provided.</p>
                       
-                      <div className="">
+                      {/* <div className="">
                           
                             <Link href="#" className="button-def button-3 con_btn"><span>Enquire Now</span></Link>
                             <Link href="#" className="button-def button-3-white"><span>View Schedule</span></Link>
-                      </div>
+                      </div> */}
 
                     </div>
                   </div>

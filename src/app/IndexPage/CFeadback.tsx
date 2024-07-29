@@ -10,10 +10,10 @@ import quotes from "../../../public/img/quotes.png";
 const clientFeedbackData = [
   {
     image: "/images/app/user1.jpg",
-    name: "REVATHI",
+    name: "Shashikala Maurya",
     designation: "Spotify Developer",
     feedbackText:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.",
+      "Green's Technology offered an outstanding Data Science course. The instructors were highly knowledgeable, simplifying complex concepts effectively. Engaging in hands-on projects greatly enhanced my confidence. I received exceptional support from the mentor, Godwin. I wholeheartedly recommend it to anyone eager to explore Data Science!.....",
     category: "Worked at Cognizant",
 
     rating: [
@@ -36,10 +36,10 @@ const clientFeedbackData = [
   },
   {
     image: "/images/app/user2.jpg",
-    name: "MOHAN",
+    name: "Rggdharan Dharan",
     designation: "PHP Developer",
     feedbackText:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.",
+      "Enrolling in Greens technology web development course was a decision I don't regret. The curriculum was comprehensive, covering essential topics like HTML, CSS, JavaScript, and GitHub. Building my own website was a satisfying conclusion to the course. This experience has equipped me with the skills and confidence for a future in web development.",
     category: "Works at ABC",
 
     rating: [
@@ -62,11 +62,11 @@ const clientFeedbackData = [
   },
   {
     image: "/images/app/user3.jpg",
-    name: "STEFFY",
+    name: "Nandhini",
     designation: "Moodle Developer",
     feedbackText:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.",
-    category: "GPC Architect at Google",
+      "I usually don't write reviews. I chose Greens Technologies through a friend. I Attended DevOps and AWS courses at Greens Technology.The trainer was exceptionally helpful in clarifying concepts, making it the best training center. The emphasis on practical, live projects rather than just theory was commendable. Highly recommended.",
+      category: "GPC Architect at Google",
 
     rating: [
       {
@@ -88,10 +88,10 @@ const clientFeedbackData = [
   },
   {
     image: "/images/app/user4.jpg",
-    name: "David Warner",
+    name: "Kym S",
     designation: "Python Developer",
     feedbackText:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.",
+      "I took courses in Networking and Azure SQL Database. My instructor, Dhivakar, was really knowledgeable and the best. He kept the class interested and made sure we understood everything in each module. I want to thank Dhivakar for his great support during the learning process.",
     category: "Theme Customization",
 
     rating: [
@@ -126,8 +126,7 @@ const CFeedback: React.FC = () => {
           Insights from Our <br /> <span className="green-tx">Empowered Alumni</span>
         </h2>   
             <p className="fs-4 font_col res_txt">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Feel free to adjust it based on specific testimonials or experiences you want to highlight!
             </p>
           </div>
 

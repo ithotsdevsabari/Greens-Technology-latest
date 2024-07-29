@@ -32,9 +32,9 @@ export default function Home() {
 
       <StoryVision/>
 
-      <RecentPlacement />
+      {/* <RecentPlacement /> */}
 
-      <NewCTA />
+      {/* <NewCTA /> */}
 
       <CFeedback />
 
