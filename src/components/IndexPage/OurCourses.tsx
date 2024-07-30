@@ -299,9 +299,15 @@ const OurCourses: React.FC = () => {
           <div className="section-title pb-2">
             <h2 className="text-center h_font_size fw-semibold">Discover <span className="green-tx">Our Courses</span></h2>
             <p className="fs-4 font_col res_txt">
-            Explore 50+ Courses with new course additions every month
+            Explore 50+ Courses with new course additions every month, available in
             </p>
+            <div className="d-flex justify-content-center gap-3 pt-3">
+            <strong className="fs-4 gold-grad">English</strong>
+            <strong className="fs-4 gold-grad">Tamil</strong>
+            <strong className="fs-4 gold-grad">Hindi</strong>
+            </div>
           </div>
+
 
           <Swiper
             autoHeight={false}
