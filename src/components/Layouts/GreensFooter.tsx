@@ -146,17 +146,22 @@ const GreensFooter: React.FC = () => {
 
                 <ul className="get-in-touch">
                   <li>
+                    <div>
                     <i className="fa-solid fa-location-dot"></i>
                     <a href=" https://maps.app.goo.gl/YjbBa9m2btWXKqF6A">4/10,Tyre Avenue Riverton 6148 Western Australia.</a>
+                    </div>
                   </li>
                   <li>
+                  <div>
                     <i className="fa-solid fa-headset"></i>
                     <a href="tel:+91 8939915572">+91 8939915572</a> 
-                  
+                    </div>
                   </li>
                   <li>
+                  <div>
                     <i className="fa-solid fa-envelope"></i>
                     <a href="mailto:contact@greenstechnologys.com">contact@greenstechnologys.com</a>
+                    </div>
                   </li>
                 </ul>
               </div>
