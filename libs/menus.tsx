@@ -57,29 +57,20 @@ export const menus = [
 				label: "Cloud Computing",
 				link: "/cloudcomputing",
 			},
-			{
-				label: "Data Analytics",
-				link: "/Data-Analytics",
-			},
-			{
-				label: "Web Developement",
-				link: "/web-developement",
-			}
+			// {
+			// 	label: "Data Analytics",
+			// 	link: "/Data-Analytics",
+			// },
+			// {
+			// 	label: "Web Developement",
+			// 	link: "/web-developement",
+			// }
 		],
 	},
 	{
 		label: "Careers",
 		link: "/",
 	},	
-	
-	{
-		label: "Corporate Training",
-		link: "/",
-	},
-	{
-		label: "All Branches",
-		link: "/",
-	},
 	{
 		label: "Contact Us",
 		link: "/",
