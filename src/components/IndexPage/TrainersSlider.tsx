@@ -51,7 +51,7 @@ const TrainersSlider: React.FC = () => {
               clickable: true,
             }}
             autoplay={{
-              delay: 5000,
+              delay: 3000,
               disableOnInteraction: true,
               pauseOnMouseEnter: true,
             }}
