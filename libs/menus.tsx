@@ -57,14 +57,14 @@ export const menus = [
 				label: "Cloud Computing",
 				link: "/cloudcomputing",
 			},
-			// {
-			// 	label: "Data Analytics",
-			// 	link: "/Data-Analytics",
-			// },
-			// {
-			// 	label: "Web Developement",
-			// 	link: "/web-developement",
-			// }
+			{
+				label: "Data Analytics",
+				link: "/Data-Analytics",
+			},
+			{
+				label: "Web Developement",
+				link: "/web-developement",
+			}
 		],
 	},
 	{
