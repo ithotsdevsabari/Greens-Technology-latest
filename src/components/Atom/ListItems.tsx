@@ -12,8 +12,8 @@ interface MenuItemsProps {
 
 const singleTickSvgLogo = (
   <svg
-    height="15"
-    width="15"
+    height="35"
+    width="35"
     viewBox="0 0 15 15"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -28,20 +28,20 @@ const singleTickSvgLogo = (
 
 const doubleTickLogo = (
   <svg 
-    width="15" 
-    height="15" 
+    width="30" 
+    height="30" 
     viewBox="0 0 20 20" 
     xmlns="http://www.w3.org/2000/svg"
   >
-    <polyline points="1,6 4,9 9,1" stroke="teal" fill="none" strokeWidth="2"/>
-    <polyline points="6,6 10,10 15,2" stroke="teal" fill="none" strokeWidth="2"/>
+    <polyline points="1,6 4,9 9,1" stroke="teal" fill="none" strokeWidth="1"/>
+    <polyline points="6,6 10,10 15,2" stroke="teal" fill="none" strokeWidth="1"/>
   </svg>
 );
 
 const rightArrow = (
   <svg 
-    width="15" 
-    height="15" 
+    width="20" 
+    height="20" 
     viewBox="0 0 20 20" 
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -54,11 +54,13 @@ const rightArrow = (
 const MenuItems: React.FC<MenuItemsProps> = ({ menuItemsData }) => {
   const renderMenuItem = (item: MenuItem, index: number, level = 0): JSX.Element => (
     <li key={item.title} className='menu-item' style={{ paddingLeft: `${level * 15}px` }}>
-      <div className='menu-item-content'>
+      <div className='menu-item-content d-flex'>
         {level === 0 ? (
           <span>{index + 1}. </span>
+        ) : level === 2 && item.submenu ? (
+          doubleTickLogo
         ) : (
-          item.submenu ? singleTickSvgLogo : level === 1 ? doubleTickLogo : rightArrow
+          level === 1 ? singleTickSvgLogo : rightArrow
         )}
         <span className='menu-item-title'>{item.title}</span>
       </div>

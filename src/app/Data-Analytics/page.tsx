@@ -20,6 +20,8 @@ import cwoBgImg4 from "../../../public/img/learn4.png";
 import cwoBgImg5 from "../../../public/img/learn5.png";
 import cwoBgImg6 from "../../../public/img/learn6.png";
 import CourseSyllabus from "@/components/Atom/CourseSyllabus";
+import GreensFooter from "@/components/Layouts/GreensFooter";
+import { title } from "process";
 
 
 
@@ -335,217 +337,171 @@ cwoList:[
 
 
 ],
-courseDetailsList : [
+courseDetailsList :[
   {
    courseName:"DATA ANALYTICS",
    subCourseName:"Power Automate Syllabus",
-   menuItemsData : [
-          {
-            title: 'Home',
-            submenu: [
-              {
-                title: 'Digital Marketing',
-                submenu: [
-                  { title: 'Search Engine Optimization' },
-                  { title: 'Social Media Marketing' },
-                  // ... other digital marketing items
-                ],
-              },
-              {
-                title: 'Web Services',
-                submenu: [
-                  { title: 'Web Designing' },
-                  { title: 'Web Designing Portfolio' },
-                  // ... other web services items
-                ],
-              },
-              // ... other service categories
-            ],
-          },
-          {
-              title: 'Home',
+  //  menuItemsData : [
+  //         {
+  //           title: 'Creating Automatic Email to Gmail Account along with an attachment Stored in OneDrive',
+  //           submenu:[{
+  //             title:"Creating Automatic New Group using Forms",
+  //             submenu:"sjkbdksbd"
+  //           },
+  //         {
+  //               title:"sadsfgsvsfv"
+  //         }
+  //         ]
+  //         },
+  //         {
+  //           title:"Creating Automatic New Group using Forms"
+  //         },
+  //         {
+  //           title:"Creating Automatic Mails for Birthday and Wedding Wishes"
+  //         },
+  //         {
+  //           title:'Creating Power BI Alert Notification to Microsoft Teams, Outlook'
+  //         },
+  //         {
+  //           title:"Refreshing Dataset"
+  //         },
+  //         {
+  //           title:"Support Team In case of Some Issues or Errors."
+  //         }
+       
+  //  ]
+  menuItemsData: [
+    {
+      title: 'Introduction to Databases & SQL',
+      submenu: [
+        {
+          title: 'Overview of Databases',
+          submenu: [
+            {
+              title: 'Key Concepts in Databases',
               submenu: [
                 {
-                  title: 'Digital Marketing',
-                  submenu: [
-                    { title: 'Search Engine Optimization' },
-                    { title: 'Social Media Marketing' },
-                    // ... other digital marketing items
-                  ],
-                },
-                {
-                  title: 'Web Services',
-                  submenu: [
-                    { title: 'Web Designing' },
-                    { title: 'Web Designing Portfolio' },
-                    // ... other web services items
-                  ],
-                },
-                // ... other service categories
-              ],
+                  title: 'Data',  },
+                  {
+                    title: 'Database Management System (DBMS)',
+                  },
+                  {
+                    title: 'Database Models',
+                  },
+                  {
+                    title: 'Data Independence',
+                  },
+                  {
+                    title:'Database Architecture',
+                  },
+                  {
+                    title: 'Database Transactions',
+                  },
+                  {
+                    title:'Data Integrity'
+                  }
+               
+              ]
             },
             {
-              title: 'Home',
+              title: 'Advantages of Using Databases',
               submenu: [
-                {
-                  title: 'Digital Marketing',
-                  submenu: [
-                    { title: 'Search Engine Optimization' },
-                    { title: 'Social Media Marketing' },
-                    // ... other digital marketing items
-                  ],
-                },
-                {
-                  title: 'Web Services',
-                  submenu: [
-                    { title: 'Web Designing' },
-                    { title: 'Web Designing Portfolio' },
-                    // ... other web services items
-                  ],
-                },
-                // ... other service categories
-              ],
+                {title: 'Data Consistency'},
+                {title:'Data Security'},
+                {title: 'Data Scalability'},
+                {title:'Data Recovery'},
+                {title:'Data Accessibility'},
+              ]
             },
             {
-              title: 'Home',
+              title: 'Types of Database Users',
               submenu: [
-                {
-                  title: 'Digital Marketing',
-                  submenu: [
-                    { title: 'Search Engine Optimization' },
-                    { title: 'Social Media Marketing' },
-                    // ... other digital marketing items
-                  ],
-                },
-                {
-                  title: 'Web Services',
-                  submenu: [
-                    { title: 'Web Designing' },
-                    { title: 'Web Designing Portfolio' },
-                    // ... other web services items
-                  ],
-                },
-                // ... other service categories
-              ],
-            },
-            {
-              title: 'Home',
-              submenu: [
-                {
-                  title: 'Digital Marketing',
-                  submenu: [
-                    { title: 'Search Engine Optimization' },
-                    { title: 'Social Media Marketing' },
-                    // ... other digital marketing items
-                  ],
-                },
-                {
-                  title: 'Web Services',
-                  submenu: [
-                    { title: 'Web Designing' },
-                    { title: 'Web Designing Portfolio' },
-                    // ... other web services items
-                  ],
-                },
-                // ... other service categories
-              ],
-            },
-            {
-              title: 'Home',
-              submenu: [
-                {
-                  title: 'Digital Marketing',
-                  submenu: [
-                    { title: 'Search Engine Optimization' },
-                    { title: 'Social Media Marketing' },
-                    // ... other digital marketing items
-                  ],
-                },
-                {
-                  title: 'Web Services',
-                  submenu: [
-                    { title: 'Web Designing' },
-                    { title: 'Web Designing Portfolio' },
-                    // ... other web services items
-                  ],
-                },
-                // ... other service categories
-              ],
-            },
-            {
-              title: 'Home',
-              submenu: [
-                {
-                  title: 'Digital Marketing',
-                  submenu: [
-                    { title: 'Search Engine Optimization' },
-                    { title: 'Social Media Marketing' },
-                    // ... other digital marketing items
-                  ],
-                },
-                {
-                  title: 'Web Services',
-                  submenu: [
-                    { title: 'Web Designing' },
-                    { title: 'Web Designing Portfolio' },
-                    // ... other web services items
-                  ],
-                },
-                // ... other service categories
-              ],
-            },
-            {
-              title: 'Home',
-              submenu: [
-                {
-                  title: 'Digital Marketing',
-                  submenu: [
-                    { title: 'Search Engine Optimization' },
-                    { title: 'Social Media Marketing' },
-                    // ... other digital marketing items
-                  ],
-                },
-                {
-                  title: 'Web Services',
-                  submenu: [
-                    { title: 'Web Designing' },
-                    { title: 'Web Designing Portfolio' },
-                    // ... other web services items
-                  ],
-                },
-                // ... other service categories
-              ],
-            },
-   ]
-  },
-  {
-      courseName:"DATA ANALYTICS",
-      subCourseName:"Power Automate Syllabus",
-      menuItemsData : [
-             {
-               title: 'Home',
-               submenu: [
-                 {
-                   title: 'Digital Marketing',
-                   submenu: [
-                     { title: 'Search Engine Optimization' },
-                     { title: 'Social Media Marketing' },
-                     // ... other digital marketing items
-                   ],
-                 },
-                 {
-                   title: 'Web Services',
-                   submenu: [
-                     { title: 'Web Designing' },
-                     { title: 'Web Designing Portfolio' },
-                     // ... other web services items
-                   ],
-                 },
-                 // ... other service categories
-               ],
-             },
+                {title:  'Database Administrators (DBAs)'},
+                {title: 'Database Developers'},
+                {title: 'End Users'},
+              ]
+            }
+          ]
+        },
+        // {
+        //   title: 'Introduction to SQL',
+        //   submenu: [
+        //     {
+        //       title: 'Key Components of SQL',
+        //       submenu: [
+        //         'DDL (Data Definition Language)',
+        //         'DML (Data Manipulation Language)',
+        //         'DCL (Data Control Language)',
+        //         'TCL (Transaction Control Language)'
+        //       ]
+        //     },
+        //     {
+        //       title: 'Basic SQL Commands',
+        //       submenu: [
+        //         'SELECT',
+        //         'INSERT',
+        //         'UPDATE',
+        //         'DELETE',
+        //         'CREATE TABLE',
+        //         'ALTER TABLE',
+        //         'DROP TABLE'
+        //       ]
+        //     },
+        //     {
+        //       title: 'Basic SQL Concepts',
+        //       submenu: [
+        //         'Constraints',
+        //         'Joins',
+        //         'Indexes',
+        //         'Functions',
+        //         'Transactions'
+        //       ]
+        //     },
+        //     {
+        //       title: 'SQL Implementations',
+        //       submenu: [
+        //         'SQL Variants',
+        //         'SQL Standards'
+        //       ]
+        //     },
+        //     {
+        //       title: 'Practical Applications of SQL',
+        //       submenu: [
+        //         'Data Retrieval & Analysis',
+        //         'Data Manipulation',
+        //         'Database Management',
+        //         'Integration with Applications'
+        //       ]
+        //     }
+        //   ]
+        // },
+        // {
+        //   title: 'SQL Standards & Variants',
+        //   submenu: [
+        //     {
+        //       title: 'SQL Standards',
+        //       submenu: [
+        //         'ANSI SQL (American National Standards Institute SQL)',
+        //         'ISO SQL (International Organization for Standardization SQL)'
+        //       ]
+        //     },
+        //     {
+        //       title: 'Popular SQL Variants',
+        //       submenu: [
+        //         'MySQL',
+        //         'PostgreSQL',
+        //         'SQLite',
+        //         'Oracle SQL',
+        //         'SQL Server (Microsoft SQL Server)'
+        //       ]
+        //     }
+        //   ]
+        // }
       ]
-     }
+    }
+  ]
+  
+  }
  
 ]
 
@@ -580,7 +536,7 @@ const DataAnlyticsPage = (()=>{
 
      <CourseWeOffer cwoList={data.cwoList} cwoCourseSyllabusLink={""}/>
 
-     {/* <CourseDetail courseDetailsList={data.courseDetailsList}/> */}
+     <CourseDetail courseDetailsList={data.courseDetailsList}/>
 
      <UpcomingCourses courseSchedulelist={data.upComingCourse} courseName={data.mainBannercourseName}/>
 
@@ -592,7 +548,7 @@ const DataAnlyticsPage = (()=>{
 
      <CareerAssistant/>
 
-     <FooterNew />
+     <GreensFooter />
     </>
     )
 });

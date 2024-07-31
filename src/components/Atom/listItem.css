@@ -5,3 +5,6 @@
     -webkit-column-gap: 20px;
   }
   
+  .menu-item-content span{
+    margin-bottom: 10px;
+  }
