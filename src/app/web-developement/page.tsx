@@ -21,6 +21,7 @@ import cwoBgImg5 from "../../../public/img/learn5.png";
 import cwoBgImg6 from "../../../public/img/learn6.png";
 import CourseSyllabus from "@/components/Atom/CourseSyllabus";
 import { title } from "process";
+import GreensFooter from "@/components/Layouts/GreensFooter";
 
 const data = {
   mainBannercourseName: "Web Developement",
@@ -338,37 +339,411 @@ const data = {
     {
       courseName: "WEB DEVELOPEMENT",
       subCourseName: "SQL - Full Stack Course",
-      menuItemsData : [
+      menuItemsData: [
         {
-          title: 'Introduction to Data Engineering',
+          title: "Introduction to Databases & SQL",
           submenu: [
             {
-              title: 'What is Data Engineering & Key Concepts',
+              title: "Overview of Databases",
               submenu: [
                 {
-                  title: 'Key Concepts',
+                  title: "Key Concepts in Databases",
                   submenu: [
-                    { title: 'Data Collection' },
-                    { title: 'Data Storage' },
-                    { title: 'Data Processing' },
-                    { title: 'Data Quality & Governance' },
-                    { title: 'Scalability & Performance' },
-                    { title: 'Data Integration' },
-                    { title: 'Data Security' },
-                    { title: 'Data Architecture' },
-                    { title: 'Monitoring & Optimization' },
-                    { title: 'Collaboration & Communication' },
+                    {
+                      title:
+                        "Data, Database Management System (DBMS), Database Models, Data Independence, Database Architecture, Database Transactions, Data Integrity",
+                    },
+                  ],
+                },
+                {
+                  title: "Advantages of Using Databases",
+                  submenu: [
+                    {
+                      title:
+                        "Data Consistency, Data Security, Data Scalability, Data Recovery, Data Accessibility",
+                    },
+                  ],
+                },
+                {
+                  title: "Types of Database Users",
+                  submenu: [
+                    {
+                      title:
+                        "Database Administrators (DBAs), Database Developers, End Users",
+                    },
                   ],
                 },
               ],
             },
-            { title: 'Data Engineering vs Data Science' },
-            { 
-              title: 'Overview of Data Engineering Tools & Workflows' 
+            {
+              title: "Introduction to SQL",
+              submenu: [
+                {
+                  title: "Key Components of SQL",
+                  submenu: [
+                    {
+                      title:
+                        "DDL (Data Definition Language), DML (Data Manipulation Language), DCL (Data Control Language), TCL (Transaction Control Language)",
+                    },
+                  ],
+                },
+
+                {
+                  title: "Basic SQL Commands",
+                  submenu: [
+                    {
+                      title:
+                        "SELECT, INSERT, UPDATE, DELETE, CREATE TABLE, ALTER TABLE, DROP TABLE",
+                    },
+                  ],
+                },
+                {
+                  title: "Basic SQL Concepts",
+                  submenu: [
+                    {
+                      title:
+                        "Constraints, Joins, Indexes, Functions, Transactions",
+                    },
+                  ],
+                },
+                {
+                  title: "SQL Implementations",
+                  submenu: [
+                    {
+                      title: "SQL Variants, SQL Standards",
+                    },
+                  ],
+                },
+                {
+                  title: "Practical Applications of SQL",
+                  submenu: [
+                    {
+                      title:
+                        "Data Retrieval & Analysis, Data Manipulation, Database Management, Integration with Applications",
+                    },
+                  ],
+                },
+              ],
+            },
+            {
+              title: "SQL Standards & Variants",
+              submenu: [
+                {
+                  title: "SQL Standards",
+                  submenu: [
+                    {
+                      title:
+                        "ANSI SQL (American National Standards Institute SQL)",
+                    },
+                    {
+                      title:
+                        "ISO SQL (International Organization for Standardization SQL)",
+                    },
+                  ],
+                },
+                {
+                  title: "Popular SQL Variants",
+                  submenu: [
+                    {
+                      title:
+                        "MySQL, PostgreSQL, SQLite, Oracle SQL, SQL Server (Microsoft SQL Server)",
+                    },
+                  ],
+                },
+              ],
+            },
+            {
+              title: "Installation & Setup of Database Servers",
             },
           ],
         },
-       ]
+        {
+          title: "SQL Queries",
+          submenu: [
+            {
+              title: "SELECT Statement",
+            },
+            {
+              title: "Filtering Data (WHERE Clause)",
+            },
+            {
+              title: "Sorting Data (ORDER BY Clause)",
+            },
+            {
+              title: "Limiting Results (LIMIT and OFFSET Clauses)",
+            },
+            {
+              title: "Aggregate Functions (SUM, AVG, COUNT, MIN, MAX)",
+            },
+            {
+              title: "Grouping Data (GROUP BY Clause)",
+            },
+            {
+              title:
+                "Joins (INNER JOIN, LEFT JOIN, RIGHT JOIN, FULL OUTER JOIN)",
+            },
+          ],
+        },
+        {
+          title: "Advanced SQL Queries",
+          submenu: [
+            {
+              title: "Subqueries",
+              submenu: [
+                {
+                  title: "Types of Subqueries",
+                  submenu: [
+                    {
+                      title: "Scalar Subquery, Row Subquery, Table Subquery",
+                    },
+                  ],
+                },
+                {
+                  title: "Common Use Cases for Subqueries",
+                  submenu: [
+                    {
+                      title:
+                        "Filtering, Sorting & Limiting, Aggregation, Correlated Subqueries",
+                    },
+                  ],
+                },
+              ],
+            },
+            {
+              title: "Common Table Expressions (CTEs)",
+              submenu: [
+                {
+                  title: "Syntax of CTE",
+                },
+                {
+                  title: "Key Characteristics of CTEs",
+                  submenu: [
+                    {
+                      title:
+                        "Named Temporary Result Set, Usage in Main Query, Recursive CTEs",
+                    },
+                  ],
+                },
+                {
+                  title: "Benefits of Using CTEs",
+                  submenu: [
+                    {
+                      title:
+                        "Improves Readability, Promotes Reusability, Facilitates Recursive Queries",
+                    },
+                  ],
+                },
+                {
+                  title: "Use Cases for CTEs",
+                  submenu: [
+                    {
+                      title:
+                        "Recursive Queries, Data Transformation, Complex Aggregations",
+                    },
+                  ],
+                },
+              ],
+            },
+            {
+              title: "Window Functions",
+              submenu: [
+                {
+                  title: "Syntax of Window Functions",
+                },
+                {
+                  title: "Commonly Used Window Functions",
+                },
+                {
+                  title: "Benefits of Window Functions",
+                },
+                {
+                  title: "Use Cases for Window Functions",
+                },
+              ],
+            },
+            {
+              title: "Advanced Filtering Techniques",
+              submenu: [
+                {
+                  title:
+                    "Pattern Matching with LIKE, Regular Expressions (Regex), Range Queries, NULL & NOT NULL, Combining Conditions with AND, OR, NOT, IN & NOT IN, Subqueries, Exists & NOT Exists",
+                },
+              ],
+            },
+            {
+              title: "Derived Tables",
+              submenu: [
+                {
+                  title: "Syntax of Derived Tables",
+                },
+                {
+                  title: "Benefits of Derived Tables",
+                },
+                {
+                  title: "Use Cases for Derived Tables",
+                },
+              ],
+            },
+          ],
+        },
+
+        {
+          title: "Database Design & Normalization",
+          submenu: [
+            {
+              title: "Database Design Principles",
+            },
+            {
+              title: "Entity-Relationship (ER) Diagrams",
+            },
+            {
+              title: "Normalization (1NF, 2NF, 3NF)",
+            },
+            {
+              title: "Denormalization",
+            },
+            {
+              title: "Indexes & Performance Optimization",
+            },
+          ],
+        },
+        {
+          title: "Transactions & Concurrency Control",
+          submenu: [
+            { title: "ACID Properties" },
+            {
+              title:
+                "Transaction Management (BEGIN TRANSACTION, COMMIT, ROLLBACK)",
+            },
+            { title: "Isolation Levels & Locking Mechanisms" },
+            { title: "Deadlock Handling" },
+          ],
+        },
+        {
+          title: "Stored Procedures & Functions",
+          submenu:[
+            { title: "Creating & Calling Stored Procedures" },
+            { title: "Input & Output Parameters" },
+            { title: "Variables & Control Flow" },
+            { title: "Error Handling" },
+            { title: "Functions vs. Procedures" },
+          ]
+        },
+        {
+          title: "Triggers & Views",
+          submenu:[{
+            title:"Creating Triggers"
+          },
+          {
+            title:"Types of Triggers",
+            submenu:[{
+              title:"BEFORE, AFTER"
+            }]
+          },
+          {
+            title:"Views",
+            submenu:[{
+              title:"Simple Views, Complex Views"
+            },
+          {
+            title:"Materialized Views"
+          }
+          ]
+          }
+        ]
+
+        },
+        {
+          title: "SQL in Application Development",
+          submenu:[
+            {
+              title:"Integrating SQL with Programming Languages with Python"
+            },
+            {
+              title:"ORM (Object-Relational Mapping) Concepts"
+            },
+            {
+              title:"Executing SQL Statements in Code"
+            },
+            {
+              title:"Security Considerations"
+            }
+          ]
+        },
+        {
+          title: "NoSQL Databases",
+          submenu:[{
+            title:"Introduction to NoSQL"
+          },
+          {
+            title:"Types of NoSQL Databases",
+            submenu:[{
+              title:"Document, Key-Value, Columnar, Graph"
+            }]
+          },
+          {
+            title:"Comparison with SQL Databases"
+          },
+          {
+            title:"Using NoSQL Databases in Applications"
+          }
+        ]
+        },
+        {
+          title: "Integration with Frontend & Backend",
+          submenu:[{
+            title:"Using SQL with Backend Frameworks",
+            submenu:[{
+              title:"Node.js, Django"
+            }]
+          },
+          {
+            title:"RESTful API Design"
+          },
+          {
+            title:"Fetching & Displaying Data in Frontend",
+            submenu:[{
+              title:"React, Angular"
+            }]
+          },
+          {
+            title:"Handling Asynchronous Operations"
+          }
+        ]
+        },
+        {
+          title: "Advanced Database Topics",
+          submenu:[{
+            title:"Full-Text Search"
+          },
+        {
+          title:"JSON & XML Data Handling & Geospatial Data Handling"
+        },
+      {
+        title:"Performance Tuning & Optimization"
+      },
+      {
+        title:"Backup & Recovery Strategies"
+      }
+    ]
+        },
+        {
+          title: "Project Work",
+          submenu:[{
+            title:"Building a Complete Database-Driven Application"
+          },
+          {
+        title:"Designing Database Schema"
+      },
+      {
+        title:"Implementing SQL Queries & Stored Procedures"
+      },
+      {
+        title:"Integration with Backend & Frontend Components"
+      }
+        ]
+        },
+      ],
     },
   ],
 };
@@ -404,7 +779,7 @@ const DataAnlyticsPage = () => {
 
       <CourseWeOffer cwoList={data.cwoList} cwoCourseSyllabusLink={""} />
 
-      {/* <CourseDetail courseDetailsList={data.courseDetailsList} /> */}
+      <CourseDetail courseDetailsList={data.courseDetailsList} />
 
       <UpcomingCourses
         courseSchedulelist={data.upComingCourse}
@@ -422,7 +797,7 @@ const DataAnlyticsPage = () => {
 
       <CareerAssistant />
 
-      <FooterNew />
+      <GreensFooter />
     </>
   );
 };
