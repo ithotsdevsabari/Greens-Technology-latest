@@ -837,8 +837,8 @@
   }
   .hero-banner {
     height: 100%;
-    padding-top: 140px;
-    padding-bottom: 100px;
+    /* padding-top: 140px; */
+    /* padding-bottom: 100px; */
   }
   .hero-slider .swiper-button-prev, .hero-slider .swiper-button-next {
     display: none;
@@ -1671,7 +1671,7 @@
   }
   .it-banner {
     height: 100%;
-    padding-top: 140px;
+    /* padding-top: 140px; */
     padding-bottom: 100px;
   }
   .service-style-two .container {
