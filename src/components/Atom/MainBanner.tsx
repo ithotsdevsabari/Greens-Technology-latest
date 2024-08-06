@@ -17,11 +17,24 @@ interface SubCourse {
   subCourseLink: string;
 }
 
+interface MenuItem {
+  title: string;
+  submenu?: MenuItem[];
+}
+
+interface CourseDetails {
+  courseId: string;
+  courseName: string;
+  subCourseName: string;
+  menuItemsData: MenuItem[];
+}
+
 interface PropsInput {
   courseName: string;
   breadCrumbLink: string;
   courseList: SubCourse[];
   masterCoursePrice: string;
+  courseDetailsList: CourseDetails[];
 }
 const MainBanner: React.FC<PropsInput> = ({
   courseName = "",

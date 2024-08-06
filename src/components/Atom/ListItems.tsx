@@ -61,22 +61,24 @@ const MenuItems: React.FC<MenuItemsProps> = ({ menuItemsData }) => {
     level = 0
   ): JSX.Element => (
     <li
-      key={item.title}
+      key={`${item.title}-${index}-${level}`}
       className="menu-item"
       style={{ paddingLeft: `${level * 15}px` }}
     >
       <div className="menu-item-content">
+        {/* Display icons based on the level of nesting */}
         {level === 0 ? (
           <span>{index + 1}. </span>
-        ) : level === 2 && item.submenu ? (
-          doubleTickLogo
         ) : level === 1 ? (
           singleTickSvgLogo
+        ) : level === 2 ? (
+          doubleTickLogo
         ) : (
           rightArrow
         )}
         <span className="menu-item-title">{item.title}</span>
       </div>
+      {/* Render submenu items recursively */}
       {item.submenu && (
         <ul>
           {item.submenu.map((subItem, subIndex) =>

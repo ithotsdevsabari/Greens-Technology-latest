@@ -805,12 +805,12 @@ const DataAnlyticsPage = () => {
     <>
       <Navbar />
 
-      <MainBanner
+      {/* <MainBanner
         courseName={data.mainBannercourseName}
         breadCrumbLink={data.mainBannerBreadCrumbLink}
         courseList={data.mainBannercourseList}
         masterCoursePrice={data.mainBannermasterCoursePrice}
-      />
+      /> */}
 
       <MainBannerCta
         HandsOnTraining={data.mainBannerCtaHandsOnTraining}
