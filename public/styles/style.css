@@ -753,7 +753,7 @@ Main Banner CSS
 .hero-banner.overly-6::before {
   content: "";
   background-color: #18181b;
-  opacity: 0.6;
+  opacity: 0.3;
   position: absolute;
   left: 0;
   top: 0;

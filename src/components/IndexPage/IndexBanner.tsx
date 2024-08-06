@@ -13,7 +13,7 @@ const IndexBanner: React.FC = () => {
       <div 
         className="hero-banner overly-6"
         style={{ 
-          backgroundImage: `url(/img/Homepagepic.jpg)` 
+          backgroundImage: `url(/img/Greenshomepage_new.jpg)` 
         }}
       >
         <div className="d-table">

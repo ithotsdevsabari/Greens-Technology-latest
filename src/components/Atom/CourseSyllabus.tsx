@@ -11,7 +11,6 @@ const CourseDetail: React.FC<InputProps> = ({courseDetailsList}) => {
 console.log(courseDetailsList)
   const [toggler, setToggler] = useState(false);
   useSmoothScroll(70);
-console.log("hhhhhhhhhhh",courseDetailsList)
   return (
 	
         <section className="mb-8 py-4">
@@ -26,7 +25,7 @@ console.log("hhhhhhhhhhh",courseDetailsList)
             {
                 courseDetailsList?.map((result:any,index:number)=>{
                    return(
-                    <div id="PowerAutomateSyllabus" className="course-box shadow-box mb-5 py-5" key={""}>
+                    <div id={result.courseId} className="course-box shadow-box mb-5 py-5" key={""}>
                     <div className="row"> 
                         <h2 className="text-uppercase text-center fs-4 mb-1">{result.courseName}</h2> 
                         <h2 className="text-center fs-5"> 

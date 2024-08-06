@@ -64,6 +64,10 @@ export const menus = [
 			{
 				label: "Web Developement",
 				link: "/web-developement",
+			},
+			{
+				label: "Scrum Master",
+				link: "/scrum-master",
 			}
 		],
 	},
