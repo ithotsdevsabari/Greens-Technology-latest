@@ -19,7 +19,7 @@ import MainBanner from "@/components/IndexPage/MainBanner";
 export default function Home() {
   return (
     <>
-      <Navbar />
+      <Navbar />  
 
       <MainBanner/>
 

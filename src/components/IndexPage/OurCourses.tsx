@@ -312,9 +312,6 @@ const OurCourses: React.FC = () => {
                 style={{ display: 'flex', justifyContent: 'center', gap: '10px' }}
               >
                 <Link href={value.viewDetails} className="custom-btn">
-                  Batches
-                </Link>
-                <Link href={value.viewDetails} className="custom-btn">
                   Enroll Now
                 </Link>
               </div>

@@ -92,7 +92,7 @@ const MainBanner: React.FC = () => {
               <div className="d-table-cell">
                 <div className="container">
                   <div className="main-banner-content text-left content-max-w pt-5">
-                    <h1   data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">Start Your Global Journey Here</h1>
+                    <h1   data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">Your Pathway to Sucess Abroad</h1>
                     <p  data-aos="fade-up"
                     data-aos-duration="1000"
                     data-aos-delay="200">

@@ -2054,7 +2054,7 @@
     padding-left: 0;
   }
   .feature-list {
-    padding: 13px 10px 13px 40px;
+    /* padding: 13px 10px 13px 40px; */
     font-size: 13px;
   }
   .feature-list i {
@@ -2093,7 +2093,7 @@
     font-size: 45px;
   }
   .work-card .content h3 {
-    font-size: 22px;
+    font-size: 25px;
   }
   .cta-area-two .cta-content h3 {
     font-size: 50px;
