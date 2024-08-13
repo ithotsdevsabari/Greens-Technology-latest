@@ -14,13 +14,16 @@ import OurUpcomingBatches from "./IndexPage/OurUpcomingBatches";
 import ForCareerAssistance from "./IndexPage/ForCareerAssistance";
 import CFeedback from "./IndexPage/CFeadback";
 import StoryVision from "./IndexPage/StoryVision";
+import MainBanner from "@/components/IndexPage/MainBanner";
 
 export default function Home() {
   return (
     <>
       <Navbar />
 
-      <IndexBanner />
+      <MainBanner/>
+
+      {/* <IndexBanner /> */}
 
       <Indexthreegrid />
 

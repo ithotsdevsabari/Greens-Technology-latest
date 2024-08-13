@@ -142,64 +142,53 @@ const data = {
     {
       id: "1",
       uuid: "a",
-      question: "What are the basics required to learn DATA ANALYTICS?",
-      answer:
-        "There are no prerequisites for taking the online Data Analytics course. Basic knowledge of data analysis, statistics, and probability are beneficial to take Data Analytics online courses.",
+      question: "What are the prerequisites for enrolling in the Web Development courses?",
+      answer: "Our Web Development courses are designed to cater to learners of all levels. While no prior experience is required for the foundational courses, such as Front End Fullstack, a basic understanding of programming concepts can be helpful. For advanced courses like React JS, Node JS, and Java Fullstack, some prior knowledge of programming languages like JavaScript is recommended.",
     },
     {
       id: "2",
       uuid: "b",
-      question:
-        "Will I be helped by Greens technologies with placement after completion of course?",
-      answer:
-        "Absolutely, Greens technologies provide you with the 100% placement assistance. We teach our students by conducting group discussions and mock interviews. Apart from it, we also provide soft skill support to boost the confidence level of the students.",
+      question: "How long does it take to complete each course?",
+      answer: "The duration of each course varies depending on the subject and depth of content. Generally, our Web Development courses range from 8 to 12 weeks. This includes live instructor-led sessions, assignments, and projects.",
     },
     {
       id: "3",
       uuid: "c",
-      question:
-        "Is there an online training module that is available for this course?",
-      answer:
-        "Unquestionably, online training programs are available as well as accessible. You as a candidate have the entire liberty to choose the timings that suit you. Thus, it is highly convenient and flexible.",
+      question: "Are the courses instructor-led, or can I learn at my own pace?",
+      answer: "Our Web Development courses are live, instructor-led, ensuring real-time interaction, support, and guidance from industry experts. However, recorded sessions are available for you to review at your own pace, making it convenient for you to balance learning with other commitments.",
     },
     {
       id: "4",
       uuid: "d",
-      question: "How effective is the online training program?",
-      answer:
-        "We have hired experts who use an extensive set of online techniques and tools for making online training experience satisfying. Our instructors will set a time that is convenient for the students. In an online setting, the students can engage, view, analyze queries related to presentations, and engage with learning resources. You have to submit all assignments online within a specified time period.",
+      question: "What kind of learning resources will be provided during the courses?",
+      answer: "Throughout our Web Development courses, you will have access to a range of high-quality learning resources, including detailed course materials, interactive tutorials, and hands-on coding exercises. Our courses also provide access to recorded sessions, project templates, and a community forum where you can collaborate with peers and seek help from instructors. These resources are designed to enhance your learning experience and ensure you gain practical skills you can apply in real-world scenarios.",
     },
     {
       id: "5",
       uuid: "e",
-      question: "What is the average salary of a DATA ANALYTICS professional?",
-      answer:
-        "The DATA ANALYTICS professionals earn an average salary between $60000 to $330000 per annum in the Australia.",
+      question: "What kind of projects will I work on during the course?",
+      answer: "Each course includes hands-on projects designed to reinforce the concepts you’ve learned. For example, in the Fullstack courses, you’ll work on building complete web applications from scratch, while specialized courses like React JS or Node JS will involve projects focused on mastering those specific technologies.",
     },
     {
       id: "6",
       uuid: "f",
-      question: "Is a career in Data Analytics a good choice?",
-      answer:
-        "Skilled data analysts are some of the most important professionals in the world. Because the demand is so large, and the supply of people who can truly do this job well is so finite, data analysts get huge salaries and excellent perks, even at beginner-level.",
+      question: "Can I get help if I’m stuck on a particular topic or project?",
+      answer: "Absolutely! Our instructors are available to provide assistance during live sessions, and we also offer additional support through forums, one-on-one mentoring, and discussion groups. You won’t be alone in your learning journey.",
     },
     {
       id: "7",
       uuid: "g",
-      question:
-        "Define the roles and responsibilities of a certified DATA ANALYTICS professionals?",
-      answer:
-        "*Defining data, analyzing results using statistical techniques. Establishing and implementing data analysis, data gathering systems, and other methods that develop analytical efficiency and quality. Getting data from primary or secondary data sources and managing databases.",
+      question: "What career opportunities can I pursue after completing these courses?",
+      answer: "After completing any of our Web Development courses, you’ll be well-prepared for a variety of roles such as Front-End Developer, Fullstack Developer, Back-End Developer, Web Developer, and Software Engineer. The demand for skilled web developers is high, and our courses are designed to equip you with the necessary skills to succeed in this field.",
     },
     {
       id: "8",
       uuid: "h",
-      question:
-        "How long does it take to study and become a DATA ANALYTICS certified professional?",
-      answer:
-        "It entirely depends upon each individual's efforts, preparation strategy, and time invested. However, it will take nearly 1 month if an aspirant has an elementary knowledge and background of SQL. It will take around 2 to 3 months if an aspirant is a fresher.",
+      question: "How do I enroll in a course?",
+      answer: "Enrolling is easy! Simply visit our website, select the course you’re interested in, and follow the enrollment process. We’re here to guide you every step of the way to ensure a smooth start to your learning journey.",
     },
   ],
+  
   cwoList: [
     {
       id: "1",
