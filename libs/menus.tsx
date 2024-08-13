@@ -58,17 +58,9 @@ export const menus = [
 				link: "/cloudcomputing",
 			},
 			{
-				label: "Data Analytics",
-				link: "/Data-Analytics",
-			},
-			{
 				label: "Web Developement",
 				link: "/web-developement",
 			},
-			{
-				label: "Scrum Master",
-				link: "/scrum-master",
-			}
 		],
 	},
 	{
