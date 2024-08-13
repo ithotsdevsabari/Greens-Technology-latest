@@ -73,7 +73,11 @@ export const menus = [
 	},
 	{
 		label: "Careers",
-		link: "/",
+		link: "/careers",
+	},	
+	{
+		label: "Immigration",
+		link: "/immigration",
 	},	
 	{
 		label: "Contact Us",
