@@ -516,7 +516,14 @@ border-radius: 8px 8px 0 0;
   background-repeat: no-repeat;
   background-size: cover;
   color: white; */
-  background-color: #ECFFFB;
+  /* background-color: #ECFFFB; */
+}
+.storybg{
+  /* background-image: linear-gradient(rgba(209, 209, 209, 0.5),rgba(209, 209, 209, 0.5)),url(../images/story.png); */
+  background-image: linear-gradient(rgba(213, 253, 244, 0.5), rgba(213, 253, 244, 0.5)), url(../images/story.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 /* .strvis::before {

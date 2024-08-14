@@ -13,8 +13,9 @@ import OurTrainingExpertise from "./IndexPage/OurTrainingExpertise";
 import OurUpcomingBatches from "./IndexPage/OurUpcomingBatches";
 import ForCareerAssistance from "./IndexPage/ForCareerAssistance";
 import CFeedback from "./IndexPage/CFeadback";
-import StoryVision from "./IndexPage/StoryVision";
 import MainBanner from "@/components/IndexPage/MainBanner";
+import StoryVision from "@/components/IndexPage/StoryVision";
+import StoryVisionNew from "@/components/IndexPage/StoryVisionNew";
 
 export default function Home() {
   return (
@@ -33,7 +34,9 @@ export default function Home() {
 
       <OurUpcomingBatches />
 
-      <StoryVision/>
+      {/* <StoryVision/>   */}
+
+      <StoryVisionNew/>
 
       {/* <RecentPlacement /> */}
 

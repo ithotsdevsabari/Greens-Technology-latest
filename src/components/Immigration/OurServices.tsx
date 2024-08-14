@@ -19,7 +19,7 @@ const OurServices: React.FC = () => {
                 <div className="row">
                   <div className="col-lg-4 mb-4">
                     <div className="feature-list">
-                      <i className="fa-solid fa-award"></i>
+                      <i className="fa-solid fa-award mt-lg-2"></i>
                       Visa Consultation and Application Assistance
                     </div>
                   </div>
@@ -32,7 +32,7 @@ const OurServices: React.FC = () => {
                   </div>
                   <div className="col-lg-4 mb-4">
                     <div className="feature-list">
-                      <i className="fa-solid fa-award"></i>
+                      <i className="fa-solid fa-award mt-lg-2"></i>
                       Residency and Citizenship Applications
                     </div>
                   </div>
@@ -67,9 +67,6 @@ const OurServices: React.FC = () => {
                   </Link>
                   <p className="mt-4">Ready to embark on your new journey? Contact us to schedule a consultation. Our team is here to support you every step of the way, from the initial consultation to your successful settlement. Let us help you turn your dreams of living abroad into reality!</p>
           </div>
-
-
-                
               </div>
             </div>
           </div>
