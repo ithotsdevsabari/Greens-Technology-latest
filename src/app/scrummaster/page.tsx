@@ -5,10 +5,8 @@ import Modules from "@/components/ScrumMaster/Modules";
 import CourseDetails from "@/components/ScrumMaster/CourseDetails";
 import CourseFee from "@/components/DataAnalytics/CourseFee";
 import FaqNew from "@/components/ScrumMaster/FaqNew"; 
-import Cta from "@/components/ScrumMaster/Cta";
 import ProjectPortfolio from "@/components/DataAnalytics/ProjectPortfolio";
 import MeetTheTeam from "@/components/DataAnalytics/MeetTheTeam";
-import BookFreeDemo from "@/components/ScrumMaster/BookFreeDemo";
 import Features from "@/components/DataAnalytics/Features";
 import CareerAsst from "@/components/ScrumMaster/CareerAsst";
 import FooterNew from "@/components/Layouts/FooterNew";
@@ -17,6 +15,8 @@ import CaseStudies from "@/components/DataAnalytics/CaseStudies";
 import Chart from "@/components/ScrumMaster/Chart";
 import Disclaimer from "@/components/ScrumMaster/Disclaimer";
 import CareerAssest from "@/components/Common/CareerAssest";
+import Cta from "@/components/Atom/Cta";
+import BookFreeDemo from "@/components/Atom/BookFreeDmo";
 // import CaseStudies from "../../components/HomePages/StartupAgency/CaseStudies";
 
 export default function Home() {

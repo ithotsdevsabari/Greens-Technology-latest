@@ -5,10 +5,8 @@ import Modules from "@/components/DataAnalytics/Modules";
 import CourseDetails from "@/components/DataAnalytics/CourseDetails";
 import CourseFee from "@/components/DataAnalytics/CourseFee";
 import FaqNew from "@/components/DataAnalytics/FaqNew"; 
-import Cta from "@/components/DataAnalytics/Cta";
 import ProjectPortfolio from "@/components/DataAnalytics/ProjectPortfolio";
 import MeetTheTeam from "@/components/DataAnalytics/MeetTheTeam";
-import BookFreeDemo from "@/components/DataAnalytics/BookFreeDemo";
 import Features from "@/components/DataAnalytics/Features";
 import CareerAsst from "@/components/DataAnalytics/CareerAsst";
 import FooterNew from "@/components/Layouts/FooterNew";
@@ -17,6 +15,9 @@ import CaseStudies from "@/components/DataAnalytics/CaseStudies";
 import Chart from "@/components/DataAnalytics/Chart";
 import Disclaimer from "@/components/DataAnalytics/Disclaimer";
 import CareerAssest from "@/components/Common/CareerAssest";
+import Cta from "@/components/Atom/Cta";
+import BookFreeDemo from "@/components/Atom/BookFreeDmo";
+import GreensFooter from "@/components/Layouts/GreensFooter";
 // import CaseStudies from "../../components/HomePages/StartupAgency/CaseStudies";
 
 export default function Home() {
@@ -49,7 +50,7 @@ export default function Home() {
       {/* <CareerAsst /> */}
       <CareerAssest />
 
-      <FooterNew />
+      <GreensFooter />
       
     </>
   );

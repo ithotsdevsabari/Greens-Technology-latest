@@ -5,10 +5,6 @@ import Modules from "@/components/Microsoft/Modules";
 
 import CourseFee from "@/components/DataAnalytics/CourseFee";
 import FaqNew from "@/components/Microsoft/FaqNew"; 
-import Cta from "@/components/Microsoft/Cta";
-import ProjectPortfolio from "@/components/DataAnalytics/ProjectPortfolio";
-import MeetTheTeam from "@/components/DataAnalytics/MeetTheTeam";
-import BookFreeDemo from "@/components/Microsoft/BookFreeDemo";
 import Features from "@/components/DataAnalytics/Features";
 import CareerAsst from "@/components/Microsoft/CareerAsst";
 import FooterNew from "@/components/Layouts/FooterNew";
@@ -19,6 +15,9 @@ import Disclaimer from "@/components/Microsoft/Disclaimer";
 import SpecialOffer from "@/components/Microsoft/SpecialOffer";
 import CareerAssest from "@/components/Common/CareerAssest";
 import CourseDetails from "@/components/Microsoft/CourseDetails";
+import Cta from "@/components/Atom/Cta";
+import BookFreeDemo from "@/components/Atom/BookFreeDmo";
+import GreensFooter from "@/components/Layouts/GreensFooter";
 
 // import CaseStudies from "../../components/HomePages/StartupAgency/CaseStudies";
 
@@ -54,7 +53,7 @@ export default function Home() {
       {/* <CareerAsst /> */}
       <CareerAssest />
 
-      <FooterNew />
+      <GreensFooter />
    
     </>
   );

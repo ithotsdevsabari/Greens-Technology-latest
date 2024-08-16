@@ -5,18 +5,15 @@ import Modules from "@/components/CloudComputing/Modules";
 import CourseDetails from "@/components/CloudComputing/CourseDetails";
 import CourseFee from "@/components/CloudComputing/CourseFee";
 import FaqNew from "@/components/CloudComputing/FaqNew"; 
-import Cta from "@/components/CloudComputing/Cta";
-import ProjectPortfolio from "@/components/CloudComputing/ProjectPortfolio";
-import MeetTheTeam from "@/components/CloudComputing/MeetTheTeam";
-import BookFreeDemo from "@/components/CloudComputing/BookFreeDemo";
-import Features from "@/components/CloudComputing/Features";
-// import CareerAsst from "@/components/CloudComputing/CareerAsst";
 import CareerAssest from "@/components/Common/CareerAssest";
 import FooterNew from "@/components/Layouts/FooterNew";
 import TrainingProgram from "@/components/CloudComputing/TrainingProgram";
 import CaseStudies from "@/components/CloudComputing/CaseStudies";
 import Chart from "@/components/CloudComputing/Chart";
 import Disclaimer from "@/components/CloudComputing/Disclaimer";
+import Cta from "@/components/Atom/Cta";
+import BookFreeDemo from "@/components/Atom/BookFreeDmo";
+import GreensFooter from "@/components/Layouts/GreensFooter";
 
 // import CaseStudies from "../../components/HomePages/StartupAgency/CaseStudies";
 
@@ -51,7 +48,7 @@ export default function Home() {
 
       <CareerAssest />
 
-      <FooterNew />
+      <GreensFooter/>
       
     </>
   );

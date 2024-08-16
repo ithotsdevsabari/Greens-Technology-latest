@@ -22,6 +22,7 @@ import cwoBgImg6 from "../../../public/img/learn6.png";
 import CourseSyllabus from "@/components/Atom/CourseSyllabus";
 import { title } from "process";
 import GreensFooter from "@/components/Layouts/GreensFooter";
+import Disclaimer from "@/components/CloudComputing/Disclaimer";
 
 const data = {
   mainBannercourseName: "Web Developement",
@@ -2734,7 +2735,7 @@ const DataAnlyticsPage = () => {
         courseSchedulelist={data.upComingCourse}
         courseName={data.mainBannercourseName}
       />
-
+<Disclaimer />
       <FaqList faqList={data.faqList} />
 
       <AluminiFeedBack
