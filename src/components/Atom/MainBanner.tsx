@@ -204,12 +204,6 @@ const MainBanner: React.FC<PropsInput> = ({
                       </div>
 
                       <div className="">
-                        <p>
-                          Master Course Price at:{" "}
-                          <span className="text-green-mid">
-                            ${masterCoursePrice}
-                          </span>
-                        </p>
                         <Link
                           href=""
                           className="button-def button-3 mx-2 ms-lg-0"

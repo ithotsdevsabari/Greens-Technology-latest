@@ -29,45 +29,45 @@ const data = {
   mainBannercourseList: [
     {
       id: "1",
-      subCourseName: "Front End Fullstack",
-      subCoursePrice: "395",
+      subCourseName: "Front End Full Stack",
+      subCoursePrice: "795",
       subCourseLink: "PowerAutomateSyllabus",
     },
     {
       id: "2",
       subCourseName: "React JS",
-      subCoursePrice: "395",
+      subCoursePrice: "795",
       subCourseLink: "PowerAutomateSyllabus",
     },
     {
       id: "3",
       subCourseName: "Node JS",
-      subCoursePrice: "495",
+      subCoursePrice: "795",
       subCourseLink: "#SQLCourseSyllabus",
     },
     {
       id: "4",
-      subCourseName: "Java Fullstack",
-      subCoursePrice: "495",
+      subCourseName: "Java Full Stack",
+      subCoursePrice: "995",
       subCourseLink: "#TableauCourseSyllabus",
     },
     {
       id: "5",
-      subCourseName: "Python Fullstack",
-      subCoursePrice: "495",
+      subCourseName: "Python Full Stack",
+      subCoursePrice: "795",
       subCourseLink: "#PowerBICourseSyllabus",
     },
     {
       id: "6",
-      subCourseName: "SQL FUllstack",
-      subCoursePrice: "550",
+      subCourseName: "SQL Full Stack",
+      subCoursePrice: "995",
       subCourseLink: "#PythonCourseSyllabus",
     },
   ],
   mainBannermasterCoursePrice: "1995",
-  mainBannerCtaHandsOnTraining: "90",
-  mainBannerCtaHandsonTrainingProject: "2",
-  mainBannerCtaPracticalAssignment: "50",
+  mainBannerCtaHandsOnTraining: "30",
+  mainBannerCtaHandsonTrainingProject: "1",
+  mainBannerCtaPracticalAssignment: "8",
   chartgraphCourseName: "Data Analytics",
   chartJobCount: "9000",
   chartImageUrl: cta_img,
@@ -77,27 +77,27 @@ const data = {
     {
       id: "1",
       courseDate: "Sat 15 Jun 24",
-      courseName: "Data Analytics Master 1",
+      courseName: "Front End Full Stack",
     },
     {
       id: "2",
       courseDate: "Sun 16 Jun 24",
-      courseName: "Data Analytics Master 2",
+      courseName: "React JS",
     },
     {
       id: "3",
       courseDate: "Mon 17 Jun 24",
-      courseName: "Power BI",
+      courseName: "Node JS",
     },
     {
       id: "4",
       courseDate: "Tue 18 Jun 24",
-      courseName: "Python",
+      courseName: "Python Full Stack",
     },
     {
       id: "5",
       courseDate: "Fri 19 Jun 24",
-      courseName: "Power Automation",
+      courseName: "Java Full Stack",
     },
   ],
   aluminiFeedbackData: [
@@ -138,6 +138,8 @@ const data = {
       rating: 5,
     },
   ],
+
+  
   faqList: [
     {
       id: "1",
@@ -193,15 +195,15 @@ const data = {
     {
       id: "1",
       cwoCourseBgImage: cwoBgImg1,
-      cwoCourseName: "POWER AUTOMATE",
+      cwoCourseName: "Front End Full Stack",
       descriptionList: [
         {
           id: "1",
-          listName: "Duration: 10 Hours + Placement Training",
+          listName: "Duration: 30 Hours + Placement Training",
         },
         {
           id: "2",
-          listName: "Fees: $395",
+          listName: "Fees: $795",
         },
         {
           id: "3",
@@ -212,15 +214,15 @@ const data = {
     {
       id: "2",
       cwoCourseBgImage: cwoBgImg2,
-      cwoCourseName: "POWER APPS",
+      cwoCourseName: "React JS",
       descriptionList: [
         {
           id: "1",
-          listName: "Duration: 15 Hours + Placement Training",
+          listName: "Duration: 30 Hours + Placement Training",
         },
         {
           id: "2",
-          listName: "Fees: $495",
+          listName: "Fees: $795",
         },
         {
           id: "3",
@@ -231,15 +233,15 @@ const data = {
     {
       id: "3",
       cwoCourseBgImage: cwoBgImg3,
-      cwoCourseName: "SQL",
+      cwoCourseName: "Node JS",
       descriptionList: [
         {
           id: "1",
-          listName: "Duration: 15 Hours + Placement Training",
+          listName: "Duration: 30 Hours + Placement Training",
         },
         {
           id: "2",
-          listName: "Fees: $495",
+          listName: "Fees: $795",
         },
         {
           id: "3",
@@ -250,15 +252,15 @@ const data = {
     {
       id: "4",
       cwoCourseBgImage: cwoBgImg4,
-      cwoCourseName: "TABLEAU",
+      cwoCourseName: "Java Full Stack",
       descriptionList: [
         {
           id: "1",
-          listName: "Duration: 15 Hours + Placement Training",
+          listName: "Duration: 70 Hours + Placement Training",
         },
         {
           id: "2",
-          listName: "Fees: $495",
+          listName: "Fees: $995",
         },
         {
           id: "3",
@@ -269,15 +271,15 @@ const data = {
     {
       id: "5",
       cwoCourseBgImage: cwoBgImg5,
-      cwoCourseName: "POWER BI",
+      cwoCourseName: "Python Full Stack",
       descriptionList: [
         {
           id: "1",
-          listName: "Duration: 15 Hours + Placement Training",
+          listName: "Duration: 30 Hours + Placement Training",
         },
         {
           id: "2",
-          listName: "Fees: $495",
+          listName: "Fees: $795",
         },
         {
           id: "3",
@@ -288,41 +290,22 @@ const data = {
     {
       id: "6",
       cwoCourseBgImage: cwoBgImg6,
-      cwoCourseName: "PYTHON",
+      cwoCourseName: "SQL Full Stack",
       descriptionList: [
         {
           id: "1",
-          listName: "Duration: 20 Hours + Placement Training",
+          listName: "Duration: 70 Hours + Placement Training",
         },
         {
           id: "2",
-          listName: "Fees: $550",
+          listName: "Fees: $995",
         },
         {
           id: "3",
           listName: "Mode: ONLINE, LIVE, INSTRUCTOR-LED.",
         },
       ],
-    },
-    {
-      id: "7",
-      cwoCourseBgImage: cwoBgImg1,
-      cwoCourseName: "COMBO 1",
-      descriptionList: [
-        {
-          id: "1",
-          listName: "Duration: 20 Hours + Placement Training",
-        },
-        {
-          id: "2",
-          listName: "Fees: $550",
-        },
-        {
-          id: "3",
-          listName: "Mode: ONLINE, LIVE, INSTRUCTOR-LED.",
-        },
-      ],
-    },
+    },  
   ],
   courseDetailsList: [
     // Front end fullstack - Course

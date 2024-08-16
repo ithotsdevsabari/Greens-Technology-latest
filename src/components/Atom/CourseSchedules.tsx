@@ -35,32 +35,32 @@ const UpcomingCourses: React.FC<InputProps> = ({
                 </h2>
                 <ul className="responsive-table pl-0">
                   <li className="table-header">
-                    <div className="col col-01">Date</div>
-                    <div className="col col-02">Course</div>
-                    <div className="col col-03">AWST</div>
-                    <div className="col col-03">EST</div>
-                    <div className="col col-04">Status</div>
-                    <div className="col col-05">Booking</div>
+                    {/* <div className="col col-01">Date</div> */}
+                    <div className="col col-01">Course</div>
+                    {/* <div className="col col-03">AWST</div> */}
+                    {/* <div className="col col-03">EST</div> */}
+                    <div className="col col-02">Status</div>
+                    <div className="col col-03">Booking</div>
                   </li>
                   {courseSchedulelist?.map((result, index) => {
                     return (
                       <li className="table-row" key={result.id}>
-                        <div className="col col-01" data-label="Date">
+                        {/* <div className="col col-01" data-label="Date">
                           {result.courseDate}
-                        </div>
-                        <div className="col col-02" data-label="Course">
+                        </div> */}
+                        <div className="col col-01" data-label="Course">
                           {result.courseName}
                         </div>
-                        <div className="col col-03" data-label="City">
+                        {/* <div className="col col-03" data-label="City">
                           AWST
-                        </div>
-                        <div className="col col-03" data-label="City">
+                        </div> */}
+                        {/* <div className="col col-03" data-label="City">
                           EST
-                        </div>
-                        <div className="col col-04" data-label="Status">
+                        </div> */}
+                        <div className="col col-02" data-label="Status">
                           Confirmed
                         </div>
-                        <div className="col col-05" data-label="Booking">
+                        <div className="col col-03" data-label="Booking">
                           <Link className="fs-regular text-green-mid" href="#">
                             Book Now
                           </Link>

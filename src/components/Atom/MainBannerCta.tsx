@@ -42,7 +42,7 @@ const MainBannerCta:React.FC <InputProps> = (({HandsOnTraining="",HandsonTrainin
                                           {HandsonTrainingProject} Live
                                           </h2>                                      
                                         </span>                            
-                                        <h2 className="d-block mt-2 fs-4">Handson Training Project</h2>
+                                        <h2 className="d-block mt-2 fs-4">Projects for Hands-on Learning</h2>
                                       </div>                                                                
                                     </li>
                                 </ul>
@@ -57,10 +57,10 @@ const MainBannerCta:React.FC <InputProps> = (({HandsOnTraining="",HandsonTrainin
                                         <span className="d-block me-2 ">
                                           <h2 className=" fs-5-0 mb-3 text-grad fw-semibold "
                                             >
-                                            {PracticalAssignment}Hrs
+                                            {PracticalAssignment}+
                                           </h2>                                      
                                         </span>                            
-                                        <h2 className="d-block mt-2 fs-4"> Practical Assignment </h2>
+                                        <h2 className="d-block mt-2 fs-4"> Learning Modules </h2>
                                       </div>                                                                
                                     </li>
                                 </ul>
