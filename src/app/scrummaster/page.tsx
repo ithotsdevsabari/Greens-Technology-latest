@@ -17,6 +17,7 @@ import Disclaimer from "@/components/ScrumMaster/Disclaimer";
 import CareerAssest from "@/components/Common/CareerAssest";
 import Cta from "@/components/Atom/Cta";
 import BookFreeDemo from "@/components/Atom/BookFreeDmo";
+import GreensFooter from "@/components/Layouts/GreensFooter";
 // import CaseStudies from "../../components/HomePages/StartupAgency/CaseStudies";
 
 export default function Home() {
@@ -48,7 +49,7 @@ export default function Home() {
       {/* <CareerAsst /> */}
       <CareerAssest />
 
-      <FooterNew />
+      <GreensFooter />
    
     </>
   );
