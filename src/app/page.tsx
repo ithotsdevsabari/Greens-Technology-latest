@@ -10,12 +10,12 @@ import GreensFooter from "@/components/Layouts/GreensFooter";
 import NewCTA from "./IndexPage/NewCTA";
 import Indexthreegrid from "./IndexPage/Indexthreegrid";
 import OurTrainingExpertise from "./IndexPage/OurTrainingExpertise";
-import OurUpcomingBatches from "./IndexPage/OurUpcomingBatches";
 import ForCareerAssistance from "./IndexPage/ForCareerAssistance";
 import CFeedback from "./IndexPage/CFeadback";
 import MainBanner from "@/components/IndexPage/MainBanner";
 import StoryVision from "@/components/IndexPage/StoryVision";
 import StoryVisionNew from "@/components/IndexPage/StoryVisionNew";
+import OurUpcomingBatches from "@/components/IndexPage/OurUpcomingBatches";
 
 export default function Home() {
   return (
@@ -32,7 +32,7 @@ export default function Home() {
 
       <OurTrainingExpertise />
 
-      <OurUpcomingBatches />
+      <OurUpcomingBatches/>
 
       {/* <StoryVision/>   */}
 

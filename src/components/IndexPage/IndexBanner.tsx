@@ -10,7 +10,7 @@ const IndexBanner: React.FC = () => {
   const images = [
     "/img/Greenshomepage_new.jpg",
     "/img/Greenshomepage_new_2.jpg", // Add your second image
-    "/img/Greenshomepage_new_3.jpeg", // Add your third image
+    "/img/Greenshomepage_new_3.jpeg", // Add your third image 
   ];
 
   const settings = {
