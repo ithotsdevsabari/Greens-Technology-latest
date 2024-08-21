@@ -10,7 +10,7 @@ const GreensFooter: React.FC = () => {
   const currentYear = new Date().getFullYear();
   return (
 
-      <footer className="footer-area pt-5">
+      <footer className="footer-area pt-6">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-3 col-sm-6">
@@ -29,7 +29,7 @@ const GreensFooter: React.FC = () => {
                 </div>
 
                 <p>
-                Greens Technology is the best IT Training Institutes in Chennai Adyar, OMR, Velachery, Tambaram with placements, offering 200 and more software courses with 100% Placement Assistance.
+                Greens Technologies has proudly expanded to Australia, now offering premier online software training in Perth. With over 17 branches across India, the US, and Australia, we bring 15 years of excellence to more than 50,000 learners.
                 </p>
 
                 <ul className="social-links">
@@ -65,38 +65,28 @@ const GreensFooter: React.FC = () => {
 
                 <ul className="list">
                   <li>
-                    <Link href="#">
-                      Full Stack Development
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="#">
-                      Front End
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="#">
-                      Back End
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="#">
-                      UI UX Designer
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="#">
-                    Digital Marketing
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="#">
+                    <Link href="/dataanalytics">
                     Data Analytics
                     </Link>
                   </li>
                   <li>
-                    <Link href="#">
-                    MERN Stack
+                    <Link href="/scrummaster">
+                    Scrum Master
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/microsoft">
+                    Microsoft 365
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/cloudcomputing">
+                    Cloud Computing
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/web-developement">
+                    Web Developement
                     </Link>
                   </li>
                 </ul>
@@ -112,25 +102,25 @@ const GreensFooter: React.FC = () => {
 
                 <ul className="list">
                   <li>
-                    <Link href="#">
+                    <Link href="/">
                       Home
                     </Link>
                   </li>
-               
-                  <li>
-                    <Link href="#">
-                      Courses
-                    </Link>
-                  </li>
               
                   <li>
-                    <Link href="#">
+                    <Link href="/careers">
                       Careers
                     </Link>
                   </li>
+
+                  <li>
+                    <Link href="/immigration">
+                      Immigration
+                    </Link>
+                  </li>
               
                   <li>
-                    <Link href="#">
+                    <Link href="/contact-us">
                       Contact Us
                     </Link>
                   </li>
@@ -148,13 +138,14 @@ const GreensFooter: React.FC = () => {
                   <li>
                     <div>
                     <i className="fa-solid fa-location-dot"></i>
-                    <a href=" https://maps.app.goo.gl/YjbBa9m2btWXKqF6A">4/10,Tyre Avenue Riverton 6148 Western Australia.</a>
+                    <a href="https://maps.app.goo.gl/GFUQ1iUwSELWvrgf7" target="_blank">Unit 4/10 Tyre Ave, Riverton Western Australia 6148</a>
                     </div>
                   </li>
                   <li>
                   <div>
-                    <i className="fa-solid fa-headset"></i>
-                    <a href="tel:+91 8939915572">+91 8939915572</a> 
+                    <i className="fa-solid fa-phone"></i>
+                    <a href="tel:08 6386 9232">08 6386 9232</a> <br />
+                    <a href="tel:0423 737 907">0423 737 907</a>
                     </div>
                   </li>
                   <li>

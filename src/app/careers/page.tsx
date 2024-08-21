@@ -1,3 +1,4 @@
+
 import CareersBanner from "@/components/Careers/CareersBanner";
 import Educators from "@/components/Careers/Educators";
 import WhyUs from "@/components/Careers/WhyUs";
@@ -17,6 +18,7 @@ export default function Careers() {
       <Educators/>
 
       <GreensFooter/>
+
     </>
   );
 }

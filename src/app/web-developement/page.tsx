@@ -2746,9 +2746,10 @@ const DataAnlyticsPage = () => {
 
       <Cta />
 
-      <CareerAssistant />
+      <CareerAssistant/>
 
       <GreensFooter />
+
     </>
   );
 };

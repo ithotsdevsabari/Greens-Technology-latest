@@ -12,7 +12,7 @@ const CareerAssistant: React.FC = () => {
           <div className="mb-4">
             <h2 className="text-center fs--2">
               <span className="d-block text-grad mb-2">
-                For Career Assistance{" "}
+                For Career Assistance
               </span>
               <span className="d-block ">
                 Talk to our Experts. We are available 24/7.
@@ -21,20 +21,36 @@ const CareerAssistant: React.FC = () => {
 
             <div className="text-center mt-5 mb-10 ">
               <div className="fs-1 fw-semibold text-grad phone_no">
+              <a href="tel:08 6386 9232">
                 <span className="me-3">
                   <Image
                     src={phoneIcon}
-                    alt="add"
+                    alt="contact"
                     className="ms-auto"
-                    width={40}
+                    width={35}
+                    height={20}
+                  />
+                </span>
+                <span>08 6386 9232</span></a>
+              </div>
+              <div className="fs-1 fw-semibold text-grad phone_no mt-4">
+              <a href="tel:0423 737 907">
+                <span className="me-3">
+                  <Image
+                    src={phoneIcon}
+                    alt="contact"
+                    className="ms-auto"
+                    width={35}
                     height={20}
                   />
                 </span>
                 <span>0423 737 907</span>
+                </a>
               </div>
+              
             </div>
 
-            <div className="course-box shadow-box mb-3 mt-5 address">
+            {/* <div className="course-box shadow-box mb-3 mt-5 address">
               <h4 className="text-center fs-4">
                 <span className="d-block text-grad mb-2">
                   {" "}
@@ -52,7 +68,7 @@ const CareerAssistant: React.FC = () => {
                   Australia.
                 </span>
               </p>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

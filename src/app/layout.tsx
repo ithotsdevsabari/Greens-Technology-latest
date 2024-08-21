@@ -38,6 +38,7 @@ import AosAnimation from "@/components/Layouts/AosAnimation";
 import GoTop from "@/components/Layouts/GoTop";
 
 import "../../public/styles/greens.css";
+import WhatsappConfiguration from "@/components/Atom/WhatsappConfiguration";
 
 // For all body text font
 const inter = Inter({
@@ -70,6 +71,8 @@ export default function RootLayout({
         {children}
 
         <AosAnimation />
+
+        <WhatsappConfiguration/>
 
         <GoTop />
       </body>

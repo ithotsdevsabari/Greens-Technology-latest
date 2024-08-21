@@ -14,6 +14,7 @@ import Disclaimer from "@/components/CloudComputing/Disclaimer";
 import Cta from "@/components/Atom/Cta";
 import BookFreeDemo from "@/components/Atom/BookFreeDmo";
 import GreensFooter from "@/components/Layouts/GreensFooter";
+import CareerAssistant from "@/components/Atom/CareerAssistant";
 
 // import CaseStudies from "../../components/HomePages/StartupAgency/CaseStudies";
 
@@ -46,7 +47,7 @@ export default function Home() {
 
       <Cta/>
 
-      <CareerAssest />
+      <CareerAssistant/>
 
       <GreensFooter/>
       
