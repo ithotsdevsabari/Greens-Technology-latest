@@ -610,3 +610,20 @@ border-radius: 8px 8px 0 0;
   transform: translate(0, 0)
   }
   }
+
+
+  .single-footer-widget ul.list li {
+    /* margin-bottom: 12px; */
+    width: 100% !important;
+  }
+
+  @media screen and (max-width: 767px) {
+    .single-footer-widget ul.get-in-touch li i {
+      top: 10px !important;
+      width: 30px;
+      height: 30px;
+      line-height: 30px;
+    }
+  }
+  
+ 
