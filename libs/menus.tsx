@@ -73,7 +73,7 @@ export const menus = [
 	},	
 	{
 		label: "Contact Us",
-		link: "/",
+		link: "/contact-us",
 	},
 //   {
 // 		label: "Portfolio",
