@@ -136,7 +136,7 @@ const GreensFooter: React.FC = () => {
 
                 <ul className="get-in-touch">
                   <li>
-                    <div>
+                    <div className="">
                     <i className="fa-solid fa-location-dot"></i>
                     <a href="https://maps.app.goo.gl/GFUQ1iUwSELWvrgf7" target="_blank">Unit 4/10 Tyre Ave, Riverton Western Australia 6148</a>
                     </div>

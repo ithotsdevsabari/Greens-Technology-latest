@@ -35,32 +35,11 @@ export default function Page() {
       <AboutCounter/> 
 
       <AboutGreentech />
-
-      {/* <AboutOMR/>
-
-      <AboutTambaram/>
-
-      <AboutVelachery/> */}
-
       
       <Cta/>
 
-      {/* <PageBanner pageTitle="About Us" BGImage="/images/page-banner1.jpg" /> */}
-
-      
-      {/* <FunFactsTwo />
-
-      <TeamStyleThree />
-
-      <Feedback />
-
-      <Partner />
-
-      <CtaAreaTwo />*/}
-
       <GreensFooter/>
 
-      
     </>
   );
 }
