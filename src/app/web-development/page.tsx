@@ -26,7 +26,7 @@ import webDev from "../../../public/images/webdevgraph.jpeg";
 import GreensFooter from "@/components/Layouts/GreensFooter";
 
 const data = {
-  mainBannercourseName: "Web Developement",
+  mainBannercourseName: "Web Development",
   mainBannerBreadCrumbLink: "",
   mainBannercourseList: [
     {
@@ -313,7 +313,7 @@ const data = {
     // Front end fullstack - Course
     {
       courseId:"frontend-fullstack",
-      courseName: "WEB DEVELOPEMENT",
+      courseName: "WEB DEVELOPMENT",
       subCourseName: "Front End Full Stack (HTML, CSS, JavaScript)",
       menuItemsData: [
         {
@@ -642,7 +642,7 @@ const data = {
     // React js - Course
     {
       courseId:"react-JS",
-      courseName: "WEB DEVELOPEMENT",
+      courseName: "WEB DEVELOPMENT",
       subCourseName: "React JS",
       menuItemsData: [
         {
@@ -1153,7 +1153,7 @@ const data = {
 
     {
       courseId:"node-JS",
-      courseName: "WEB DEVELOPEMENT",
+      courseName: "WEB DEVELOPMENT",
       subCourseName: "Node JS",
       menuItemsData: [
         {
@@ -1583,7 +1583,7 @@ const data = {
     // Java - Full Stack Course
     {
       courseId:"Java-fullstack",
-      courseName: "WEB DEVELOPEMENT",
+      courseName: "WEB DEVELOPMENT",
       subCourseName: "Java Full Stack",
       menuItemsData: [
         {
@@ -1930,7 +1930,7 @@ const data = {
     // Python - Full Stack Course
     {
       courseId:"python-fullstack",
-      courseName: "WEB DEVELOPEMENT",
+      courseName: "WEB DEVELOPMENT",
       subCourseName: "Python Full Stack",
       menuItemsData: [
         {
@@ -2274,7 +2274,7 @@ const data = {
 
     {
       courseId:"SQL-fullstack",
-      courseName: "WEB DEVELOPEMENT",
+      courseName: "WEB DEVELOPMENT",
       subCourseName: "SQL - Full Stack Course",
       menuItemsData: [
         {

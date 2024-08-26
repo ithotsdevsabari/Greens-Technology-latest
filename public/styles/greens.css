@@ -196,7 +196,7 @@ border-radius: 0px 20px 20px 0px;
 /* Home Page */
 
 .content-max-w{
-  max-width: 900px;
+  max-width: 850px;
   text-align: left;
 }
 
@@ -397,7 +397,7 @@ border-radius: 8px 8px 0 0;
 
 /* contact > map */
 .map-container{
-  background-color: #F6F3F3;
+  background-color: #063732;
 }
 
 /* imdex > table */
@@ -520,10 +520,16 @@ border-radius: 8px 8px 0 0;
 }
 .storybg{
   /* background-image: linear-gradient(rgba(209, 209, 209, 0.5),rgba(209, 209, 209, 0.5)),url(../images/story.png); */
-  background-image: linear-gradient(rgba(213, 253, 244, 0.5), rgba(213, 253, 244, 0.5)), url(../images/new-story.jpg);
+  background-image: linear-gradient(rgba(213, 253, 244, 0.5), rgba(213, 253, 244, 0.5)), url(../images/story.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
+}
+.light_g_bg{
+  /* background-image: linear-gradient(rgba(213, 253, 244, 0.5), rgba(213, 253, 244, 0.5)); */
+  /* background-image: linear-gradient(45deg, #e8f9f4 0%, #dff7ef 50%, #e8f9f4 100%); */
+  background-image: linear-gradient(45deg, rgba(213, 253, 244, 1) 0%, rgba(213, 253, 244, 1) 100%);
+
 }
 
 /* .strvis::before {

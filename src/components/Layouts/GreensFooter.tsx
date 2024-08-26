@@ -29,7 +29,7 @@ const GreensFooter: React.FC = () => {
                 </div>
 
                 <p>
-                Greens Technologies has proudly expanded to Australia, now offering premier online software training in Perth. With over 17 branches across India, the US, and Australia, we bring 15 years of excellence to more than 50,000 learners.
+                <strong>Greens Technologies</strong> offers premier online software training across <strong>17+ Global branches</strong>. With <strong>15 Years of Experience</strong>, we empower learners worldwide in cutting-edge fields like Data Analytics, Cloud Computing, and more.
                 </p>
 
                 <ul className="social-links">
@@ -51,6 +51,16 @@ const GreensFooter: React.FC = () => {
                   <li>
                     <a href="https://www.instagram.com/greenstechnologiesaustralia?igsh=ZXo4aTNjdTVvaXN1" target="_blank">
                       <i className="fa-brands fa-instagram"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://x.com/ESomalinga76840" target="_blank">
+                      <i className="fa-brands fa-twitter"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.tiktok.com/@greenstechnologiesaus" target="_blank">
+                      <i className="fa-brands fa-tiktok"></i>
                     </a>
                   </li>
                 </ul>
@@ -85,8 +95,8 @@ const GreensFooter: React.FC = () => {
                     </Link>
                   </li>
                   <li>
-                    <Link href="/web-developement">
-                    Web Developement
+                    <Link href="/web-development">
+                    Web Development
                     </Link>
                   </li>
                 </ul>
@@ -151,7 +161,7 @@ const GreensFooter: React.FC = () => {
                   <li>
                   <div>
                     <i className="fa-solid fa-envelope"></i>
-                    <a href="mailto:contact@greenstechnologys.com">contact@greenstechnologys.com</a>
+                    <a href="mailto:admin@greenstechnologies.com">admin@greenstechnologies.com</a>
                     </div>
                   </li>
                 </ul>

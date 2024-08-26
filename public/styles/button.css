@@ -153,8 +153,9 @@ a:focus-visible {
 }
 .button-3::before, .button-3-white::before {
     content: '';
-    background:#063732;
+    /* background:#063732; */
     /* background: linear-gradient(138deg, rgba(11,120,109,1) 0%, rgba(15,221,200,1) 100%); */
+    background-image: linear-gradient(45deg, #c08a43 0%, #dec372 99%, #dec372 100%);
     width: 120%;
     left: -10%;
     transform: skew(30deg);

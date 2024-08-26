@@ -13,11 +13,11 @@ const ForCareerAssistance = () => {
       <div className="container">
         <div className="section-title mb-0">
           <h2 className="text-center green-tx h_font_size fw-semibold  ">
-            For Career Assistance
+          Need Career Assistance? 
           </h2>
         </div>
         <h3 className="text-center fs-1 ">
-          Talk to our Experts. We are available 24/7.
+        Our Experts Are Available 24/7 !
         </h3>
 
         <div className="contact-num-box pt-5">
@@ -58,7 +58,7 @@ const ForCareerAssistance = () => {
               >
                 <div className="d-flex align-items-center gap-3 border-rds px-4 py-2">
                   <Image src={phoneIcon} alt="india" className="" width={30} />
-                  <h5 className="mb-0 fs-3">0423 737 907</h5>
+                  <h5 className="mb-0 fs-3 pe-4">0423 737 907</h5>
                 </div>
               </Link>
             </div>

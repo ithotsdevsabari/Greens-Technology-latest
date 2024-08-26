@@ -237,9 +237,8 @@ const OurCourses: React.FC = () => {
       <section className="case-studies-area ptb-100">
         <div className="container-fluid">
           <div className="section-title pb-2">
-            <h2 className="text-center h_font_size fw-semibold">Discover <span className="green-tx">Our Courses</span></h2>
-            <p className="fs-4 font_col res_txt">
-            Explore 50+ Courses with new course additions every month, available in
+            <h2 className="text-center h_font_size fw-semibold">Explore Our <span className="green-tx">Wide Range of Courses</span></h2>
+            <p className="fs-4 font_col res_txt">50+ Courses with new course additions monthly, available in
             </p>
             <div className="d-flex justify-content-center gap-3 pt-3">
             <strong className="fs-4 gold-grad">English</strong>
@@ -247,8 +246,6 @@ const OurCourses: React.FC = () => {
             <strong className="fs-4 gold-grad">Hindi</strong>
             </div>
           </div>
-
-
           <Swiper
   autoHeight={false}
   cssMode={true}
@@ -311,7 +308,7 @@ const OurCourses: React.FC = () => {
                 className="d-flex justify-content-center gap-2"
                 style={{ display: 'flex', justifyContent: 'center', gap: '10px' }}
               >
-                <Link href={value.viewDetails} className="custom-btn">
+                <Link href={value.viewDetails} className="custom-btn fw-semibold">
                   Enroll Now
                 </Link>
               </div>

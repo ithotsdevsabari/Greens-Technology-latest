@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import FsLightbox from "fslightbox-react";
-import Link from 'next/link';
+import Link from "next/link";
 
 import Image from "next/image";
 import training from "../../../public/img/about/about_banner.webp";
@@ -9,18 +9,14 @@ import training from "../../../public/img/about/about_banner.webp";
 const ContactBanner: React.FC = () => {
   const [toggler, setToggler] = useState(false);
   return (
-	<>  
-
-      <div 
-        className="" 
-        // style={{ 
-          //   backgroundImage: `url(/images/main-banner-shape.jpg)` 
-          // }}
+    <>
+      <div
+        className=""
+        // style={{
+        //   backgroundImage: `url(/images/main-banner-shape.jpg)`
+        // }}
       >
-
-        <div 
-          className="banner-gradient pb-5"   >
-
+        <div className="banner-gradient pb-5">
           <div className="container">
             <div className="row">
               <div className="col">
@@ -28,15 +24,25 @@ const ContactBanner: React.FC = () => {
                   <div
                     data-aos="fade-in"
                     data-aos-duration="1000"
-                    data-aos-delay="100">
+                    data-aos-delay="100"
+                  >
                     <nav aria-label="breadcrumb">
-                        <ol className="breadcrumb">
-                            <li className="breadcrumb-item">
-                                <Link href="/" className="ps-2 text-gray fs-4-0">Home</Link></li>                            
-                            <li className="breadcrumb-item active" aria-current="page">
-                                <Link href="" className="ps-2 text-black fs-4-0">Contact Us</Link></li>
-                        </ol>
-                    </nav> 
+                      <ol className="breadcrumb">
+                        <li className="breadcrumb-item">
+                          <Link href="/" className="ps-2 text-gray fs-4-0">
+                            Home
+                          </Link>
+                        </li>
+                        <li
+                          className="breadcrumb-item active"
+                          aria-current="page"
+                        >
+                          <Link href="" className="ps-2 text-black fs-4-0">
+                            Contact Us
+                          </Link>
+                        </li>
+                      </ol>
+                    </nav>
                   </div>
                 </div>
               </div>
@@ -46,45 +52,54 @@ const ContactBanner: React.FC = () => {
           <div className="">
             <div className="pt-1 pb-5">
               <div className="container bg-white rounded-7 overflow-hidden">
-                                
-                <div className="row">
+                <div className="row align-items-center">
                   <div className="col-lg-7 bg-white rounded-7 p-5">
                     <div className="main-banner-content">
-
-                      <h1 className=" fs-5 text-grad fw-semibold "
+                      <h1
+                        className=" fs-5 text-grad fw-semibold "
                         data-aos="fade-in"
                         data-aos-duration="1000"
-                        data-aos-delay="200">
-                           Contact Greens Technology
+                        data-aos-delay="200"
+                      >
+                       Contact Greens Technologies 
                       </h1>
 
-                      
-
-                      <h2 className=" fs-2 mb-4"
+                      <h2
+                        className=" fs-2 mb-4"
                         data-aos="fade-in"
                         data-aos-duration="1000"
-                        data-aos-delay="200">
-                           Get in Touch With Us
+                        data-aos-delay="200"
+                      >
+                         We're Here to Help
                       </h2>
-                      <p> Whether you have questions, feedback, or want to learn more about our courses, 
-    our team is here to assist you. Feel free to reach out to us using the contact form 
-    below or contact information provided.</p>
-                      
+                     <p className="fs-lg-4 mb-2"  data-aos="fade-in"
+                        data-aos-duration="1000"
+                        data-aos-delay="200">Have questions, feedback, or want to learn more about our courses? </p>
+                         <p className="fs-lg-4 mb-2"  data-aos="fade-in"
+                        data-aos-duration="1000"
+                        data-aos-delay="200">Our team is ready to assist you.</p>
+                         <p className="fs-lg-4"  data-aos="fade-in"
+                        data-aos-duration="1000"
+                        data-aos-delay="200">Reach out to us via the contact form below or through the provided contact details.</p>
+
+
                       {/* <div className="">
                           
                             <Link href="#" className="button-def button-3 con_btn"><span>Enquire Now</span></Link>
                             <Link href="#" className="button-def button-3-white"><span>View Schedule</span></Link>
                       </div> */}
-
                     </div>
                   </div>
 
                   <div className="col-lg-5 pe-0">
                     <div className="text-center  ">
-                      <Image src={training} alt="add" className="ms-auto about_banner_img"  />
+                      <Image
+                        src={training}
+                        alt="add"
+                        className="ms-auto about_banner_img"
+                      />
                     </div>
                   </div>
-
                 </div>
               </div>
             </div>
@@ -184,14 +199,10 @@ const ContactBanner: React.FC = () => {
                 </div>
               </section>
           </div> */}
-        
         </div>
-
-
-        
       </div>
-		</>
+    </>
   );
-}
+};
 
 export default ContactBanner;

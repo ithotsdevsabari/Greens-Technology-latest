@@ -9,7 +9,7 @@ import quotes from "../../../public/img/quotes.png";
 
 const clientFeedbackData = [
   {
-    image: "/images/app/user1.jpg",
+    image: "/images/testimonial-imgs.png",
     name: "Shashikala Maurya",
     designation: "Spotify Developer",
     feedbackText:
@@ -35,7 +35,7 @@ const clientFeedbackData = [
     ],
   },
   {
-    image: "/images/app/user2.jpg",
+    image: "/images/testimonial-imgs.png",
     name: "Rggdharan Dharan",
     designation: "PHP Developer",
     feedbackText:
@@ -61,7 +61,7 @@ const clientFeedbackData = [
     ],
   },
   {
-    image: "/images/app/user3.jpg",
+    image: "/images/testimonial-imgs.png",
     name: "Nandhini",
     designation: "Moodle Developer",
     feedbackText:
@@ -87,7 +87,7 @@ const clientFeedbackData = [
     ],
   },
   {
-    image: "/images/app/user4.jpg",
+    image: "/images/testimonial-imgs.png",
     name: "Kym S",
     designation: "Python Developer",
     feedbackText:
@@ -123,11 +123,11 @@ const CFeedback: React.FC = () => {
 
         <div className="section-title">
           <h2 className="text-center h_font_size fw-semibold ">
-          Insights from Our <br /> <span className="green-tx">Empowered Alumni</span>
+          Testimonials from <br /> <span className="green-tx">Our Empowered Alumni</span>
         </h2>   
-            <p className="fs-4 font_col res_txt">
+            {/* <p className="fs-4 font_col res_txt">
             Feel free to adjust it based on specific testimonials or experiences you want to highlight!
-            </p>
+            </p> */}
           </div>
 
           <Swiper
@@ -158,7 +158,7 @@ const CFeedback: React.FC = () => {
             {clientFeedbackData &&
               clientFeedbackData.map((value, i) => (
                 <SwiperSlide key={i}>
-                  <div className="app-feedback-box">
+                  <div className="app-feedback-box mt-2">
                     
                     <div className="client-info">
                       <div className="align-items-center text-center">

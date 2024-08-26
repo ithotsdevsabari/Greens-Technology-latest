@@ -9,8 +9,10 @@ import aboutImg from "../../../public/images/our story.jpg";
 
 const StoryVisionNew = () => {
   return (
-  
-      <section className="about-area strvis ptb-100 storybg">
+  <>
+ 
+      <section className="about-area strvis py-5 light_g_bg">
+      <div className="storybg py-7">
         <div className="container">
           <div className="row Upcoming_Batches text-center">
             <div className="col-lg-12 px-2">
@@ -58,29 +60,12 @@ const StoryVisionNew = () => {
                
               </div>
             </div>
-            {/* <div className="col-lg-6 col-md-12">
-            <div className="section-title m-0">
-                  <h2 className="fs-5 green-tx fw-semibold text-start">Our Vision</h2>
-                </div>
-                <div className="about-text text-left">
-                  <p className="fs-regular">
-                    At Greens Technologies, our vision is to empower individuals
-                    globally through accessible, highquality education. We
-                    strive to bridge the gap between industry demands and skill
-                    development by providing innovative, flexible, and
-                    affordable training solutions. Our goal is to cultivate a
-                    community of skilled professionals who can thrive in a
-                    rapidly evolving technological landscape.
-                  </p>
-                </div>
-                <div className="text-center">
-                <Image src={vision} alt="name" className="vision_img" width={700} height={100} />
-                </div>
-            </div> */}
           </div>
         </div>
+        </div>
       </section>
-
+      
+      </>
   );
 };
 

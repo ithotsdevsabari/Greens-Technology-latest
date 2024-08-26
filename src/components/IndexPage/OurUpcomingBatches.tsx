@@ -19,8 +19,7 @@ const OurUpcomingBatches = () => {
             Our Popular Courses
           </h2>
           <p className="fs-4 font_col res_txt">
-            We conduct online classes, and updates for it are regularly posted.
-            Keep an eye on this section.
+          We offer a variety of online classes, with new courses and updates posted regularly. Check back often to explore the latest offerings.  
           </p>
         </div>
         <div className="row Upcoming_Batches">

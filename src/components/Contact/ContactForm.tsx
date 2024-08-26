@@ -46,11 +46,10 @@ const ContactForm: React.FC = () => {
       <div className="contact-form pb-100">
         <div className="contact-title">
         <h2 className=" fs-5 text-center">
-          Get in <span className="text-grad">Touch</span>
+        We’d Love to <span className="text-grad">Hear From You!</span>
         </h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          <p className="pt-2 pb-4">
+          Have any questions or feedback? Fill out the form below, and we’ll get back to you shortly.
           </p>
         </div>
 
@@ -63,7 +62,7 @@ const ContactForm: React.FC = () => {
                     <input
                       type="text"
                       name="name"
-                      placeholder="Name"
+                      placeholder="Your Full Name"
                       className="form-control"
                       value={formData.name}
                       onChange={handleChange}
@@ -77,7 +76,7 @@ const ContactForm: React.FC = () => {
                     <input
                       type="email"
                       name="email"
-                      placeholder="Email"
+                      placeholder="Your Email Address"
                       className="form-control"
                       value={formData.email}
                       onChange={handleChange}
@@ -91,7 +90,7 @@ const ContactForm: React.FC = () => {
                     <input
                       type="tel"
                       name="number"
-                      placeholder="Phone number"
+                      placeholder="Your Phone Number"
                       className="form-control"
                       value={formData.number}
                       onChange={handleChange}

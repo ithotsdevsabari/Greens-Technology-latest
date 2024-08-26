@@ -315,7 +315,7 @@ label {
   color: #18181b;
   border: 1px solid #eeeeee;
   border-radius: 6px;
-  background: #eeeeee;
+  background: #fcfbfb;
   transition: all 0.5s ease;
 }
 .form-control:focus {
@@ -778,7 +778,7 @@ Main Banner CSS
 }
 .hero-banner .main-banner-content h1 {
   color: #ffffff;
-  font-size: 70px;
+  font-size: 65px;
 }
 .hero-banner .main-banner-content p {
   color: #ffffff;
@@ -1603,7 +1603,7 @@ Case Studies CSS
 }
 .work-card::before {
   content: "";
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.6);
   width: 100%;
   height: 100%;
   left: 0;
@@ -1653,14 +1653,17 @@ Case Studies CSS
 }
 
 .custom-btn {
-  background-color: #fff;
+  /* background-color: #fff; */
+   background-image: linear-gradient(45deg, #c08a43 0%, #dec372 99%, #dec372 100%);
   display: inline-block;
   padding: 10px 25px;
   border-radius: 6px;
-  color: #063732 !important;
+  color: #fff !important;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 .custom-btn:hover {
-  background-color: #063732;
+  /* background-color: #063732; */
+  background-image: linear-gradient(45deg, #063732 0%, #096b5c 99%, #096b5c 100%); /* Green-based gradient on hover */
   color: #ffffff !important;
 }
 
@@ -4161,15 +4164,17 @@ Contact CSS
   box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.08);
   background: #ffffff;
   padding: 30px 30px 30px 120px;
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
   position: relative;
+  height: 100%;
 }
 .contact-info-box .icon {
   display: inline-block;
   width: 65px;
   height: 65px;
   line-height: 65px;
-  background: #FFA423;
+  background: #dec372;
+  /* background-image: linear-gradient(45deg, #c08a43 0%, #dec372 99%, #dec372 100%); */
   border-radius: 50%;
   font-size: 30px;
   color: #063732;
@@ -4220,6 +4225,8 @@ Contact CSS
 .contact-form .contact-form-box {
   padding: 30px;
   border: 1px solid #eee;
+  max-width: 1100px;
+  margin: 0 auto;
 }
 .contact-form .contact-title {
   margin-bottom: 30px;

@@ -226,7 +226,7 @@ const OurTrainingExpertise = () => {
               </div>
             </div>
             <p className="fs-4 text-center mb-0 font_col py-5 res_txt">
-            Ready to advance your career with industry-leading training? Enroll Now and experience the quality education provided by? Greens Technologies.
+            Ready to take your career to the next level with industry-leading training? Enroll now and experience the exceptional education offered by Greens Technologies.
             </p>
           </div>
 
