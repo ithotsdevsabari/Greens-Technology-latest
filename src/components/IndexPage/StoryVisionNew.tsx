@@ -12,7 +12,7 @@ const StoryVisionNew = () => {
   <>
  
       <section className="about-area strvis py-5 light_g_bg">
-      <div className="storybg py-7">
+      <div className="storybg py-0 py-md-7">
         <div className="container">
           <div className="row Upcoming_Batches text-center">
             <div className="col-lg-12 px-2">

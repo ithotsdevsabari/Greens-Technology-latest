@@ -5051,7 +5051,7 @@ background-color: #063732;
 .copyright-area {
   background-color: #F6F9FC;
   text-align: center;
-  margin-top: 55px;
+  /* margin-top: 55px; */
   padding-top: 20px;
   padding-bottom: 20px;
 }

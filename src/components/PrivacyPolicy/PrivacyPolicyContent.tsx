@@ -1,99 +1,115 @@
 "use client";
 
-import React from "react"; 
+import React from "react";
 
 const PrivacyPolicyContent: React.FC = () => {
   return (
     <>
       <div className="text-container ptb-100">
         <div className="container">
-          <h4>What is Lorem Ipsum?</h4>
+          <h4>1. Information We Collect</h4>
 
           <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry&apos;s standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. It has survived not
-            only five centuries, but also the leap into electronic typesetting,
-            remaining essentially unchanged. It was popularised in the 1960s
-            with the release of Letraset sheets containing Lorem Ipsum passages,
-            and more recently with desktop publishing software like Aldus
-            PageMaker including versions of Lorem Ipsum.
+          We collect the following types of information:
+          </p>
+          <ul className="ms-4">
+            <li>
+            <strong>Personal Information</strong> : Name, email address, phone number, postal address, and any other information you provide through our website, forms, or during inquiries.
+            </li>
+            <li>
+            <strong>Automatically Collected Information</strong> : IP address, browser type, device information, and cookies for improving website functionality and user experience.
+            </li>
+          </ul>
+
+          <h4>2. How We Collect Information</h4>
+          <p>
+          We collect information through:
+          </p>
+          <ul className="ms-4">
+            <li>
+            Online forms and inquiries submitted on our website.
+            </li>
+            <li>
+            Cookies and similar tracking technologies that collect data automatically when you visit our website.
+            </li>
+            <li>Communication with our customer support team.</li>
+          </ul>
+
+          <h4>3. How We Use Your Information</h4>
+          <p>
+          We use your information to:
+          </p>
+          <ul className="ms-4">
+            <li>
+            Respond to your inquiries and provide the services you request.
+            </li>
+            <li>
+            Personalize your experience on our website.
+            </li>
+            <li>Send you relevant updates and information.</li>
+            <li>Analyze website traffic and improve our offerings.</li>
+          </ul>
+
+          <h4>4. Disclosure of Information</h4>
+          <p>
+          We may share your personal information with trusted third-party service providers who assist us in operating our website and delivering our services. These providers are bound by confidentiality agreements.
+          </p>
+          <p>We will never sell, trade, or disclose your personal information to external parties without your consent, except when required by law.</p>
+
+          <h4>5. Data Security</h4>
+          <p>
+          We implement security measures such as encryption, secure servers, and regular audits to protect your personal information from unauthorized access, disclosure, or alteration.
           </p>
 
-          <h4>Where does it come from?</h4>
+          <h4>6. Your Rights</h4>
           <p>
-            Contrary to popular belief, Lorem Ipsum is not simply random text.
-            It has roots in a piece of classical Latin literature from 45 BC,
-            making it over 2000 years old. Richard McClintock, a Latin professor
-            at Hampden-Sydney College in Virginia, looked up one of the more
-            obscure Latin words, consectetur, from a Lorem Ipsum passage, and
-            going through the cites of the word in classical literature,
-            discovered the undoubtable source. Lorem Ipsum comes from sections
-            1.10.32 and 1.10.33 of de Finibus Bonorum et Malorum (The Extremes
-            of Good and Evil) by Cicero, written in 45 BC. This book is a
-            treatise on the theory of ethics, very popular during the
-            Renaissance. The first line of Lorem Ipsum, Lorem ipsum dolor sit
-            amet...
+          You have the right to:
+          </p>
+          <ul className="ms-4">
+            <li>
+            <strong>Access</strong> the personal information we hold about you.
+            </li>
+            <li>
+            <strong>Request corrections</strong> if your information is inaccurate.
+            </li>
+            <li>
+            <strong>Request deletion</strong> of your personal information under certain conditions.
+            </li>
+          </ul>
+          <p>Please contact us to exercise these rights.</p>
+
+          <h4>7. Overseas Disclosure</h4>
+          <p>
+          We may disclose your personal information to overseas recipients for service delivery. These recipients are bound by similar privacy obligations to protect your data.
           </p>
 
+          <h4>8. Cookies</h4>
           <p>
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-            quae ab illo inventore veritatis et quasi architecto beatae vitae
-            dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-            aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
-            eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est,
-            qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
-            sed quia non numquam eius modi tempora incidunt ut labore et dolore
-            magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis
-            nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut
-            aliquid ex ea commodi consequatur? Quis autem vel eum iure
-            reprehenderit qui in ea voluptate velit esse quam nihil molestiae
-            consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla
+          Our website uses cookies to improve your browsing experience and for analytics purposes. You can manage your cookie preferences through your browser settings.
           </p>
 
-          <h4>Where can I get some?</h4>
+          <h4>9. Changes to This Privacy Policy</h4>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim.
+          We may update this Privacy Policy from time to time. Any significant changes will be posted on this page, and we encourage you to review the policy periodically.
           </p>
 
+          <h4>10. Contact Us</h4>
           <p>
-            There are many variations of passages of Lorem Ipsum available, but
-            the majority have suffered alteration in some form, by injected
-            humour, or randomised words which don&apos;t look even slightly
-            believable. If you are going to use a passage of Lorem Ipsum, you
-            need to be sure there isn&apos;t anything embarrassing hidden in the
-            middle of text. All the Lorem Ipsum generators on the Internet tend
-            to repeat predefined chunks as necessary, making this the first true
-            generator on the Internet. It uses a dictionary of over 200 Latin
-            words, combined with a handful of model sentence structures, to
-            generate Lorem Ipsum which looks reasonable. The generated Lorem
-            Ipsum is therefore always free from repetition, injected.
+          If you have any questions or concerns about this Privacy Policy, please contact us at:
           </p>
-
           <p>
-            But I must explain to you how all this mistaken idea of denouncing
-            pleasure and praising pain was born and I will give you a complete
-            account of the system, and expound the actual teachings of the great
-            explorer of the truth, the master-builder of human happiness. No one
-            rejects, dislikes, or avoids pleasure itself, because it is
-            pleasure, but because those who do not know how to pursue pleasure
-            rationally encounter consequences that are extremely painful. Nor
-            again is there anyone who loves or pursues or desires to obtain pain
-            of itself, because it is pain, but because occasionally
-            circumstances occur in which toil and pain can procure him some
-            great pleasure. To take a trivial example, which of us ever
-            undertakes laborious physical exercise, except to obtain some
-            advantage from it? But who has any right to find fault with a man
-            who chooses to enjoy a pleasure that has no annoying consequences,
-            or one who avoids a pain that produces no resultant pleasure?
+            <strong>Email </strong>:{" "}
+            <a href="mailto:contact@greenstechnologies.com">
+            contact@greenstechnologies.com
+            </a>
+          </p>
+          <p>
+            <strong>Phone </strong>: <a href="tel:08 6386 9232">08 6386 9232</a>{" "}
+            | <a href="tel:0423 737 907">0423 737 907</a>
+          </p>
+          <p>
+            <strong>Address </strong>: Unit 4/10 Tyre Avenue, Riverton, Western
+            Australia 6148.
           </p>
         </div>
       </div>

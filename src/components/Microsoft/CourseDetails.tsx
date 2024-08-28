@@ -3985,7 +3985,7 @@ const CourseDetails: React.FC = () => {
                                         <li className="d-block mb-2 mt-2">  
                                             <span className="position-absolute">
                                                     9. </span>
-                                                <span className="ms-4">Applying Text Effects: Bold, Italic, Underline
+                                                <span className="ms-4">Aligning Text: Left, Center, Right, Justified
                                                 </span>                                                 
                                             
                                             </li>  
@@ -4418,14 +4418,14 @@ const CourseDetails: React.FC = () => {
                                             <li className="d-block mb-2 mt-2">   
                                                 <span className="position-absolute">
                                                     8. </span>
-                                                <span className="ms-4">Introduction to Basic Formulas & Functions (SUM, AVERAGE, MAX, MIN)</span>                                                 
+                                                <span className="ms-4">Using AutoFill & AutoSum, Applying Conditional Formatting</span>                                                 
                                             
                                             </li>  
 
                                             <li className="d-block mb-2 mt-2">   
                                             <span className="position-absolute">
                                                     9. </span>
-                                                <span className="ms-4">Inserting, Deleting, Renaming Worksheets   </span>                                              
+                                                <span className="ms-4">Inserting, Deleting, Renaming Worksheets</span>                                              
                                             
                                             </li>    
 
