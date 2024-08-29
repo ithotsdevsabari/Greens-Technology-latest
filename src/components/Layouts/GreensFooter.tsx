@@ -78,8 +78,8 @@ const GreensFooter: React.FC = () => {
             </div>
           </div>
 
-          <div className="col-lg-3 col-md-6 col-sm-6">
-            <div className="single-footer-widget ml-4 pl-5">
+          <div className="col-lg-3 col-sm-6">
+            <div className="single-footer-widget ml-4">
               <h3>Our Courses</h3>
 
               <ul className="list">
@@ -101,6 +101,7 @@ const GreensFooter: React.FC = () => {
               </ul>
             </div>
           </div>
+
 
           <div className="col-lg-3 col-sm-6">
             <div className="single-footer-widget ml-4">
@@ -165,20 +166,19 @@ const GreensFooter: React.FC = () => {
           <div className="col-lg-12">
             <div className="pt-3 pt-md-5 pb-2 pb-md-4">
               <ul className="list-unstyled d-flex justify-content-center flex-column flex-sm-row gap-3 gap-md-4 m-0">
-  <li className="mb-2 mb-sm-0">
-    <Link href="/serviceterms">Service Terms</Link>
-  </li>
-  <li className="mb-2 mb-sm-0">
-    <Link href="/privacypolicy">Privacy Policy</Link>
-  </li>
-  <li className="mb-2 mb-sm-0">
-    <Link href="/bookingpolicy">Booking Policy</Link>
-  </li>
-  <li className="mb-2 mb-sm-0">
-    <Link href="/refundpolicy">Refund Policy</Link>
-  </li>
-</ul>
-
+                <li className="mb-2 mb-sm-0">
+                  <Link href="/serviceterms">Service Terms</Link>
+                </li>
+                <li className="mb-2 mb-sm-0">
+                  <Link href="/privacypolicy">Privacy Policy</Link>
+                </li>
+                <li className="mb-2 mb-sm-0">
+                  <Link href="/bookingpolicy">Booking Policy</Link>
+                </li>
+                <li className="mb-2 mb-sm-0">
+                  <Link href="/refundpolicy">Refund Policy</Link>
+                </li>
+              </ul>
             </div>
           </div>
         </div>

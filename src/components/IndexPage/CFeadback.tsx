@@ -9,12 +9,12 @@ import quotes from "../../../public/img/quotes.png";
 
 const clientFeedbackData = [
   {
-    image: "/images/app/user1.jpg",
-    name: "REVATHI",
-    designation: "Spotify Developer",
+    image: "/images/Ganadharan.jpg",
+    name: "Rg Ganadharan",
+    // designation: "Spotify Developer",
     feedbackText:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.",
-    category: "Worked at Cognizant",
+      "Green's Technology offered an outstanding Data Science course. The instructors were highly knowledgeable, simplifying complex concepts effectively. Engaging in hands-on projects greatly enhanced my confidence. I received exceptional support from the mentor, Godwin. I wholeheartedly recommend it to anyone eager to explore Data Science!.....",
+    // category: "Worked at Cognizant",
 
     rating: [
       {
@@ -35,13 +35,10 @@ const clientFeedbackData = [
     ],
   },
   {
-    image: "/images/app/user2.jpg",
-    name: "MOHAN",
-    designation: "PHP Developer",
+    image: "/images/Kym.jpg",
+    name: "Kym S",
     feedbackText:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.",
-    category: "Works at ABC",
-
+      "Enrolling in Greens technology web development course was a decision I don't regret. The curriculum was comprehensive, covering essential topics like HTML, CSS, JavaScript, and GitHub. Building my own website was a satisfying conclusion to the course. This experience has equipped me with the skills and confidence for a future in web development.",
     rating: [
       {
         iconName: "fa-solid fa-star",
@@ -61,13 +58,10 @@ const clientFeedbackData = [
     ],
   },
   {
-    image: "/images/app/user3.jpg",
-    name: "STEFFY",
-    designation: "Moodle Developer",
+    image: "/images/Mohammed.jpg",
+    name: "Mohammed Anas",
     feedbackText:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.",
-    category: "GPC Architect at Google",
-
+      "I usually don't write reviews. I chose Greens Technologies through a friend. I Attended DevOps and AWS courses at Greens Technology.The trainer was exceptionally helpful in clarifying concepts, making it the best training center. The emphasis on practical, live projects rather than just theory was commendable. Highly recommended.",
     rating: [
       {
         iconName: "fa-solid fa-star",
@@ -87,13 +81,10 @@ const clientFeedbackData = [
     ],
   },
   {
-    image: "/images/app/user4.jpg",
-    name: "David Warner",
-    designation: "Python Developer",
+    image: "/images/testimonial-imgs.png",
+    name: "Shashikala Maurya",
     feedbackText:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.",
-    category: "Theme Customization",
-
+      "I took courses in Networking and Azure SQL Database. My instructor, Dhivakar, was really knowledgeable and the best. He kept the class interested and made sure we understood everything in each module. I want to thank Dhivakar for his great support during the learning process.",
     rating: [
       {
         iconName: "fa-solid fa-star",
@@ -122,13 +113,12 @@ const CFeedback: React.FC = () => {
         <div className="container">
 
         <div className="section-title">
-          <h2 className="text-center fs-5">
-          Our Testimonials
+          <h2 className="text-center h_font_size fw-semibold ">
+          Testimonials from <br /> <span className="green-tx">Our Empowered Alumni</span>
         </h2>   
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </p>
+            {/* <p className="fs-4 font_col res_txt">
+            Feel free to adjust it based on specific testimonials or experiences you want to highlight!
+            </p> */}
           </div>
 
           <Swiper
@@ -159,7 +149,7 @@ const CFeedback: React.FC = () => {
             {clientFeedbackData &&
               clientFeedbackData.map((value, i) => (
                 <SwiperSlide key={i}>
-                  <div className="app-feedback-box">
+                  <div className="app-feedback-box mt-2">
                     
                     <div className="client-info">
                       <div className="align-items-center text-center">
@@ -196,7 +186,7 @@ const CFeedback: React.FC = () => {
                     </div>
 
                     <div className="rating align-items-center justify-content-between text-center">
-                      <h5 className="fs-4 text-gray-light">{value.category}</h5>
+                      {/* <h5 className="fs-4 text-gray-light">{value.category}</h5> */}
                       {/* <div>
                         {value.rating.map((value, i) => (
                           <i className={value.iconName} key={i}></i>
