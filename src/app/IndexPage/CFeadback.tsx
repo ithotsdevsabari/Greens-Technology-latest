@@ -9,12 +9,12 @@ import quotes from "../../../public/img/quotes.png";
 
 const clientFeedbackData = [
   {
-    image: "/images/testimonial-imgs.png",
-    name: "Shashikala Maurya",
-    designation: "Spotify Developer",
+    image: "/images/Ganadharan.jpg",
+    name: "Rg Ganadharan",
+    // designation: "Spotify Developer",
     feedbackText:
       "Green's Technology offered an outstanding Data Science course. The instructors were highly knowledgeable, simplifying complex concepts effectively. Engaging in hands-on projects greatly enhanced my confidence. I received exceptional support from the mentor, Godwin. I wholeheartedly recommend it to anyone eager to explore Data Science!.....",
-    category: "Worked at Cognizant",
+    // category: "Worked at Cognizant",
 
     rating: [
       {
@@ -35,13 +35,10 @@ const clientFeedbackData = [
     ],
   },
   {
-    image: "/images/testimonial-imgs.png",
-    name: "Rggdharan Dharan",
-    designation: "PHP Developer",
+    image: "/images/Kym.jpg",
+    name: "Kym S",
     feedbackText:
       "Enrolling in Greens technology web development course was a decision I don't regret. The curriculum was comprehensive, covering essential topics like HTML, CSS, JavaScript, and GitHub. Building my own website was a satisfying conclusion to the course. This experience has equipped me with the skills and confidence for a future in web development.",
-    category: "Works at ABC",
-
     rating: [
       {
         iconName: "fa-solid fa-star",
@@ -61,13 +58,10 @@ const clientFeedbackData = [
     ],
   },
   {
-    image: "/images/testimonial-imgs.png",
-    name: "Nandhini",
-    designation: "Moodle Developer",
+    image: "/images/Mohammed.jpg",
+    name: "Mohammed Anas",
     feedbackText:
       "I usually don't write reviews. I chose Greens Technologies through a friend. I Attended DevOps and AWS courses at Greens Technology.The trainer was exceptionally helpful in clarifying concepts, making it the best training center. The emphasis on practical, live projects rather than just theory was commendable. Highly recommended.",
-      category: "GPC Architect at Google",
-
     rating: [
       {
         iconName: "fa-solid fa-star",
@@ -88,12 +82,9 @@ const clientFeedbackData = [
   },
   {
     image: "/images/testimonial-imgs.png",
-    name: "Kym S",
-    designation: "Python Developer",
+    name: "Shashikala Maurya",
     feedbackText:
       "I took courses in Networking and Azure SQL Database. My instructor, Dhivakar, was really knowledgeable and the best. He kept the class interested and made sure we understood everything in each module. I want to thank Dhivakar for his great support during the learning process.",
-    category: "Theme Customization",
-
     rating: [
       {
         iconName: "fa-solid fa-star",
@@ -195,7 +186,7 @@ const CFeedback: React.FC = () => {
                     </div>
 
                     <div className="rating align-items-center justify-content-between text-center">
-                      <h5 className="fs-4 text-gray-light">{value.category}</h5>
+                      {/* <h5 className="fs-4 text-gray-light">{value.category}</h5> */}
                       {/* <div>
                         {value.rating.map((value, i) => (
                           <i className={value.iconName} key={i}></i>

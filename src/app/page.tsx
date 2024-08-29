@@ -26,7 +26,7 @@ export default function Home() {
 
       {/* <IndexBanner /> */}
 
-      <Indexthreegrid />
+      <Indexthreegrid/>
 
       <OurCourses />
 

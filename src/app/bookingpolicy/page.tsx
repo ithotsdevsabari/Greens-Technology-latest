@@ -10,7 +10,7 @@ export default function BookingPolicy() {
 
       <BookingPBanner
         pageTitle="Booking Policy"
-        BGImage="/images/BookingPolicy.png"
+        BGImage="/images/Booking_policy.jpg"
       />
 
       <BookingPolicyContent />
