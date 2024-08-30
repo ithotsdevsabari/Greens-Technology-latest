@@ -69,9 +69,6 @@ const TrainersSlider: React.FC = () => {
             }}
             modules={[Autoplay, Pagination]}
             className="blog-slides"
-            data-aos="fade-in"
-            data-aos-duration="1000"
-            data-aos-delay="200"
           >
             {latestNewsSliderData &&
               latestNewsSliderData.slice(0, 5).map((value, i) => (

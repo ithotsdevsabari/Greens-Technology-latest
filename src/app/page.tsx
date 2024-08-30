@@ -8,6 +8,7 @@ import CFeedback from "@/components/IndexPage/CFeadback";
 import MainBanner from "@/components/IndexPage/MainBanner";
 import StoryVisionNew from "@/components/IndexPage/StoryVisionNew";
 import OurUpcomingBatches from "@/components/IndexPage/OurUpcomingBatches";
+import AccordionSec from "@/components/IndexPage/AccordionSec";
 
 export default function Home() {
   return (
@@ -33,6 +34,8 @@ export default function Home() {
       {/* <RecentPlacement /> */}
 
       {/* <NewCTA /> */}
+
+      <AccordionSec/>
 
       <CFeedback />
 

@@ -27,9 +27,6 @@ const OurTrainingExpertise = () => {
                 <div className="designation px-4 pt-4">
                   <h3
                     className="mb-0  green-tx"
-                    data-aos="fade-in"
-                    data-aos-duration="1000"
-                    data-aos-delay="200"
                   >
                     Data Science & Analytics:
                   </h3>
@@ -39,9 +36,6 @@ const OurTrainingExpertise = () => {
                   </p>
                   <h3
                     className="mb-0 green-tx"
-                    data-aos="fade-in"
-                    data-aos-duration="1000"
-                    data-aos-delay="200"
                   >
             Cloud Computing:
                   </h3>
@@ -50,9 +44,6 @@ const OurTrainingExpertise = () => {
                   </p>
                   <h3
                     className=" mb-0 green-tx"
-                    data-aos="fade-in"
-                    data-aos-duration="1000"
-                    data-aos-delay="200"
                   >
                    Software Development:
                   </h3>
@@ -60,11 +51,7 @@ const OurTrainingExpertise = () => {
                   Experts in Java, Full Stack Development, and Salesforce.
                   </p>
                   <h3
-                    className="mb-0 green-tx"
-                    data-aos="fade-in"
-                    data-aos-duration="1000"
-                    data-aos-delay="200"
-                  >
+                    className="mb-0 green-tx">
                    Project Management:
                   </h3>
                   <p className="fs-regular">
@@ -72,9 +59,6 @@ const OurTrainingExpertise = () => {
                   </p>
                   <h3
                     className="mb-0 green-tx"
-                    data-aos="fade-in"
-                    data-aos-duration="1000"
-                    data-aos-delay="200"
                   >
                   Business Applications:
                   </h3>

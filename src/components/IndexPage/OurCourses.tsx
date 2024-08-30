@@ -237,10 +237,10 @@ const OurCourses: React.FC = () => {
       <section className="case-studies-area ptb-100">
         <div className="container-fluid">
           <div className="section-title pb-2">
-            <h2 className="text-center h_font_size fw-semibold">Explore Our <span className="green-tx">Wide Range of Courses</span></h2>
+            <h2 className="text-center h_font_size fw-semibold" data-aos="fade-in" data-aos-duration="1000" data-aos-delay="200">Explore Our <span className="green-tx">Wide Range of Courses</span></h2>
             <p className="fs-4 font_col res_txt">50+ Courses with new course additions monthly, available in
             </p>
-            <div className="d-flex justify-content-center gap-3 pt-3">
+            <div className="d-flex justify-content-center gap-3 pt-3" data-aos="flip-down" data-aos-duration="1000" data-aos-delay="200">
             <strong className="fs-4 gold-grad">English</strong>
             <strong className="fs-4 gold-grad">Tamil</strong>
             <strong className="fs-4 gold-grad">Hindi</strong>

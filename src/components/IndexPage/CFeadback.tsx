@@ -81,10 +81,10 @@ const clientFeedbackData = [
     ],
   },
   {
-    image: "/images/testimonial-imgs.png",
-    name: "Shashikala Maurya",
+    image: "/images/Syeda-Naqvi.jpg",
+    name: "Syeda Naqvi",
     feedbackText:
-      "I took courses in Networking and Azure SQL Database. My instructor, Dhivakar, was really knowledgeable and the best. He kept the class interested and made sure we understood everything in each module. I want to thank Dhivakar for his great support during the learning process.",
+      "The support from the coaches was outstanding. They were always available to help with any doubts or questions, making sure I was never stuck.",
     rating: [
       {
         iconName: "fa-solid fa-star",
@@ -113,7 +113,9 @@ const CFeedback: React.FC = () => {
         <div className="container">
 
         <div className="section-title">
-          <h2 className="text-center h_font_size fw-semibold ">
+          <h2 className="text-center h_font_size fw-semibold "  data-aos="fade-in"
+                data-aos-duration="1000"
+                data-aos-delay="200">
           Testimonials from <br /> <span className="green-tx">Our Empowered Alumni</span>
         </h2>   
             {/* <p className="fs-4 font_col res_txt">

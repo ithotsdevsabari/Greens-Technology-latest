@@ -18,12 +18,11 @@ const StoryVisionNew = () => {
             <div className="col-lg-12 px-2">
               <div
                 className="about-content about-content-two "
-                data-aos="fade-in"
-                data-aos-duration="1000"
-                data-aos-delay="400"
               >
                 <div className="section-title">
-                  <h2 className="fs-5 text-center green-tx fw-semibold mt-0">Our Story</h2>
+                  <h2 className="fs-5 text-center green-tx fw-semibold mt-0"  data-aos="fade-in"
+                data-aos-duration="1000"
+                data-aos-delay="200">Our Story</h2>
                 </div>
 
                 <div className="about-text pt-4">
