@@ -28,7 +28,7 @@ const AccordionSec: React.FC = () => {
             </h2>
           </div>
 
-          <div className="row align-items-center">
+          <div className="row align-items-center overflow-hidden">
             <div className="col-lg-6">
               <div className="faq-accordion software-faq"  data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">
                 <Accordion allowZeroExpanded preExpanded={["a"]}>
