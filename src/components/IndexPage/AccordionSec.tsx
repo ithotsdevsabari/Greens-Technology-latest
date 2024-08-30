@@ -28,9 +28,9 @@ const AccordionSec: React.FC = () => {
             </h2>
           </div>
 
-          <div className="row align-items-center overflow-hidden">
+          <div className="row align-items-center">
             <div className="col-lg-6">
-              <div className="faq-accordion software-faq"  data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">
+              <div className="faq-accordion software-faq">
                 <Accordion allowZeroExpanded preExpanded={["a"]}>
                   <AccordionItem uuid="a">
                     <AccordionItemHeading>
@@ -165,7 +165,8 @@ const AccordionSec: React.FC = () => {
             <div className="col-lg-6 ">
               <div
                 className="faq-img pl-30 pl-xxl-0 text-xxl-center"
-                data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200"
+                data-aos="zoom-in"
+                data-aos-duration="1000"
               >
                 <Image src={faqImg} alt="Image" width={500} className="rounded-4"/>
               </div>
