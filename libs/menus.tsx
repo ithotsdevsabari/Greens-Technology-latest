@@ -58,8 +58,8 @@ export const menus = [
 				link: "/cloudcomputing",
 			},
 			{
-				label: "Web Developement",
-				link: "/web-developement",
+				label: "Web Development",
+				link: "/web-development",
 			},
 		],
 	},
