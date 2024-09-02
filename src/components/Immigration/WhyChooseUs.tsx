@@ -26,7 +26,7 @@ const servicesData = [
     aosDelay: "300",
   },
   {
-    iconName: "pe-7s-phone bg-fc3549",
+    iconName: "pe-7s-phone bg-fc3549",  
     title: "Pathway to Citizenship",
     shortText:
       "Did you know that Australia offers pathways to citizenship for eligible immigrants? We can guide you through the process, helping you not only secure a visa but also work towards becoming a permanent resident and, eventually, an Australian citizen.",
@@ -40,7 +40,7 @@ const servicesData = [
     aosDelay: "500",
   },
   {
-    iconName: "pe-7s-users bg-ff612f",
+    iconName: "pe-7s-global bg-ff612f",
     title: "Global Reach",
     shortText:
       "We assist clients from around the world, helping them navigate the complexities of immigration to Australia.",

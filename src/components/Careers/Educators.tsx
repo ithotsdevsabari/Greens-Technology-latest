@@ -40,7 +40,7 @@ const Educators: React.FC = () => {
               >
                 <div className="row">
                   <div className="col-lg-12">
-                    <div className="about-text mb-30">
+                    <div className="about-text mb-30 section-title">
                       <h2 className="green-tx h_font_size fw-semibold">Who We’re Looking For</h2>
                       <h4 className="pb-3 green-tx ">We’re interested in educators with:</h4>
                       <ul>
