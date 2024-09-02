@@ -4,11 +4,11 @@ import GreensFooter from "@/components/Layouts/GreensFooter";
 import Indexthreegrid from "@/components/IndexPage/Indexthreegrid";
 import OurTrainingExpertise from "@/components/IndexPage/OurTrainingExpertise";
 import ForCareerAssistance from "@/components/IndexPage/ForCareerAssistance";
-import CFeedback from "@/components/IndexPage/CFeadback";
 import MainBanner from "@/components/IndexPage/MainBanner";
 import StoryVisionNew from "@/components/IndexPage/StoryVisionNew";
 import OurUpcomingBatches from "@/components/IndexPage/OurUpcomingBatches";
 import AccordionSec from "@/components/IndexPage/AccordionSec";
+import IndexTestimonials from "@/components/IndexPage/IndexTestimonials";
 
 export default function Home() {
   return (
@@ -37,7 +37,7 @@ export default function Home() {
 
       <AccordionSec/>
 
-      <CFeedback />
+      <IndexTestimonials/>
 
       <ForCareerAssistance />
 

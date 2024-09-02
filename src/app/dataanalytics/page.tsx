@@ -40,12 +40,8 @@ export default function Home() {
 
       <FaqNew />
 
-      <div className="">
-        {/* <h2 className="text-uppercase text-center fs-20 mb-2 text-green">DATA ANALYTICS Platform Certification Training Program Reviews</h2> */}
         <CFeedback />
-      </div>
       
-
       <Cta/>
 
       {/* <CareerAsst /> */}
