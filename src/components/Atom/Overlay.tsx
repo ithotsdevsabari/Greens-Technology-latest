@@ -21,10 +21,9 @@ const Overlay: React.FC<OverlayProps> = ({ children, onClose }) => {
     >
       <div className="bg-white rounded p-4 shadow-lg position-relative">
         <button
-          className="btn position-absolute top-0 end-0 m-2 bg-red"
+          className="btn position-absolute top-0 end-0 m-2 bg-red fs-3"
           onClick={onClose}
-        >
-X         
+        >X         
         </button>
         <div className="max-w-[700px]">
         {children}

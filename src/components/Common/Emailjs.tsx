@@ -37,7 +37,7 @@ import emailjs from '@emailjs/browser';
 
   return (
 
-      <div className="contact-form pb-100">
+      <div className="contact-form">
         <div className="contact-title">
         <h2 className=" fs-5 text-center">
           Get in <span className="text-grad">Touch</span>
@@ -116,7 +116,7 @@ import emailjs from '@emailjs/browser';
                 </div>
 
                 <div className="col-lg-8 col-sm-12">
-                <button type="submit" className="button-def button-3"><span>Send Message</span></button>
+                <button type="submit" className="custom-btn border-0 fw-bold fs-4"><span>Send Message</span></button>
                 </div>
                 {
                   tostOpen &&  <div className="row bg-green mt-4 p-2 w-50 rounded" style={{backgroundColor:"#0fddc8"}}>
@@ -134,4 +134,4 @@ import emailjs from '@emailjs/browser';
 };
 
 
-export default ContactUs
+export default ContactUs;

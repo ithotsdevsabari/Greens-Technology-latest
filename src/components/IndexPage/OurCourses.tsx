@@ -1,7 +1,7 @@
 
 "use client";
 
-import React from "react";
+import React, { useState } from "react";
 import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Navigation, Pagination } from "swiper/modules";
@@ -32,6 +32,8 @@ import snowflask  from "../../../public/coursesImages/snowflask.webp";
 import sql  from "../../../public/coursesImages/sql.jpeg";
 import tableau  from "../../../public/coursesImages/tableau.jpeg";
 import webdevelopement  from "../../../public/coursesImages/webdevelopement.jpeg";
+import Overlay from "../Atom/Overlay";
+import ContactUs from "../Common/Emailjs";
 
 
 
@@ -40,162 +42,172 @@ const ourWorksData = [
     image: awscloud,
     title: "AWS Cloud",
     category: "Cloud Computing",
-    viewDetails: "/",
+    viewDetails: "/#",
   },
   {
     image: awsdataengineer,
     title: "AWS Data Engineer",
     category: "Data Engineering",
-    viewDetails: "/",
+    viewDetails: "/#",
   },
   {
     image: azurecloud,
     title: "Azure Cloud",
     category: "Cloud Computing",
-    viewDetails: "/",
+    viewDetails: "/#",
   },
   {
     image: azuredataengineering,
     title: "Azure Data Engineering",
     category: "Data Engineering",
-    viewDetails: "/",
+    viewDetails: "/#",
   },
   {
     image: cloudcomputing,
     title: "Cloud Computing",
     category: "Cloud Computing",
-    viewDetails: "/",
+    viewDetails: "/#",
   },
   {
     image: dataanalytics,
     title: "Data Analytics",
     category: "Data Science",
-    viewDetails: "/",
+    viewDetails: "/#",
   },
   {
     image: dataengineeringgcp,
     title: "GCP Data Engineering",
     category: "Data Engineering",
-    viewDetails: "/",
+    viewDetails: "/#",
   },
   {
     image: datascience,
     title: "Data Science",
     category: "Data Science",
-    viewDetails: "/",
+    viewDetails: "/#",
   },
   {
     image: devops,
     title: "DevOps",
     category: "Development",
-    viewDetails: "/",
+    viewDetails: "/#",
   },
   {
     image: frontend,
     title: "Front-end Development",
     category: "Web Development",
-    viewDetails: "/",
+    viewDetails: "/#",
   },
   {
     image: gcpcloud,
     title: "GCP Cloud",
     category: "Cloud Computing",
-    viewDetails: "/",
+    viewDetails: "/#",
   },
   {
     image: javafullstack,
     title: "Java Full Stack",
     category: "Web Development",
-    viewDetails: "/",
+    viewDetails: "/#",
   },
   {
     image: microsoft365,
     title: "Microsoft 365",
     category: "Productivity",
-    viewDetails: "/",
+    viewDetails: "/#",
   },
   {
     image: nodejs,
     title: "Node.js Development",
     category: "Web Development",
-    viewDetails: "/",
+    viewDetails: "/#",
   },
   {
     image: oracle,
     title: "Oracle Database",
     category: "Database Management",
-    viewDetails: "/",
+    viewDetails: "/#",
   },
   {
     image: powerapps,
     title: "PowerApps Development",
     category: "Productivity",
-    viewDetails: "/",
+    viewDetails: "/#",
   },
   {
     image: powerautomate,
     title: "Power Automate",
     category: "Productivity",
-    viewDetails: "/",
+    viewDetails: "/#",
   },
   {
     image: powerbi,
     title: "Power BI",
     category: "Data Visualization",
-    viewDetails: "/",
+    viewDetails: "/#",
   },
   {
     image: python,
     title: "Python Programming",
     category: "Development",
-    viewDetails: "/",
+    viewDetails: "/#",
   },
   {
     image: pythonfullstack,
     title: "Python Full Stack",
     category: "Web Development",
-    viewDetails: "/",
+    viewDetails: "/#",
   },
   {
     image: reactjs,
     title: "React.js Development",
     category: "Web Development",
-    viewDetails: "/",
+    viewDetails: "/#",
   },
   {
     image: scrummaster,
     title: "Scrum Master",
     category: "Project Management",
-    viewDetails: "/",
+    viewDetails: "/#",
   },
   {
     image: snowflask,
     title: "Snowflake Data Warehousing",
     category: "Data Engineering",
-    viewDetails: "/",
+    viewDetails: "/#",
   },
   {
     image: sql,
     title: "SQL Database",
     category: "Database Management",
-    viewDetails: "/",
+    viewDetails: "/#",
   },
   {
     image: tableau,
     title: "Tableau Data Visualization",
     category: "Data Visualization",
-    viewDetails: "/",
+    viewDetails: "/#",
   },
   {
     image: webdevelopement,
     title: "Web Development",
     category: "Web Development",
-    viewDetails: "/",
+    viewDetails: "/#",
   },
 ];
 
 
 const OurCourses: React.FC = () => {
+  const [toggler, setToggler] = useState(false);
+  const [isVisibleOverlay,setIsVisibleOverlay] = useState(false);
+
+  const handleOpenOverlay = (()=>{
+       setIsVisibleOverlay(true)
+  });
+  const handleCloseOverlay = (()=>{
+      setIsVisibleOverlay(false)
+  });
+
   const settings = {
     dots: false,
     arrows: false,
@@ -234,6 +246,13 @@ const OurCourses: React.FC = () => {
   };
   return (
     <>
+
+<div>
+      {isVisibleOverlay && (
+        <Overlay onClose={handleCloseOverlay}><ContactUs/></Overlay>
+      )}
+      </div>
+
       <section className="case-studies-area ptb-100">
         <div className="container-fluid">
           <div className="section-title pb-2">
@@ -301,14 +320,14 @@ const OurCourses: React.FC = () => {
               />
             </div>
             <div className="content text-center">
-              <h3>
-                <Link href={value.viewDetails}>{value.title}</Link>
+              <h3 className="text-white">
+                {value.title}
               </h3>
               <div
                 className="d-flex justify-content-center gap-2"
-                style={{ display: 'flex', justifyContent: 'center', gap: '10px' }}
+                style={{ display: 'flex', justifyContent: 'center' }}
               >
-                <Link href={value.viewDetails} className="custom-btn fw-semibold">
+                <Link href={value.viewDetails} className="custom-btn fw-semibold" onClick={handleOpenOverlay }>
                   Enroll Now
                 </Link>
               </div>

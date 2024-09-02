@@ -58,7 +58,7 @@ const MainBanner: React.FC = () => {
                     <nav aria-label="breadcrumb">
                         <ol className="breadcrumb">
                             <li className="breadcrumb-item">
-                                <Link href="" className="ps-2 text-gray fs-4-0">Home</Link></li>
+                                <Link href="/" className="ps-2 text-gray fs-4-0">Home</Link></li>
                             <li className="breadcrumb-item">
                                 <Link href="" className="ps-2 text-gray fs-4-0"> Courses </Link></li>
                             <li className="breadcrumb-item active" aria-current="page">

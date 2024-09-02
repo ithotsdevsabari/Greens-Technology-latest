@@ -4,7 +4,7 @@ import Link from "next/link";
 
 import Image from "next/image";
 import india from "../../../public/images/india.png";
-import foreign from "../../../public/images/Foreign Nationals.png";
+import Australian from "../../../public/images/new-australian-flog.png";
 import phoneIcon from "../../../public/img/phone.png";
 
 const ForCareerAssistance = () => {
@@ -46,8 +46,8 @@ const ForCareerAssistance = () => {
           <div className="row d-flex align-items-center pt-4">
             <div className="col-lg-6">
               <div className="d-flex align-items-center gap-4" data-aos="flip-up" data-aos-duration="1000" data-aos-delay="200">
-                <Image src={foreign} alt="india" className="" width={60} />
-                <h5 className="mb-0 fs-3">Foreign Nationals</h5>
+                <Image src={Australian} alt="india" className="" width={60} />
+                <h5 className="mb-0 fs-3">Australian Nationals</h5>
               </div>
             </div>
             <div className="col-lg-6">

@@ -5,18 +5,31 @@ import Link from 'next/link';
 
 import Image from "next/image";
 import training from "../../../public/img/microsoft365/microsoft365_banner.webp";
+import Overlay from "../Atom/Overlay";
+import ContactUs from "../Common/Emailjs";
 
 import MasterIcon from "../../../public/img/icons/master.png";
 import MainBannerLeftcnt from "./MainBannerLeftcnt";
 
 const MainBanner: React.FC = () => {
   const [toggler, setToggler] = useState(false);
+
+  const [isVisibleOverlay,setIsVisibleOverlay] = useState(false);
+
+  const handleOpenOverlay = (()=>{
+       setIsVisibleOverlay(true)
+  });
+  const handleCloseOverlay = (()=>{
+      setIsVisibleOverlay(false)
+  })
+
   return (
 		<>  
-      <FsLightbox
-        toggler={toggler}  
-        sources={["https://www.youtube.com/embed/bk7McNUjWgw"]}
-      />
+      <div>
+      {isVisibleOverlay && (
+        <Overlay onClose={handleCloseOverlay}><ContactUs/></Overlay>
+      )}
+      </div>
       <div 
         className="" 
           // style={{ 
@@ -37,7 +50,7 @@ const MainBanner: React.FC = () => {
                     <nav aria-label="breadcrumb">
                         <ol className="breadcrumb">
                             <li className="breadcrumb-item">
-                                <Link href="" className="ps-2 text-gray fs-4-0">Home</Link></li>
+                                <Link href="/" className="ps-2 text-gray fs-4-0">Home</Link></li>
                             <li className="breadcrumb-item">
                                 <Link href="" className="ps-2 text-gray fs-4-0"> Courses </Link></li>
                             <li className="breadcrumb-item active" aria-current="page">
@@ -118,7 +131,7 @@ const MainBanner: React.FC = () => {
 
                       <div className="">
                           {/* <p>Master Course Price at: <span className="text-green-mid">$995</span> for excluding GST</p> */}
-                            <Link href="" className="button-def button-3 me-lg-3"><span>Apply Now</span></Link>
+                            <Link href="" className="button-def button-3 me-lg-3" onClick={handleOpenOverlay }><span>Apply Now</span></Link>
                             <Link href="#viewmicrosoftCourseDetails" className="button-def button-3-white"><span>View Schedule</span></Link>
                       </div>
 

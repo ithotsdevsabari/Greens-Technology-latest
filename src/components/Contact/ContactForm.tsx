@@ -1,45 +1,43 @@
 "use client";
 
-import React, { useState } from "react";
-import Link from "next/link";
+import React, { useEffect, useRef, useState } from 'react';
+import emailjs from '@emailjs/browser';
 
-interface FormState {
-  name: string;
-  email: string;
-  number: string;
-  subject: string;
-  message: string;
-}
 
-const ContactForm: React.FC = () => {
-  const [formData, setFormData] = useState<FormState>({
-    name: "",
-    email: "",
-    number: "",
-    subject: "",
-    message: "",
-  });
+const ContactForm = () => {
+  const form = useRef<HTMLFormElement>(null);
+  const [tostOpen,settostOpen] = useState(false)
 
-  const handleChange = (
-    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
-  ) => {
-    const { name, value } = e.target;
-    setFormData({ ...formData, [name]: value });
-  };
-
-  const handleSubmit = (e: React.FormEvent) => {
+  const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    // Handle form submission logic here
-    console.log(formData);
-    // Reset form data after submission if needed
-    setFormData({
-      name: "",
-      email: "",
-      number: "",
-      subject: "",
-      message: "",
-    });
+
+    if (form.current) {
+      emailjs
+        .sendForm('service_fd3mifc', 'template_p81updn', form.current, 'OfMHpKg29J7E7SGu4')
+        .then(
+          () => {
+            settostOpen(true)
+            console.log('SUCCESS!');
+            form.current?.reset(); // Use optional chaining
+          },
+          (error) => {
+            console.log('FAILED...', error.text);
+          },
+        );
+    }
   };
+
+  useEffect(() => {
+    if (tostOpen) {
+      const timer = setTimeout(() => {
+        settostOpen(false);
+      }, 5000);
+
+      // Clean up the timer if the component unmounts or if tostOpen changes
+      return () => clearTimeout(timer);
+    }
+  }, [tostOpen]);
+
 
   return (
     <>
@@ -53,7 +51,7 @@ const ContactForm: React.FC = () => {
           </p>
         </div>
 
-        <form onSubmit={handleSubmit}>
+        <form ref={form} onSubmit={sendEmail}>
           <div className="container">
             <div className="contact-form-box">
               <div className="row">
@@ -64,8 +62,6 @@ const ContactForm: React.FC = () => {
                       name="name"
                       placeholder="Your Full Name"
                       className="form-control"
-                      value={formData.name}
-                      onChange={handleChange}
                       required
                     />
                   </div>
@@ -78,8 +74,6 @@ const ContactForm: React.FC = () => {
                       name="email"
                       placeholder="Your Email Address"
                       className="form-control"
-                      value={formData.email}
-                      onChange={handleChange}
                       required
                     />
                   </div>
@@ -88,12 +82,10 @@ const ContactForm: React.FC = () => {
                 <div className="col-lg-6">
                   <div className="form-group">
                     <input
-                      type="tel"
-                      name="number"
+                      type="number"
+                      name="phonenumber"
                       placeholder="Your Phone Number"
                       className="form-control"
-                      value={formData.number}
-                      onChange={handleChange}
                       required
                     />
                   </div>
@@ -103,11 +95,9 @@ const ContactForm: React.FC = () => {
                   <div className="form-group">
                     <input
                       type="text"
-                      name="subject"
-                      placeholder="Subject"
+                      name="preferedcourseprogram"
+                      placeholder="Preferred Course or Program"
                       className="form-control"
-                      value={formData.subject}
-                      onChange={handleChange}
                       required
                     />
                   </div>
@@ -119,18 +109,23 @@ const ContactForm: React.FC = () => {
                       name="message"
                       cols={30}
                       rows={6}
-                      placeholder="Write your message..."
+                      placeholder="Any specific questions or comments..."
                       className="form-control"
-                      value={formData.message}
-                      onChange={handleChange}
                       required
                     />
                   </div>
                 </div>
 
                 <div className="col-lg-12 col-sm-12">
-                <Link href="#" className="button-def button-3"><span>Send Message</span></Link>
+                <button type="submit" className="custom-btn border-0 fw-bold fs-4"><span>Send Message</span></button>
                 </div>
+                {
+                  tostOpen &&  <div className="row bg-green mt-4 p-2 w-50 rounded mx-auto" style={{backgroundColor:"#0fddc8"}}>
+                  <div className="col">
+                  <p className='font-weight-bold' style={{color:"white" ,fontWeight:"600"}}>Your Enquiry Sent Successfully </p>
+                  </div>
+                  </div>
+                } 
               </div>
             </div>
           </div>

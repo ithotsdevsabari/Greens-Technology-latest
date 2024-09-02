@@ -1,5 +1,5 @@
-"use clien";
-import React from "react";
+"use client";
+import React, {useState} from "react";
 import Link from "next/link";
 import Image from "next/image";
 import div_img from "/public/images/Divagar.png";
@@ -7,9 +7,29 @@ import sarika_img from "/public/images/Sarika Garg Pardasani.jpeg";
 import Bishal_img from "/public/images/Bishal Bashyal.jpg";
 import training from "/public/images/training.jpg";
 import TrainersSlider from "@/components/IndexPage/TrainersSlider";
+import Overlay from "../Atom/Overlay";
+import ContactUs from "../Common/Emailjs";
 
 const OurTrainingExpertise = () => {
+  const [toggler, setToggler] = useState(false);
+  const [isVisibleOverlay,setIsVisibleOverlay] = useState(false);
+
+  const handleOpenOverlay = (()=>{
+       setIsVisibleOverlay(true)
+  });
+  const handleCloseOverlay = (()=>{
+      setIsVisibleOverlay(false)
+  });
+
   return (
+
+<>
+<div>
+      {isVisibleOverlay && (
+        <Overlay onClose={handleCloseOverlay}><ContactUs/></Overlay>
+      )}
+      </div>
+    
     <div className="banner-gradient2">
       <div className="container">
       {/* Trainer slider */}
@@ -79,13 +99,14 @@ const OurTrainingExpertise = () => {
           </div>
 
           <div className="text-center mt-4">
-            <Link href="#" className="button-def button-3">
+            <Link href="/#" className="button-def button-3" onClick={handleOpenOverlay }>
               <span>Enroll Now</span>
             </Link>
           </div>
         </div>
 
       </div>
+      </>
   );
 };
 

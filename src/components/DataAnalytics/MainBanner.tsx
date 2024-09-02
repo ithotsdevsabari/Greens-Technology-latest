@@ -20,7 +20,7 @@ const MainBanner: React.FC = () => {
   });
   const handleCloseOverlay = (()=>{
       setIsVisibleOverlay(false)
-  })
+  });
   
   return (
 		<>  
@@ -44,7 +44,7 @@ const MainBanner: React.FC = () => {
                     <nav aria-label="breadcrumb">
                         <ol className="breadcrumb">
                             <li className="breadcrumb-item">
-                                <Link href="" className="ps-2 text-gray fs-4-0">Home</Link></li>
+                                <Link href="/" className="ps-2 text-gray fs-4-0">Home</Link></li>
                             <li className="breadcrumb-item">
                                 <Link href="" className="ps-2 text-gray fs-4-0"> Courses </Link></li>
                             <li className="breadcrumb-item active" aria-current="page">
@@ -307,7 +307,7 @@ const MainBanner: React.FC = () => {
 
                       <div className="">
                           <p>Master Course Price at: <span className="text-green-mid">$1995</span></p>
-                          <Link href="" className="button-def button-3 mx-2 ms-lg-0" onClick={handleOpenOverlay }>
+                          <Link href="#" className="button-def button-3 mx-2 ms-lg-0" onClick={handleOpenOverlay }>
                             <span>Apply Now</span></Link>
                           <Link href="#viewschedule" className="button-def button-3-white mx-2"><span>View Schedule</span></Link>
                       </div>
