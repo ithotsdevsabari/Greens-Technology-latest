@@ -42,7 +42,7 @@ const ContactForm = () => {
   return (
     <>
       <div className="contact-form pb-100">
-        <div className="contact-title">
+        <div className="contact-title px-2 px-md-0">
         <h2 className=" fs-5 text-center">
         We’d Love to <span className="text-grad">Hear From You!</span>
         </h2>

@@ -9,7 +9,7 @@ const CareersBanner: React.FC = () => {
           <div
             className="hero-banner overly"
             style={{
-              backgroundImage: `url(/img/Greenshomepage_new_2.jpg)`,
+              backgroundImage: `url(/images/Greenshomepage_new_2.jpg)`,
             }}
           >
             <div className="d-table">

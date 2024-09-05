@@ -253,7 +253,7 @@ const OurCourses: React.FC = () => {
       )}
       </div>
 
-      <section className="case-studies-area ptb-100">
+      <section className="case-studies-area ptb-100 wide_range_cor">
         <div className="container-fluid">
           <div className="section-title pb-2">
             <h2 className="text-center h_font_size fw-semibold" data-aos="fade-in" data-aos-duration="1000" data-aos-delay="200">Explore Our <span className="green-tx">Wide Range of Courses</span></h2>
@@ -272,6 +272,7 @@ const OurCourses: React.FC = () => {
   navigation={true}
   pagination={{
     clickable: true,
+    
   }}
   autoplay={{
     delay: 2000,

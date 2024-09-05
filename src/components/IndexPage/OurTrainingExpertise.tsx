@@ -5,7 +5,7 @@ import Image from "next/image";
 import div_img from "/public/images/Divagar.png";
 import sarika_img from "/public/images/Sarika Garg Pardasani.jpeg";
 import Bishal_img from "/public/images/Bishal Bashyal.jpg";
-import training from "/public/images/training.jpg";
+import training from "/public/images/newtraining.jpg";
 import TrainersSlider from "@/components/IndexPage/TrainersSlider";
 import Overlay from "../Atom/Overlay";
 import ContactUs from "../Common/Emailjs";
@@ -98,7 +98,7 @@ const OurTrainingExpertise = () => {
             </p>
           </div>
 
-          <div className="text-center mt-4">
+          <div className="text-center mt-md-4">
             <Link href="/#" className="button-def button-3" onClick={handleOpenOverlay }>
               <span>Enroll Now</span>
             </Link>
