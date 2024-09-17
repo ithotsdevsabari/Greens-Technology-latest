@@ -109,10 +109,10 @@ const CourseWeOffer: React.FC<InputProps> = ({
         </div>
 
         <div className="text-center mt-3">
-          <Link href="" className="button-def button-3-white me-3">
+          <Link href="#" className="button-def button-3-white me-3">
             <span>View All</span>
           </Link>
-          <a
+          {/* <a
             href={cwoCourseSyllabusLink}
             download
             className="button-def button-3"
@@ -128,7 +128,7 @@ const CourseWeOffer: React.FC<InputProps> = ({
                 height={20}
               />
             </span>
-          </a>
+          </a> */}
         </div>
       </div>
     </section>

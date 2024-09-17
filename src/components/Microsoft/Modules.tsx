@@ -650,12 +650,12 @@ const Modules: React.FC = () => {
                 <div className="text-center mt-3">
                     <Link href="" className="button-def button-3-white me-3"><span>View All</span></Link>
                     {/* <a href="/img/Data Analytics Syllabus.pdf" download className="button-def button-3" target="_blank"> */}
-                    <a href="/img/" download className="button-def button-3" target="_blank">
+                    {/* <a href="/img/" download className="button-def button-3" target="_blank">
                         <span>Download Syllabus</span> 
                         <span className="ms-2">
                             <Image src={downLoad} alt="add" className="ms-auto" width={20} height={20} /> 
                         </span>
-                    </a>
+                    </a> */}
                 </div>
 
             </div>
