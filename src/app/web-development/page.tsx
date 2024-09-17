@@ -33,39 +33,40 @@ const data = {
       id: "1",
       subCourseName: "Front End Full Stack",
       subCoursePrice: "795",
-      subCourseLink: "PowerAutomateSyllabus",
+      subCourseLink: "FrontEndFullStackSyllabus",
     },
     {
       id: "2",
       subCourseName: "React JS",
       subCoursePrice: "795",
-      subCourseLink: "PowerAutomateSyllabus",
+      subCourseLink: "ReactJSSyllabus",
     },
     {
       id: "3",
       subCourseName: "Node JS",
       subCoursePrice: "795",
-      subCourseLink: "#SQLCourseSyllabus",
+      subCourseLink: "NodeJSSyllabus",
     },
     {
       id: "4",
       subCourseName: "Java Full Stack",
       subCoursePrice: "995",
-      subCourseLink: "#TableauCourseSyllabus",
+      subCourseLink: "JavaFullStackSyllabus",
     },
     {
       id: "5",
       subCourseName: "Python Full Stack",
       subCoursePrice: "795",
-      subCourseLink: "#PowerBICourseSyllabus",
+      subCourseLink: "PythonFullStackSyllabus",
     },
     {
       id: "6",
       subCourseName: "SQL Full Stack",
       subCoursePrice: "995",
-      subCourseLink: "#PythonCourseSyllabus",
+      subCourseLink: "SQLFullStackSyllabus",
     },
   ],
+  
   mainBannermasterCoursePrice: "1995",
   mainBannerCtaHandsOnTraining: "30",
   mainBannerCtaHandsonTrainingProject: "1",
@@ -312,7 +313,7 @@ const data = {
   courseDetailsList: [
     // Front end fullstack - Course
     {
-      courseId:"frontend-fullstack",
+      courseId:"FrontEndFullStackSyllabus",
       courseName: "WEB DEVELOPMENT",
       subCourseName: "Front End Full Stack (HTML, CSS, JavaScript)",
       menuItemsData: [
@@ -641,7 +642,7 @@ const data = {
 
     // React js - Course
     {
-      courseId:"react-JS",
+      courseId:"ReactJSSyllabus",
       courseName: "WEB DEVELOPMENT",
       subCourseName: "React JS",
       menuItemsData: [
@@ -1152,7 +1153,7 @@ const data = {
     // Node js - Course
 
     {
-      courseId:"node-JS",
+      courseId:"NodeJSSyllabus",
       courseName: "WEB DEVELOPMENT",
       subCourseName: "Node JS",
       menuItemsData: [
@@ -1582,7 +1583,7 @@ const data = {
 
     // Java - Full Stack Course
     {
-      courseId:"Java-fullstack",
+      courseId:"JavaFullStackSyllabus",
       courseName: "WEB DEVELOPMENT",
       subCourseName: "Java Full Stack",
       menuItemsData: [
@@ -1929,7 +1930,7 @@ const data = {
 
     // Python - Full Stack Course
     {
-      courseId:"python-fullstack",
+      courseId:"PythonFullStackSyllabus",
       courseName: "WEB DEVELOPMENT",
       subCourseName: "Python Full Stack",
       menuItemsData: [
@@ -2273,7 +2274,7 @@ const data = {
     // SQL - Full Stack Course
 
     {
-      courseId:"SQL-fullstack",
+      courseId:"SQLFullStackSyllabus",
       courseName: "WEB DEVELOPMENT",
       subCourseName: "SQL - Full Stack Course",
       menuItemsData: [

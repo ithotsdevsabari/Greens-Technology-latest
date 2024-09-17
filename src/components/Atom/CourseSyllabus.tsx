@@ -9,6 +9,7 @@ interface MenuItem {
 }
 
 interface CourseDetailItem {
+  courseId: string;
   courseName: string;
   subCourseName: string;
   menuItemsData: MenuItem[];
@@ -35,7 +36,7 @@ const CourseDetail: React.FC<InputProps> = ({ courseDetailsList }) => {
         {/* Course details */}
         {courseDetailsList?.map((result, index) => (
           <div
-            id={result.courseName.replace(/\s+/g, '-').toLowerCase()}
+            id={result.courseId}
             className="course-box shadow-box mb-5 py-5"
             key={index}
           >
