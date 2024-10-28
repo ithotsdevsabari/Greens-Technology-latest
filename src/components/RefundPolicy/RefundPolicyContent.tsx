@@ -25,7 +25,7 @@ const RefundPolicyContent: React.FC = () => {
           <p>To request a refund:</p>
           <ul className="ms-4">
             <li>
-            Contact us at <a href="mailto:admin@greenstechnologies.com.au">admin@greenstechnologies.com.au</a> with your name, course name, and reason for the refund.
+            Contact us at <a href="mailto:admin@greenstechnologies.com.au.au">admin@greenstechnologies.com.au.au</a> with your name, course name, and reason for the refund.
             </li>
             <li>
             All refund requests must be made in writing and submitted at least 7 days before the course start date.
@@ -72,8 +72,8 @@ const RefundPolicyContent: React.FC = () => {
           </p>
           <p>
             <strong>Email </strong>:{" "}
-            <a href="mailto:admin@greenstechnologies.com.au">
-            admin@greenstechnologies.com.au
+            <a href="mailto:admin@greenstechnologies.com.au.au">
+            admin@greenstechnologies.com.au.au
             </a>
           </p>
           <p>

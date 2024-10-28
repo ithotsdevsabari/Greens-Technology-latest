@@ -34,7 +34,7 @@ const MainBannerLeftcnt: React.FC = () => {
                       <div className="main-banner-content fs-medium">
                         <div className="top_banner_list2">
                           <div className="row">
-                            <div className="col-sm-6 col-lg-6">
+                            <div className="col-sm-6 col-lg-6 custom-padding-remove">
                               <ul>                            
                                 <li className="d-block mb-2 d-flex justify-content-start">
                                 <Link href="#MicrosoftTeamsSyllabus" className="text-banner" >
@@ -208,7 +208,7 @@ const MainBannerLeftcnt: React.FC = () => {
 
                             </div>
 
-                          <div className="col-sm-6 col-lg-6">
+                          <div className="col-sm-6 col-lg-6 custom-padding-remove">
 
                                 <li className="d-block mb-2 d-flex justify-content-start">
                                 <Link href="#MicrosoftAccessSyllabus" className="text-banner" >

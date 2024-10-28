@@ -71,16 +71,16 @@ const MainBanner: React.FC = () => {
                         <div className="row">
 
                           <div className="col-lg-4 col-xl-4 col-xxl-3">
-                            <Link href="" className="yellow-box px-2 px-xxl-2 w-100 text-center mb-3"> 
+                            <p className="yellow-box px-2 px-xxl-2 w-100 text-center mb-3"> 
                               <span className="me-1 d-inline-block"> 
                               <Image src={MasterIcon} alt="add" className="ms-auto" width={20} height={20} /> 
                               </span> 
                               <span className="ms-1 d-inline-block text-white">Live Tutoring</span> 
-                            </Link> 
+                            </p> 
                           </div>
 
                           <div className="col-lg-4 col-xl-4 col-xxl-4">
-                            <Link href="" className="green-box px-2 px-xxl-3 w-100 text-center mb-3 d-flex justify-content-center align-items-center"> 
+                            <p className="green-box px-2 px-xxl-3 w-100 text-center mb-3 d-flex justify-content-center align-items-center"> 
                               {/* <i className="fa-solid fa-star fs-4-0 me-2"></i>    */}
 <svg
     height="24px"
@@ -105,12 +105,12 @@ const MainBanner: React.FC = () => {
     </g>
   </svg>
                              <span className="d-flex justify-content-center align-items-center">4.9 - 4980 Ratings</span> 
-                            </Link>
+                            </p>
                           </div>
 
                           <div className="col-lg-4 col-xl-4 col-xxl-3">
-                            <Link href="" className="green-box px-2 px-xxl-2 w-100 text-center mb-3">
-                              10K + Learners</Link>
+                            <p className="green-box px-2 px-xxl-2 w-100 text-center mb-3">
+                              10K + Learners</p>
                           </div>
 
                         </div>

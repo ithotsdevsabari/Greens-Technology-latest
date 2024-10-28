@@ -1,0 +1,67 @@
+/* PaymentCard.css */
+
+.payment-card {
+    max-width: 960px; /* Tailwind's max-w-4xl equivalent */
+    margin: 0 auto 80px auto; /* Tailwind's mx-auto and p-6 equivalent */
+    padding: 1.5rem;
+    background-color: #ffffff; /* bg-white */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* shadow-lg */
+    border-radius: 0.5rem; /* rounded-lg */
+    border: 1px solid #e5e7eb; /* Default border color */
+  }
+  
+  .payment-card-header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #e5e7eb; /* Tailwind's border-b */
+    padding-bottom: 1rem; /* pb-4 */
+  }
+  
+  .payment-card h3 {
+    font-size: 1.125rem; /* text-lg */
+    font-weight: 700; /* font-bold */
+    display: flex;
+    align-items: center;
+  }
+  
+  .payment-card svg {
+    height: 1.25rem; /* h-5 */
+    width: 1.25rem; /* w-5 */
+    color: #6b7280; /* text-gray-500 */
+    margin-right: 0.5rem; /* mr-2 */
+  }
+  
+  .payment-card p {
+    font-size: 0.875rem; /* text-sm */
+    margin-top: 0.5rem; /* mt-2 */
+  }
+  
+  .payment-card a {
+    color: #3b82f6; /* text-blue-500 */
+    text-decoration: underline;
+  }
+  
+  .payment-card-footer {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1rem; /* pt-4 */
+    font-size: 0.875rem; /* text-sm */
+  }
+  
+  /* Media query for tablet and mobile */
+  @media (max-width: 768px) {
+    .payment-card-header {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .payment-card-footer {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .payment-card-footer p {
+      margin-bottom: 0.5rem;
+    }
+  }
+  

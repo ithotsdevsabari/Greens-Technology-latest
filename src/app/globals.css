@@ -30,6 +30,17 @@ p { line-height: 1.5; }
 .top_banner_list li span { display:inline-block;}
 .top_banner_list2 li { display:inline-block; margin-right:20px;color:#4c4c4c;font-weight: 600;}
 
+.custom-padding-remove li {
+    display: inline-block;
+    margin-right: 0px;
+    color: #4c4c4c;
+    font-weight: 600;
+  }
+
+  .custom-padding-remove{
+    padding-right:0
+  }
+  
 .list { display:inline-block; margin-right:20px; }
 .list li { display:inline-block; margin-right:20px; font-size:18px; }
 .list li span { display:inline-block; }

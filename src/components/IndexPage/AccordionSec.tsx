@@ -24,7 +24,7 @@ const AccordionSec: React.FC = () => {
               data-aos-duration="1000"
               data-aos-delay="200"
             >
-              Frequently Ask & Question
+              Frequently Asked Questions
             </h2>
           </div>
 
@@ -152,7 +152,7 @@ const AccordionSec: React.FC = () => {
                     <AccordionItemPanel>
                       <p>
                         You can contact us via email at
-                        admin@greenstechnologies.com.au or by phone at 08 6386
+                        admin@greenstechnologies.com.au.au or by phone at 08 6386
                         9232. Our support team is available 24/7 to assist you
                         with any inquiries or issues.
                       </p>

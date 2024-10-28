@@ -2733,10 +2733,10 @@ const DataAnlyticsPage = () => {
 
       <CourseDetail courseDetailsList={data.courseDetailsList} />
 
-      <UpcomingCourses
+      {/* <UpcomingCourses
         courseSchedulelist={data.upComingCourse}
         courseName={data.mainBannercourseName}
-      />
+      /> */}
 
       <FaqList faqList={data.faqList} />
 

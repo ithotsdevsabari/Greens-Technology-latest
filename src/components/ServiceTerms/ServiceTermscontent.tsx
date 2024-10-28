@@ -82,7 +82,7 @@ const ServiceTermscontent: React.FC = () => {
           For any questions regarding these Service Terms, please contact us:
           </p>
           <p>
-        <strong>Email </strong>: <a href="mailto:admin@greenstechnologies.com.au">admin@greenstechnologies.com.au</a>
+        <strong>Email </strong>: <a href="mailto:admin@greenstechnologies.com.au.au">admin@greenstechnologies.com.au.au</a>
           </p>
           <p>
         <strong>Phone </strong>: <a href="tel:08 6386 9232">08 6386 9232</a> | <a href="tel:0423 737 907">0423 737 907</a>

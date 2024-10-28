@@ -1461,11 +1461,11 @@ const CourseDetails: React.FC = () => {
 
 
 
-            <div id="viewschedule" className="course-box shadow-box mb-5 py-5">
+            {/* <div id="viewschedule" className="course-box shadow-box mb-5 py-5">
                 <div className="row">
                     <UpcomingCourses/>                    
                 </div>
-            </div>
+            </div> */}
 
             
 

@@ -22,7 +22,7 @@ const BookingPolicyContent: React.FC = () => {
             <li>Once your booking is processed, you will receive a <strong>quote</strong> and our <strong>bank details</strong> via email for the full course fee payment.</li>
           </ul>
           <p>After the payment is received, we will send a confirmation email along with course details.</p>
-          <p>If you need assistance during the booking process, please contact us at <a href="mailto:admin@greenstechnologies.com.au">admin@greenstechnologies.com.au</a> or call us at <a href="tel:08 6386 9232">08 6386 9232</a>.</p>
+          <p>If you need assistance during the booking process, please contact us at <a href="mailto:admin@greenstechnologies.com.au.au">admin@greenstechnologies.com.au.au</a> or call us at <a href="tel:08 6386 9232">08 6386 9232</a>.</p>
 
           <h4>2. Payment Terms</h4>
           <ul className="ms-4">
@@ -69,12 +69,12 @@ const BookingPolicyContent: React.FC = () => {
 
           <h4>7. Special Requests</h4>
           <p>
-          For any special booking requests, such as group bookings or corporate training, please contact us directly at <a href="mailto:admin@greenstechnologies.com.au.">admin@greenstechnologies.com.au.</a> 
+          For any special booking requests, such as group bookings or corporate training, please contact us directly at <a href="mailto:admin@greenstechnologies.com.au.au.">admin@greenstechnologies.com.au.au.</a> 
           </p>
 
           <h4>8. Booking Modifications</h4>
           <p>
-          If you need to modify your booking details (e.g., participant name, contact information), please notify us at least <strong>3 days</strong> prior to the course start date by emailing <a href="mailto:admin@greenstechnologies.com.au">admin@greenstechnologies.com.au</a>.
+          If you need to modify your booking details (e.g., participant name, contact information), please notify us at least <strong>3 days</strong> prior to the course start date by emailing <a href="mailto:admin@greenstechnologies.com.au.au">admin@greenstechnologies.com.au.au</a>.
           </p>
 
           <h4>9. Contact Us</h4>
@@ -83,8 +83,8 @@ const BookingPolicyContent: React.FC = () => {
           </p>
           <p>
             <strong>Email </strong>:{" "}
-            <a href="mailto:admin@greenstechnologies.com.au">
-            admin@greenstechnologies.com.au
+            <a href="mailto:admin@greenstechnologies.com.au.au">
+            admin@greenstechnologies.com.au.au
             </a>
           </p>
           <p>

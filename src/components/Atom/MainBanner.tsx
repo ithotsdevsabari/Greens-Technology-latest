@@ -122,8 +122,8 @@ const MainBanner: React.FC<PropsInput> = ({
                       <div className="pb-4">
                         <div className="row">
                           <div className="col-lg-4 col-xl-4 col-xxl-3">
-                            <Link
-                              href=""
+                            <p
+                              // href=""
                               className="yellow-box px-2 px-xxl-2 w-100 text-center mb-3"
                             >
                               <span className="me-1 d-inline-block">
@@ -139,12 +139,11 @@ const MainBanner: React.FC<PropsInput> = ({
                                 Live Tutoring
                               </span>{" "}
                               {/* constant */}
-                            </Link>
+                            </p>
                           </div>
 
                           <div className="col-lg-4 col-xl-4 col-xxl-4">
-                            <Link
-                              href=""
+                            <p
                               className="green-box px-2 px-xxl-3 w-100 text-center mb-3 d-flex justify-content-center align-items-center"
                             >
                             <SvgLogos type="green"/>
@@ -152,16 +151,15 @@ const MainBanner: React.FC<PropsInput> = ({
                                 4.9 - 4980 Ratings
                               </span>{" "}
                               {/* constant */}
-                            </Link>
+                            </p>
                           </div>
 
                           <div className="col-lg-4 col-xl-4 col-xxl-3">
-                            <Link
-                              href=""
+                            <p
                               className="green-box px-2 px-xxl-2 w-100 text-center mb-3"
                             >
                               10K + Learners
-                            </Link>{" "}
+                            </p>{" "}
                             {/* constant */}
                           </div>
                         </div>

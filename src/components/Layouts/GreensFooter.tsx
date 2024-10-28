@@ -25,7 +25,7 @@ const GreensFooter: React.FC = () => {
                 software training across <strong>17+ Global branches</strong>.
                 With <strong>15 Years of Experience</strong>, we empower
                 learners worldwide in cutting-edge fields like Data Analytics,
-                Cloud Computing, and more.
+                Cloud Computing and more.
               </p>
 
               <ul className="social-links">
@@ -102,7 +102,6 @@ const GreensFooter: React.FC = () => {
             </div>
           </div>
 
-
           <div className="col-lg-3 col-sm-6">
             <div className="single-footer-widget ml-4">
               <h3>Quick Links</h3>
@@ -153,10 +152,22 @@ const GreensFooter: React.FC = () => {
                 <li>
                   <div>
                     <i className="fa-solid fa-envelope"></i>
-                    <a href="mailto:admin@greenstechnologies.com">
-                      admin@greenstechnologies.com
+                    <a href="mailto:admin@greenstechnologies.com.au">
+                      admin@greenstechnologies.com.au
                     </a>
                   </div>
+                </li>
+                <li style={{ color: "white" }}>
+                  <span style={{ fontWeight: "bold", color: "white" }}>
+                    ABN:
+                  </span>{" "}
+                  39677648047
+                </li>
+                <li style={{ color: "white" }}>
+                  <span style={{ fontWeight: "bold", color: "white" }}>
+                    ACN:
+                  </span>{" "}
+                  677 648 047
                 </li>
               </ul>
             </div>

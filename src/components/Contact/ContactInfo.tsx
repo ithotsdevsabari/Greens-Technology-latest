@@ -15,7 +15,7 @@ const ContactInfo: React.FC = () => {
                 </div>
                 <h3>Email Us</h3>
                 <p>
-                  <a href="mailto:admin@greenstechnologies.com.au">admin@greenstechnologies.com.au</a>
+                  <a href="mailto:admin@greenstechnologies.com.au.au">admin@greenstechnologies.com.au.au</a>
                 </p>
                
               </div>
